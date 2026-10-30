@@ -1,22 +1,227 @@
 [
  {
   "id": "pin-01",
-  "board": "BEISPIEL Tipps",
-  "title": "BEISPIEL: So ist ein Ratgeber aufgebaut",
-  "description": "BEISPIEL-PIN: Kurzantwort, Abschnitte, FAQ und Quellen – so sieht ein Artikel in der Vorlage aus.",
-  "link": "beispiel-ratgeber.html#bausteine",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Abrechnungsfrist Nebenkosten: bis wann muss die Abrechnung beim Mieter sein?",
+  "description": "12 Monate nach Ende des Abrechnungszeitraums – entscheidend ist der Zugang beim Mieter, nicht das Absenden. Mit Beispielen und kostenlosem Fristen-Rechner.",
+  "link": "abrechnungsfrist-nebenkosten.html#abrechnungsfrist",
   "image": "pins/pin-01.jpg",
-  "date": "2026-10-30T07:00:00",
-  "pin": {"h1": "So ist ein Ratgeber aufgebaut", "h2": "Kurzantwort · FAQ · Quellen", "sub": "BEISPIEL-PIN aus der Vorlage"}
+  "date": "2026-11-02T07:00:00",
+  "pin": {
+   "h1": "Bis wann muss die Nebenkosten­abrechnung da sein?",
+   "h2": "12 Monate – ab Ende des Zeitraums",
+   "sub": "Fristen einfach erklärt"
+  }
  },
  {
   "id": "pin-02",
-  "board": "BEISPIEL Vorlagen",
-  "title": "BEISPIEL: Starter-Vorlage",
-  "description": "BEISPIEL-PIN mit Produktbild – dieser Eintrag ist auf ein Datum in der Zukunft geplant und erscheint erst dann im Feed.",
-  "link": "starter-vorlage.html",
+  "board": "Vermieten leicht gemacht",
+  "title": "Kostenloser Abrechnungsfrist-Rechner für Vermieter",
+  "description": "Datum eingeben und sofort sehen, bis wann die Nebenkostenabrechnung beim Mieter sein muss – mit Ampel und Einwendungsfrist. Ohne Anmeldung.",
+  "link": "abrechnungsfrist-rechner.html",
   "image": "pins/pin-02.jpg",
-  "date": "2030-01-01T07:00:00",
-  "pin": {"h1": "Starter-Vorlage", "h2": "Einmal kaufen, sofort nutzen", "sub": "BEISPIEL-PIN mit Produkt", "style": "price", "value": "19 €", "label": "EINMALIG"}
+  "date": "2026-11-03T07:00:00",
+  "pin": {
+   "h1": "Frist verpasst?",
+   "h2": "In 10 Sekunden prüfen",
+   "sub": "Kostenloser Rechner · ohne Anmeldung"
+  }
+ },
+ {
+  "id": "pin-03",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Umlagefähige Nebenkosten: die 17 Kostenarten nach BetrKV",
+  "description": "Grundsteuer, Wasser, Müll, Versicherung & Co.: Welche Nebenkosten Vermieter umlegen dürfen – und welche nie. Die komplette Liste mit Beispielen.",
+  "link": "umlagefaehige-nebenkosten.html#liste",
+  "image": "pins/pin-03.jpg",
+  "date": "2026-11-04T07:00:00",
+  "pin": {
+   "h1": "Diese 17 Nebenkosten dürfen Sie umlegen",
+   "h2": "Wenn im Mietvertrag vereinbart",
+   "sub": "Die Liste nach BetrKV",
+   "style": "list",
+   "items": [
+    "Grundsteuer",
+    "Wasser & Abwasser",
+    "Müll & Straßenreinigung",
+    "Versicherung",
+    "Heizung & Warmwasser"
+   ]
+  }
+ },
+ {
+  "id": "pin-04",
+  "board": "Vermieten leicht gemacht",
+  "title": "Nebenkostenabrechnung erstellen – Schritt für Schritt",
+  "description": "In 7 Schritten zur fertigen Nebenkostenabrechnung: Belege, Umlageschlüssel, Leerstand, Heizkosten und das Abrechnungsschreiben – mit Rechenbeispiel.",
+  "link": "nebenkostenabrechnung-erstellen.html",
+  "image": "pins/pin-04.jpg",
+  "date": "2026-11-05T07:00:00",
+  "pin": {
+   "h1": "Nebenkosten­abrechnung in 7 Schritten",
+   "h2": "Mit Rechenbeispiel",
+   "sub": "Für private Vermieter"
+  }
+ },
+ {
+  "id": "pin-05",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Nebenkostenabrechnung als Excel-Vorlage für private Vermieter",
+  "description": "Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen und das Abrechnungsschreiben automatisch erstellen. Für bis zu 12 Mietverhältnisse.",
+  "link": "nebenkostenabrechnung.html",
+  "image": "pins/pin-05.jpg",
+  "date": "2026-11-06T07:00:00",
+  "pin": {
+   "h1": "Nebenkosten­abrechnung als Excel-Vorlage",
+   "h2": "Mit fertigem Schreiben je Mieter",
+   "sub": "Einmal kaufen, kein Abo",
+   "style": "price",
+   "value": "14,90 €",
+   "label": "EINMALIG"
+  }
+ },
+ {
+  "id": "pin-06",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Diese Kosten dürfen Vermieter nie umlegen",
+  "description": "Verwaltung, Reparaturen, Rücklagen, Bankgebühren: Diese Kosten gehören nicht in die Nebenkostenabrechnung. Plus: Kabel-TV seit 1.7.2024.",
+  "link": "umlagefaehige-nebenkosten.html#nicht-umlagefaehig",
+  "image": "pins/pin-06.jpg",
+  "date": "2026-11-07T07:00:00",
+  "pin": {
+   "h1": "Nicht umlagefähig!",
+   "h2": "Diese Kosten tragen Sie selbst",
+   "sub": "Verwaltung · Reparatur · Rücklage",
+   "style": "list",
+   "items": [
+    "Verwaltung & Porto",
+    "Reparaturen",
+    "Rücklagen",
+    "Bankgebühren",
+    "Kabel-TV (seit 7/2024)"
+   ]
+  }
+ },
+ {
+  "id": "pin-07",
+  "board": "Vermieten leicht gemacht",
+  "title": "Heizkosten aufteilen: 70/30 kostenlos berechnen",
+  "description": "Heizkostenanteil einer Wohnung nach Heizkostenverordnung berechnen: Grundkosten nach Fläche, Verbrauchskosten nach Zählerwerten.",
+  "link": "heizkosten-rechner.html",
+  "image": "pins/pin-07.jpg",
+  "date": "2026-11-08T07:00:00",
+  "pin": {
+   "h1": "Heizkosten 70/30 richtig aufteilen",
+   "h2": "Kostenloser Rechner",
+   "sub": "Nach Heizkostenverordnung"
+  }
+ },
+ {
+  "id": "pin-08",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Nebenkostenabrechnung zu spät? Das gilt dann",
+  "description": "Nach Ablauf der Frist sind Nachzahlungen meist ausgeschlossen – ein Guthaben muss der Vermieter trotzdem auszahlen. Was Vermieter wissen müssen.",
+  "link": "abrechnungsfrist-nebenkosten.html#verspaetung",
+  "image": "pins/pin-08.jpg",
+  "date": "2026-11-09T07:00:00",
+  "pin": {
+   "h1": "Abrechnung zu spät?",
+   "h2": "Nachzahlung weg – Guthaben bleibt",
+   "sub": "§ 556 BGB erklärt"
+  }
+ },
+ {
+  "id": "pin-09",
+  "board": "Vermieten leicht gemacht",
+  "title": "Leerstand und Mieterwechsel in der Nebenkostenabrechnung",
+  "description": "Leerstand trägt der Vermieter, beim Mieterwechsel wird tagesgenau geteilt – mit Zwischenablesung. So rechnen Sie richtig.",
+  "link": "nebenkostenabrechnung-erstellen.html#leerstand",
+  "image": "pins/pin-09.jpg",
+  "date": "2026-11-10T07:00:00",
+  "pin": {
+   "h1": "Leerstand & Mieterwechsel",
+   "h2": "So verteilen Sie richtig",
+   "sub": "Tagesgenau mit Zwischenablesung"
+  }
+ },
+ {
+  "id": "pin-10",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Rauchwarnmelder in der Nebenkostenabrechnung: Miete oder Wartung?",
+  "description": "Die Miete von Rauchwarnmeldern ist nicht umlagefähig (BGH), die Wartung schon – wenn sie im Mietvertrag steht.",
+  "link": "umlagefaehige-nebenkosten.html#sonderfaelle",
+  "image": "pins/pin-10.jpg",
+  "date": "2026-11-11T07:00:00",
+  "pin": {
+   "h1": "Rauchmelder: Miete oder Wartung?",
+   "h2": "Nur eins ist umlagefähig",
+   "sub": "BGH VIII ZR 379/20"
+  }
+ },
+ {
+  "id": "pin-11",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Excel-Vorlage: Heizung, Warmwasser und CO2 je Mieter verteilen",
+  "description": "Die Vorlage trennt Warmwasser über den Wärmezähler, verteilt 50–70 % nach Verbrauch und teilt die CO2-Kosten nach dem Stufenmodell auf.",
+  "link": "nebenkostenabrechnung.html",
+  "image": "pins/pin-11.jpg",
+  "date": "2026-11-12T07:00:00",
+  "pin": {
+   "h1": "Heizung, Warmwasser, CO2",
+   "h2": "Automatisch je Mieter",
+   "sub": "Excel-Vorlage für Vermieter"
+  }
+ },
+ {
+  "id": "pin-12",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Die 4 Pflichtangaben jeder Nebenkostenabrechnung",
+  "description": "Gesamtkosten, Umlageschlüssel, Anteil des Mieters, Vorauszahlungen: Fehlt eine Angabe, ist die Abrechnung formell unwirksam.",
+  "link": "abrechnungsfrist-nebenkosten.html#verspaetung",
+  "image": "pins/pin-12.jpg",
+  "date": "2026-11-13T07:00:00",
+  "pin": {
+   "h1": "4 Pflichtangaben",
+   "h2": "Sonst ist die Abrechnung unwirksam",
+   "sub": "Checkliste für Vermieter",
+   "style": "list",
+   "items": [
+    "Gesamtkosten",
+    "Umlageschlüssel",
+    "Ihr Anteil",
+    "Vorauszahlungen"
+   ]
+  }
+ },
+ {
+  "id": "pin-13",
+  "board": "Vermieten leicht gemacht",
+  "title": "Einwendungsfrist: Wie lange darf der Mieter widersprechen?",
+  "description": "12 Monate nach Zugang der Abrechnung kann der Mieter Einwendungen erheben – danach ist er ausgeschlossen. Beispiel und Rechner.",
+  "link": "abrechnungsfrist-nebenkosten.html#einwendungsfrist",
+  "image": "pins/pin-13.jpg",
+  "date": "2026-11-14T07:00:00",
+  "pin": {
+   "h1": "Wie lange darf der Mieter widersprechen?",
+   "h2": "12 Monate nach Zugang",
+   "sub": "Einwendungsfrist erklärt"
+  }
+ },
+ {
+  "id": "pin-14",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Abrechnungsschreiben je Mieter: Excel-Vorlage Nebenkosten",
+  "description": "Eine Seite je Mieter mit Gesamtkosten, Schlüssel, Anteil, Vorauszahlungen, CO2-Angaben und § 35a-Beträgen.",
+  "link": "nebenkostenabrechnung.html",
+  "image": "pins/pin-14.jpg",
+  "date": "2026-11-15T07:00:00",
+  "pin": {
+   "h1": "Das Schreiben macht die Vorlage",
+   "h2": "Eine Seite je Mieter",
+   "sub": "Nebenkostenabrechnung Excel",
+   "style": "price",
+   "value": "14,90 €",
+   "label": "EINMALIG"
+  }
  }
 ]
