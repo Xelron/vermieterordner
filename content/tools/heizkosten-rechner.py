@@ -55,7 +55,7 @@ EXPLAIN = """<h2 class="serif" style="margin-top:0">So rechnet der Rechner</h2>
 SCRIPT = r"""
 function calc(){var hk=num($('hk').value),va=+$('va').value/100,fg=num($('fg').value),fw=num($('fw').value),vg=num($('vg').value),vw=num($('vw').value),tw=num($('tw').value),tz=num($('tz').value),r=$('res');
  var raw=['hk','fg','fw','vg','vw','tw','tz'].map(function(i){return $(i).value});
- if(raw.some(function(v){return !/^[\s\d.,€]*$/.test(v)})||[hk,fg,fw,vg,vw,tw,tz].some(function(x){return x===null})){r.innerHTML=light('y','Bitte alle Felder mit Zahlen füllen.');return}
+ if(raw.some(function(v){return !/^[\s\d.,€-]*$/.test(v)})||[hk,fg,fw,vg,vw,tw,tz].some(function(x){return x===null})){r.innerHTML=light('y','Bitte alle Felder mit Zahlen füllen.');return}
  if([hk,fg,fw,vg,vw,tw,tz].some(function(x){return x<0})){r.innerHTML=light('y','Bitte nur Zahlen ab 0 eingeben – negative Werte sind nicht möglich.');return}
  if(fg<=0||vg<=0||tz<=0){r.innerHTML=light('y','Gesamtfläche, Gesamtverbrauch und Tage im Zeitraum müssen größer als 0 sein.');return}
  if(fw>fg){r.innerHTML=light('r','Die Wohnfläche der Wohnung ist größer als die Gesamtfläche.');return}
