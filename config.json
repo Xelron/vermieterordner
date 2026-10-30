@@ -148,8 +148,12 @@
       "price": 14.9,
       "compare_price": null,
       "checkout_url": "",
-      "image": "",
-      "shots": [],
+      "image": "nebenkostenabrechnung-1.jpg",
+      "shots": [
+        "nebenkostenabrechnung-1.jpg",
+        "nebenkostenabrechnung-2.jpg",
+        "nebenkostenabrechnung-3.jpg"
+      ],
       "eyebrow": "Excel-Vorlage · Stand 2026",
       "h1": "Nebenkostenabrechnung für private Vermieter – als Excel-Vorlage",
       "lead": "Haus, Kosten und Mieter eintragen – die Vorlage rechnet den Rest: Sie verteilt Betriebskosten nach Wohnfläche, Personen, Wohneinheiten oder Wasserverbrauch, rechnet Heizung und Warmwasser nach der Heizkostenverordnung und teilt die CO2-Kosten nach dem Stufenmodell auf. Für jeden Mieter erstellen Sie per Auswahl der Mieter-Nr. ein druckfertiges Abrechnungsschreiben.",
