@@ -201,7 +201,24 @@ def nav_links():
     return "".join(f'<a href="{esc(n["href"])}">{esc(n["label"])}</a>' for n in CFG.get("nav", []))
 
 
+SHY = CFG.get("seo", {}).get("hyphenate", {})
+
+
+def typo(body):
+    """Typografie im sichtbaren Text: geschützte Leerzeichen (§, €, %) und weiche Trennstellen langer Wörter."""
+    def fix(m):
+        t = m.group(1)
+        t = re.sub(r"§ ", "§&nbsp;", t)
+        t = re.sub(r"(\d) (€|%|Euro|Prozent|m²|m³|kWh)", lambda x: x.group(1) + "&nbsp;" + x.group(2), t)
+        for w, rep in SHY.items():
+            t = t.replace(w, rep.replace("|", "&shy;"))
+        return ">" + t + "<"
+    parts = re.split(r"(<script.*?</script>)", body, flags=re.S)
+    return "".join(x if x.startswith("<script") else re.sub(r">([^<]+)<", fix, x) for x in parts)
+
+
 def page(title, desc, body, path, head="", noindex=False):
+    body = typo(body)
     canon = abs_url(path)
     ogi = og_image()
     pv = CFG.get("pinterest", {}).get("domain_verify")

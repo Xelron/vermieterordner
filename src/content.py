@@ -144,7 +144,7 @@ def build(articles, tools, products):
 </div>
 {f'<div class="faq article"><h2 class="serif">Häufige Fragen</h2>{S.faq_html(t["faq"])}</div>' if t['faq'] else ''}
 {f'<div class="article"><h2 class="serif">Quellen</h2>{S.sources_html(t["sources"])}</div>' if t['sources'] else ''}
-{f'<p class="note">{esc(disclaimer)}</p>' if disclaimer else ''}
+{f'<p class="note">{esc(RC.get("disclaimer", disclaimer))}</p>' if disclaimer else ''}
 </div>
 {f'<script>{S.NUM_JS}{t["_script"]}</script>' if t['_script'] else ''}"""
         page(t.get("seo_title") or f"{t['title']} | {B['name']}", t["description"], body, path, head)
@@ -171,7 +171,7 @@ def build(articles, tools, products):
 </div></div>"""
         il = {"@context": "https://schema.org", "@type": "ItemList",
               "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": abs_url(t["slug"] + ".html"), "name": t["name"]} for i, t in enumerate(tools)]}
-        page(f"{RC.get('h1', 'Kostenlose Rechner')} | {B['name']}", RC.get("lead", ""), rc, "rechner.html", ld(il))
+        page(f"{RC.get('h1', 'Kostenlose Rechner')} | {B['name']}", RC.get("meta_description") or RC.get("lead", ""), rc, "rechner.html", ld(il))
     elif os.path.exists(os.path.join(OUT, "rechner.html")):
         os.remove(os.path.join(OUT, "rechner.html"))
 

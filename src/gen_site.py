@@ -243,7 +243,7 @@ for p in P:
                           "url": abs_url(p["slug"] + ".html")}}
     head = ld(prod_ld) + ld(S.faq_ld(pfaq + [tuple(x) for x in CFG.get("faq", [])])) + ld(S.crumbs_ld([(B["name"], "index.html"), (p["name"], p["slug"] + ".html")]))
     suffix = PD.get("title_suffix")
-    page(f"{p['name']}{' – ' + suffix if suffix else ''} | {B['name']}", md, body, f"{p['slug']}.html", head)
+    page(p.get("seo_title") or f"{p['name']}{' – ' + suffix if suffix else ''} | {B['name']}", p.get("meta_description") or md, body, f"{p['slug']}.html", head)
 
 
 # ================================================================ Rechtstexte
@@ -268,7 +268,7 @@ imp = f"""<div class="wrap legal">
 <h2>Verbraucherstreitbeilegung</h2>
 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 </div>"""
-page(f"Impressum | {B['name']}", f"Impressum von {B['name']}.", imp, "impressum.html")
+page(f"Impressum | {B['name']}", f"Impressum von {B['name']}.", imp, "impressum.html", noindex=True)
 
 co = CFG["checkout"]
 checkout_txt = ""
@@ -287,7 +287,7 @@ ds = f"""<div class="wrap legal">
 <p>{_addr_block()}<br>
 E-Mail: {_mail(OP.get('email', ''))}</p>
 <h2>2. Das Wichtigste in Kürze</h2>
-<p>Diese Website setzt keine Cookies, nutzt keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von Drittanbietern wie Schriftarten oder Videos. Die Rechner auf dieser Website rechnen ausschließlich in Ihrem Browser; eingegebene Werte werden nicht übertragen. Personenbezogene Daten fallen nur an, wenn Sie die Seite aufrufen (Server-Logfiles), uns eine E-Mail schreibst oder ein Produkt kaufst.</p>
+<p>Diese Website setzt keine Cookies, nutzt keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von Drittanbietern wie Schriftarten oder Videos. Die Rechner auf dieser Website rechnen ausschließlich in Ihrem Browser; eingegebene Werte werden nicht übertragen. Personenbezogene Daten fallen nur an, wenn Sie die Seite aufrufen (Server-Logfiles), uns eine E-Mail schreiben oder ein Produkt kaufen.</p>
 <h2>3. Hosting und Server-Logfiles</h2>
 <p>Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite übermittelt Ihr Browser automatisch Daten, die GitHub in Server-Logfiles verarbeitet, insbesondere:</p>
 <ul>
@@ -300,7 +300,7 @@ E-Mail: {_mail(OP.get('email', ''))}</p>
 <h2>4. Kontakt per E-Mail</h2>
 <p>Wenn Sie uns eine E-Mail schreiben, verarbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht, um Ihre Anfrage zu beantworten. Unser E-Mail-Postfach liegt bei der IONOS SE, Elgendorfer Str. 57, 56410 Montabaur; mit IONOS besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit einem Kauf oder Vertrag zusammenhängt, ansonsten unser berechtigtes Interesse an der Beantwortung nach Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, sobald die Anfrage erledigt ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
 {checkout_txt}
-<h2>6. Deine Rechte</h2>
+<h2>6. Ihre Rechte</h2>
 <p>Sie haben jederzeit das Recht auf:</p>
 <ul>
 <li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)</li>
@@ -319,7 +319,7 @@ E-Mail: {_mail(OP.get('email', ''))}</p>
 </div>"""
 if not checkout_txt:
     ds = ds.replace("<h2>6.", "<h2>5.").replace("<h2>7.", "<h2>6.").replace("<h2>8.", "<h2>7.").replace("<h2>9.", "<h2>8.")
-page(f"Datenschutzerklärung | {B['name']}", f"Datenschutzerklärung von {B['name']}.", ds, "datenschutz.html")
+page(f"Datenschutzerklärung | {B['name']}", f"Datenschutzerklärung von {B['name']}.", ds, "datenschutz.html", noindex=True)
 
 # ================================================================ Inhalte, SEO-Dateien, Feeds
 CONTENT.build(ARTICLES, TOOLS, BY)

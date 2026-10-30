@@ -4,8 +4,8 @@
     "name": "Vermieterordner",
     "domain": "vermieterordner.de",
     "claim": "Nebenkostenabrechnung & Co. – sauber gerechnet für private Vermieter",
-    "description": "Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebskosten- und Heizkostenverordnung, Stand 2026.",
-    "footer_text": "Excel-Vorlagen und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
+    "description": "Excel-Vorlage und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebskosten- und Heizkostenverordnung, Stand 2026.",
+    "footer_text": "Excel-Vorlage und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
     "lang": "de",
     "locale": "de_DE",
     "copyright_year": 2026
@@ -13,8 +13,8 @@
   "colors": {
     "ink": "#1B2430",
     "primary": "#24435C",
-    "accent": "#C8692B",
-    "accent_dark": "#A45623",
+    "accent": "#A45623",
+    "accent_dark": "#8A4519",
     "muted": "#3A4654",
     "soft": "#5A6573",
     "bg": "#F7F5F0",
@@ -81,8 +81,8 @@
     "href": "nebenkostenabrechnung.html"
   },
   "home": {
-    "title": "Vermieterordner – Nebenkostenabrechnung für private Vermieter",
-    "meta_description": "Nebenkostenabrechnung als Excel-Vorlage für private Vermieter: rechnet Betriebs-, Heiz- und CO2-Kosten je Mieter und erstellt das Abrechnungsschreiben. Stand 2026.",
+    "title": "Nebenkostenabrechnung Vorlage für Vermieter | Vermieterordner",
+    "meta_description": "Nebenkostenabrechnung als Excel-Vorlage für private Vermieter: Betriebs-, Heiz- und CO2-Kosten je Mieter, fertiges Schreiben. Stand 2026.",
     "h1": "Die Nebenkosten­abrechnung, sauber gerechnet",
     "lead": "Excel-Vorlage und kostenlose Rechner für private Vermieter mit ein paar Wohnungen: Betriebskosten, Heizung, Warmwasser und CO2-Aufteilung je Mieter – mit fertigem Abrechnungsschreiben und Prüfungen gegen typische Fehler.",
     "cta_primary": {
@@ -109,7 +109,7 @@
       ],
       [
         "Fehler fallen auf",
-        "Fristen-Ampel, Warnung bei nicht umlagefähigen Kosten, Kabel-TV, fehlenden Verbrauchswerten und Überschneidungen beim Mieterwechsel."
+        "Fristprüfung, Warnungen bei nicht vereinbarten oder verdächtigen Kosten (Verwaltung, Reparatur, Kabel-TV), fehlenden Verbrauchswerten und Überschneidungen beim Mieterwechsel."
       ],
       [
         "Heizung nach Verordnung",
@@ -125,15 +125,11 @@
     ],
     [
       "Welche Programme brauche ich?",
-      "Microsoft Excel (Windows/Mac), Google Sheets oder LibreOffice Calc. Das Abrechnungsschreiben drucken Sie direkt oder speichern es als PDF."
+      "Microsoft Excel (Windows/Mac), LibreOffice Calc oder Google Sheets. In Google Sheets fehlen einige Farbmarkierungen, die Berechnungen stimmen trotzdem. Das Abrechnungsschreiben drucken Sie direkt oder speichern es als PDF."
     ],
     [
       "Für welche Häuser passt die Vorlage?",
       "Für private Vermieter von Wohnraum mit einem Haus und bis zu 12 Mietverhältnissen im Abrechnungsjahr. Für vermietete Eigentumswohnungen mit WEG-Abrechnung und für Gewerbe ist sie nicht gebaut."
-    ],
-    [
-      "Ersetzt die Vorlage eine Rechtsberatung?",
-      "Nein. Sie rechnet nach den allgemeinen Regeln (BGB, Betriebskosten-, Heizkostenverordnung, CO2-Kostenaufteilungsgesetz, Stand 2026) und warnt vor typischen Fehlern. Im Einzelfall helfen Haus & Grund, Mieterverein oder Anwalt."
     ]
   ],
   "product_defaults": {
@@ -156,16 +152,16 @@
       "shots": [],
       "eyebrow": "Excel-Vorlage · Stand 2026",
       "h1": "Nebenkostenabrechnung für private Vermieter – als Excel-Vorlage",
-      "lead": "Kosten eintragen, Mieter eintragen, fertig: Die Vorlage verteilt Betriebskosten nach Wohnfläche, Personen, Wohneinheiten oder Verbrauch, rechnet Heizung und Warmwasser nach der Heizkostenverordnung und teilt die CO2-Kosten nach dem Stufenmodell auf. Für jeden Mieter entsteht ein druckfertiges Abrechnungsschreiben.",
-      "content": "9 Tabellenblätter: Start mit Prüfungen, Mieter, Kosten, CO2, Verteilung, Übersicht, Schreiben, Anlage Heizung (§ 6a HeizkostenV)",
+      "lead": "Haus, Kosten und Mieter eintragen – die Vorlage rechnet den Rest: Sie verteilt Betriebskosten nach Wohnfläche, Personen, Wohneinheiten oder Wasserverbrauch, rechnet Heizung und Warmwasser nach der Heizkostenverordnung und teilt die CO2-Kosten nach dem Stufenmodell auf. Für jeden Mieter erstellen Sie per Auswahl der Mieter-Nr. ein druckfertiges Abrechnungsschreiben.",
+      "content": "8 Arbeitsblätter: Start mit Prüfungen, Mieter, Kosten, CO2, Übersicht, Schreiben, Anlage Heizung (§ 6a HeizkostenV), Verteilung (Rechenblatt)",
       "features": [
         [
           "Bis zu 12 Mietverhältnisse",
-          "Mieterwechsel mitten im Jahr tagesgenau; Leerstand und Eigennutzung bleiben beim Vermieter – auch beim Personenschlüssel."
+          "Mieterwechsel mitten im Jahr tagesgenau. Leerstand und Eigennutzung bleiben beim Vermieter – beim Personenschlüssel über fiktive Personentage, die Sie auf dem Startblatt eintragen (mit Prüfung)."
         ],
         [
           "Alle 17 Kostenarten",
-          "Kostenarten nach § 2 BetrKV mit Umlageschlüssel je Position; Warnungen bei nicht umlagefähigen Kosten, Kabel-TV und „Sonstigen“ ohne Vereinbarung."
+          "Kostenarten nach § 2 BetrKV mit Umlageschlüssel je Position. Warnungen bei nicht vereinbarten Kosten, bei Bezeichnungen wie Verwaltung, Reparatur oder Kabel-TV und bei „Sonstigen“ ohne Vereinbarung."
         ],
         [
           "Heizung, Warmwasser, CO2",
@@ -177,11 +173,11 @@
         ],
         [
           "Prüfungen",
-          "Abrechnungsfrist, Zeitraum über 12 Monate, Kontrollsumme „wer trägt was“, fehlende Verbrauchswerte, Überschneidungen beim Mieterwechsel, Beispieldaten nicht ersetzt."
+          "Abrechnungsfrist für Ihr geplantes Zustelldatum, Zeitraum über 12 Monate, Kontrollsumme „wer trägt was“, fehlende Verbrauchswerte je Mieter, Überschneidungen beim Mieterwechsel, Beispieldaten nicht ersetzt."
         ],
         [
           "Anlage nach § 6a HeizkostenV",
-          "Verbrauchsvergleich mit dem Durchschnitt im Haus und dem witterungsbereinigten Vorjahr, mit Diagramm."
+          "Alle Pflichtangaben: Energieträger, Steuern und Abgaben, Entgelte, Ansprechpartner, Streitbeilegung, Verbrauchsvergleich mit Hausdurchschnitt und witterungsbereinigtem Vorjahr, mit Diagramm."
         ]
       ],
       "faq": [
@@ -191,9 +187,11 @@
         ],
         [
           "Was ist, wenn ein Mieter mitten im Jahr auszieht?",
-          "Sie legen zwei Zeilen für die Wohnung an, mit Aus- und Einzugsdatum und den Zählerständen der Zwischenablesung. Die Vorlage teilt tagesgenau, Leerstand trägt der Vermieter."
+          "Sie legen zwei Zeilen für die Wohnung an, mit Aus- bzw. Einzugsdatum und den Verbrauchswerten bis bzw. ab der Zwischenablesung. Die Vorlage teilt tagesgenau, Leerstand trägt der Vermieter."
         ]
-      ]
+      ],
+      "seo_title": "Nebenkostenabrechnung Vorlage (Excel) für Vermieter – 2026",
+      "meta_description": "Nebenkostenabrechnung als Excel-Vorlage: Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen, Abrechnungsschreiben fertig. Für private Vermieter, 14,90 €."
     }
   ],
   "ratgeber": {
@@ -206,7 +204,9 @@
     "title": "Kostenlose Rechner",
     "h1": "Kostenlose Rechner",
     "lead": "Schnelle Antworten direkt im Browser – nichts wird gespeichert oder übertragen.",
-    "app_category": "UtilitiesApplication"
+    "app_category": "UtilitiesApplication",
+    "disclaimer": "Dieser Rechner gibt allgemeine Informationen und ersetzt keine individuelle Beratung.",
+    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist der Nebenkostenabrechnung und Heizkostenaufteilung – im Browser, ohne Anmeldung."
   },
   "pinterest": {
     "domain_verify": "",
@@ -230,7 +230,18 @@
   },
   "seo": {
     "og_image": "",
-    "theme_color": ""
+    "theme_color": "",
+    "hyphenate": {
+      "Nebenkostenabrechnung": "Nebenkosten|abrechnung",
+      "Betriebskostenverordnung": "Betriebskosten|verordnung",
+      "Heizkostenverordnung": "Heizkosten|verordnung",
+      "Abrechnungsschreiben": "Abrechnungs|schreiben",
+      "Kostenaufteilungsgesetz": "Kosten|aufteilungs|gesetz",
+      "Wärmeschutzverordnung": "Wärmeschutz|verordnung",
+      "Einwendungsfrist": "Einwendungs|frist",
+      "Abrechnungszeitraum": "Abrechnungs|zeitraum",
+      "Vorauszahlungen": "Voraus|zahlungen"
+    }
   },
   "indexnow_key": "1e99dcbf13c45d98dea360d288fd4c8f"
 }

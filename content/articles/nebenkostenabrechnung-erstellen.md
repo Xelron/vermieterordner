@@ -1,8 +1,9 @@
 ---
 title: Nebenkostenabrechnung erstellen – Schritt für Schritt mit Beispiel
-description: So erstellen private Vermieter die Nebenkostenabrechnung: Belege sammeln, Umlageschlüssel, Leerstand, Mieterwechsel, Heizkosten nach Verordnung – mit Rechenbeispiel.
+description: Nebenkostenabrechnung erstellen in 7 Schritten: Belege, Umlageschlüssel, Leerstand, Mieterwechsel, Heizkosten – mit durchgerechnetem Beispiel.
 date: 2026-10-30
 updated: 2026-10-30
+seo_title: "Nebenkostenabrechnung erstellen: Anleitung mit Beispiel"
 eyebrow: Ratgeber · Stand 2026
 answer: Sie sammeln alle Rechnungen des Abrechnungszeitraums, ordnen jede einer Kostenart nach § 2 BetrKV zu und verteilen sie nach dem vereinbarten Schlüssel auf die Mieter. Heizung und Warmwasser verteilen Sie nach der Heizkostenverordnung. Am Ende ziehen Sie die Vorauszahlungen ab und schicken jedem Mieter ein Schreiben mit **Gesamtkosten, Schlüssel, seinem Anteil und den Vorauszahlungen**.
 cta_product: nebenkostenabrechnung
@@ -10,13 +11,13 @@ card_text: Von den Belegen bis zum fertigen Schreiben – mit durchgerechnetem B
 llms: Anleitung Nebenkostenabrechnung für private Vermieter in 7 Schritten mit Rechenbeispiel (Wohnfläche, Personentage, Wasserverbrauch, Heizkosten 70/30), Leerstand trägt der Vermieter, Mieterwechsel zeitanteilig mit Zwischenablesung (§ 9b HeizkostenV), formelle Mindestangaben.
 faq:
   - q: Brauche ich für die Heizkosten einen Messdienst?
-    a: Nicht zwingend. Die Heizkostenverordnung verlangt, dass der Verbrauch erfasst und die Kosten zu 50–70 % nach Verbrauch verteilt werden. Haben Sie Heizkostenverteiler oder Wärmezähler, die Sie selbst ablesen, können Sie selbst rechnen. Viele Häuser nutzen einen Messdienst, der die Heizkostenabrechnung fertig liefert – dann übernehmen Sie dessen Beträge.
+    a: Nicht zwingend. Die Heizkostenverordnung verlangt, dass der Verbrauch erfasst und die Kosten zu 50–70 % nach Verbrauch verteilt werden. Haben Sie Heizkostenverteiler oder Wärmezähler, die Sie selbst ablesen, können Sie selbst rechnen. Achtung: Nicht fernablesbare Geräte müssen bis 31.12.2026 nachgerüstet werden, sonst darf der Mieter um 3 % kürzen. Viele Häuser nutzen einen Messdienst, der die Heizkostenabrechnung fertig liefert – dann übernehmen Sie dessen Beträge.
   - q: Muss ich die Belege mitschicken?
     a: Nein. Der Mieter kann aber verlangen, die Belege einzusehen. Sie dürfen sie auch elektronisch bereitstellen, etwa als PDF.
   - q: Was ist, wenn ich selbst im Haus wohne?
     a: Ihre eigene Wohnung zählt mit ihrer Fläche und ihrem Verbrauch zum Haus. Ihr Anteil bleibt bei Ihnen. Besonderheit im Zweifamilienhaus, in dem Sie eine Wohnung selbst bewohnen: Dort dürfen Sie mit dem Mieter eine andere Heizkostenverteilung vereinbaren; ohne Vereinbarung gilt die Heizkostenverordnung.
   - q: Wie runde ich die Beträge?
-    a: Rechnen Sie jede Position je Mieter auf den Cent genau und runden Sie dort. Cent-Reste aus der Rundung bleiben beim Vermieter. Wichtig ist, dass die Summe im Schreiben mit den einzelnen Positionen übereinstimmt.
+    a: Rechnen Sie jede Position je Mieter auf den Cent genau und runden Sie dort kaufmännisch. Rundungsdifferenzen von wenigen Cent sind dabei unvermeidbar. Wichtig ist, dass die Summe im Schreiben mit den einzelnen Positionen übereinstimmt.
 sources:
   - title: § 556 BGB – Vereinbarungen über Betriebskosten (gesetze-im-internet.de)
     url: https://www.gesetze-im-internet.de/bgb/__556.html
@@ -41,7 +42,7 @@ Legen Sie alle Rechnungen und Bescheide des Zeitraums zusammen: Grundsteuer, Was
 
 Zwei häufige Fehler:
 
-- **Rechnungen über mehrere Jahre:** Läuft eine Rechnung nicht deckungsgleich mit Ihrem Abrechnungszeitraum, teilen Sie sie zeitanteilig auf.
+- **Rechnungen mit abweichendem Zeitraum:** Läuft eine Rechnung nicht deckungsgleich mit Ihrem Abrechnungszeitraum, teilen Sie sie zeitanteilig auf.
 - **Brennstoff:** Bei Heizöl, Pellets oder Flüssiggas zählt der Verbrauch im Zeitraum (Anfangsbestand plus Zukauf minus Restbestand), nicht die bezahlten Rechnungen.
 
 ## Schritt 3: Umlageschlüssel anwenden {#schluessel}
@@ -60,13 +61,13 @@ Die Rechnung ist jeweils gleich: **Gesamtkosten × eigener Wert ÷ Wert des ganz
 
 ## Schritt 4: Leerstand und Mieterwechsel berücksichtigen {#leerstand}
 
-**Leerstand trägt der Vermieter.** Rechnen Sie deshalb immer mit der Fläche des ganzen Hauses, auch wenn eine Wohnung leer steht. Beim Schlüssel nach Personen ist es üblich, für jeden Leerstandstag eine Person anzusetzen; im Beispiel stecken in den 3.073 Personentagen 31 solche Tage für einen Monat Leerstand.
+**Leerstand trägt der Vermieter.** Rechnen Sie deshalb immer mit der Fläche des ganzen Hauses, auch wenn eine Wohnung leer steht. Beim Schlüssel nach Personen wird überwiegend empfohlen, für jeden Leerstandstag eine Person anzusetzen (Personentage = Personen × bewohnte Tage); im Beispiel stecken in den 3.073 Personentagen 31 solche Tage für einen Monat Leerstand.
 
-**Mieterwechsel:** Zieht ein Mieter im Laufe des Jahres aus, teilen Sie die Kosten tagesgenau auf. Wohnte er 181 von 365 Tagen in einer 70-m²-Wohnung, zählt er mit 70 m² × 181 Tagen. Für Heizung und Wasser brauchen Sie eine **Zwischenablesung** beim Auszug (§ 9b HeizkostenV). Ohne Zwischenablesung werden die Heizkosten insgesamt nach Fläche und Zeit verteilt.
+**Mieterwechsel:** Zieht ein Mieter im Laufe des Jahres aus, teilen Sie die Kosten tagesgenau auf. Wohnte er 181 von 365 Tagen in einer 70-m²-Wohnung, trägt er 181/365 des Anteils, der auf diese Wohnung entfällt. Für Heizung und Warmwasser ist beim Auszug eine **Zwischenablesung** Pflicht (§ 9b Abs. 1 HeizkostenV); beim Kaltwasser ist sie üblich und empfehlenswert. Nur wenn die Zwischenablesung nicht möglich oder zu ungenau ist, werden alle Heizkosten nach Gradtagszahlen (Tabellenwerte, die kalte Monate stärker gewichten) oder zeitanteilig verteilt (§ 9b Abs. 3).
 
 ## Schritt 5: Heiz- und Warmwasserkosten nach Verordnung {#heizkosten}
 
-Für zentrale Heizungen gilt die Heizkostenverordnung, und sie hat Vorrang vor dem Mietvertrag. Die Kosten werden zu **50–70 % nach Verbrauch** verteilt, der Rest nach Wohnfläche. 70 % sind Pflicht, wenn das Haus nicht den Wärmeschutz von 1994 erfüllt, mit Öl oder Gas geheizt wird und die freiliegenden Leitungen überwiegend gedämmt sind.
+Für zentrale Heizungen gilt die Heizkostenverordnung, und sie hat Vorrang vor dem Mietvertrag. Die Kosten werden zu **50–70 % nach Verbrauch** verteilt, der Rest nach Wohnfläche. 70 % sind Pflicht, wenn das Haus die Anforderungen der Wärmeschutzverordnung von 1994 nicht erfüllt, mit Öl oder Gas geheizt wird und die freiliegenden Leitungen überwiegend gedämmt sind.
 
 **Vereinfachtes Beispiel** (nur Heizung, ohne Warmwasser und CO2): 4.000 € Heizkosten, Aufteilung 70/30. Familie Schmidt hat 4.120 von 9.860 Einheiten verbraucht.
 
@@ -74,11 +75,13 @@ Für zentrale Heizungen gilt die Heizkostenverordnung, und sie hat Vorrang vor d
 - Grundanteil: 4.000 € × 30 % × 85 ÷ 230 = 443,48 €
 - Heizkosten Familie Schmidt: **1.613,46 €**
 
+Ihren eigenen Fall rechnet der [Heizkosten-Rechner](heizkosten-rechner.html) aus.
+
 Dazu kommen in der Praxis drei Schritte:
 
-- **Warmwasser trennen:** Bereitet die Heizung auch das Warmwasser, trennen Sie die Kosten über den Wärmezähler und verteilen den Warmwasseranteil nach Warmwasserzählern.
+- **Warmwasser trennen:** Bereitet die Heizung auch das Warmwasser, trennen Sie die Kosten über den Wärmezähler und verteilen den Warmwasseranteil ebenfalls zu 50–70 % nach Warmwasserzählern, den Rest nach Fläche (§ 8 HeizkostenV).
 - **CO2-Kosten aufteilen:** Je nach CO2-Ausstoß des Hauses tragen Sie als Vermieter einen Teil der CO2-Kosten, zwischen 0 und 95 %. Die Einstufung gehört in die Abrechnung.
-- **Angaben nach § 6a HeizkostenV:** Energieträger, Steuern und Abgaben, Vergleich mit dem Durchschnittsnutzer und dem Vorjahr. Fehlen sie, darf der Mieter seinen Heizkostenanteil um 3 % kürzen.
+- **Angaben nach § 6a HeizkostenV:** unter anderem Energieträger, Steuern und Abgaben, Entgelte für Geräte und Abrechnung, Kontakt zu Verbraucherorganisationen, Hinweis zur Streitbeilegung sowie der Vergleich mit dem Durchschnittsnutzer und dem Vorjahr. Fehlen sie, darf der Mieter seinen Heizkostenanteil um 3 % kürzen.
 
 ## Schritt 6: Vorauszahlungen abziehen {#vorauszahlungen}
 
@@ -97,6 +100,4 @@ Ergänzen Sie den Abrechnungs- und Nutzungszeitraum, das Zahlungsziel mit Ihrer 
 
 ## Schneller mit der Vorlage {#vorlage}
 
-Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) rechnet alle sieben Schritte für bis zu 12 Mietverhältnisse: Sie tragen Kosten und Mieter ein, die Vorlage verteilt tagesgenau, trennt Heizung und Warmwasser, teilt die CO2-Kosten auf und erstellt für jeden Mieter ein einseitiges Schreiben mit allen Mindestangaben – plus Anlage nach § 6a HeizkostenV.
-
-*Allgemeine Information, Stand 2026, keine Rechtsberatung. Im Einzelfall helfen Haus & Grund, Mieterverein oder Anwalt.*
+Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) übernimmt die Rechenarbeit der Schritte 3 bis 7 für bis zu 12 Mietverhältnisse und prüft die Frist aus Schritt 1: Sie tragen Haus, Kosten und Mieter ein, die Vorlage verteilt tagesgenau, trennt Heizung und Warmwasser, teilt die CO2-Kosten auf und erstellt per Auswahl der Mieter-Nr. ein einseitiges Schreiben mit allen Mindestangaben – plus Anlage nach § 6a HeizkostenV.

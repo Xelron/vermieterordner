@@ -3,6 +3,7 @@ title: Umlagefähige Nebenkosten 2026 – die Liste nach Betriebskostenverordnun
 description: Welche Nebenkosten Vermieter umlegen dürfen: alle 17 Kostenarten nach § 2 BetrKV mit Beispielen, üblichem Schlüssel und den Kosten, die nie umlagefähig sind.
 date: 2026-10-30
 updated: 2026-10-30
+seo_title: "Umlagefähige Nebenkosten 2026: Liste nach BetrKV"
 eyebrow: Ratgeber · Stand 2026
 answer: Umlagefähig sind nur die **17 Kostenarten aus § 2 der Betriebskostenverordnung** – und nur, wenn der Mietvertrag ihre Umlage vorsieht. **Verwaltung, Reparaturen und Rücklagen** sind nie umlagefähig, Kabel-TV-Gebühren seit dem 1.7.2024 auch nicht mehr.
 cta_product: nebenkostenabrechnung
@@ -10,11 +11,11 @@ card_text: Alle 17 Kostenarten mit Beispielen – und welche Kosten Sie nie auf 
 llms: Liste der umlagefähigen Betriebskosten nach § 2 BetrKV (Nr. 1–17) mit Beispielen und üblichem Umlageschlüssel; nicht umlagefähig nach § 1 Abs. 2 BetrKV (Verwaltung, Instandhaltung); Sonderfälle Kabel-TV (seit 1.7.2024 nicht umlagefähig), Rauchwarnmelder (Miete nein, Wartung als Nr. 17), Hauswart, Schornsteinfeger.
 faq:
   - q: Reicht es, wenn im Mietvertrag „Betriebskosten nach BetrKV“ steht?
-    a: Für die Kostenarten Nr. 1 bis 16 genügt nach der Rechtsprechung ein Verweis auf die Betriebskostenverordnung. „Sonstige Betriebskosten“ nach Nr. 17 sollten im Vertrag dagegen einzeln benannt sein, etwa „Wartung der Rauchwarnmelder“; ein bloßer Verweis auf Nr. 17 reicht nach überwiegender Ansicht nicht.
+    a: Für die Kostenarten Nr. 1 bis 16 genügt nach der Rechtsprechung ein Verweis auf die Betriebskostenverordnung. „Sonstige Betriebskosten“ nach Nr. 17 müssen im Vertrag dagegen einzeln benannt sein, etwa „Wartung der Rauchwarnmelder“; ein bloßer Verweis auf Nr. 17 reicht nicht.
   - q: Darf ich meine eigene Arbeit abrechnen, zum Beispiel wenn ich den Garten selbst pflege?
     a: Ja. Eigenleistungen dürfen Sie mit dem Betrag ansetzen, den eine Fachfirma verlangen würde – allerdings ohne Umsatzsteuer (§ 1 Abs. 1 S. 2 BetrKV). Ein Vergleichsangebot als Beleg ist sinnvoll.
   - q: Sind Kosten für die Zählerablesung umlagefähig?
-    a: Die laufenden Kosten für Miete, Eichung und Ablesung der Zähler gehören zur jeweiligen Kostenart (Wasser, Heizung). Eine zusätzliche Gebühr für die Zwischenablesung beim Mieterwechsel ist dagegen nur umlagefähig, wenn sie wirksam vereinbart ist.
+    a: Die laufenden Kosten für Miete, Eichung und Ablesung der Zähler gehören zur jeweiligen Kostenart (Wasser, Heizung). Eine Gebühr für die Zwischenablesung beim Mieterwechsel ist dagegen keine Betriebskostenart. Sie kann nur dem ausziehenden Mieter berechnet werden, und nur, wenn das vereinbart ist.
   - q: Was mache ich mit einer Rechnung, die Wartung und Reparatur enthält?
     a: Den Reparaturanteil herausrechnen. Umlagefähig ist nur der Teil für laufende Wartung, Prüfung und Pflege. Lassen Sie sich den Anteil im Zweifel vom Handwerker auf der Rechnung getrennt ausweisen.
 sources:
@@ -68,7 +69,7 @@ Haben Sie mit dem Mieter keinen Schlüssel vereinbart, gilt nach § 556a Abs. 1 
 
 Ausdrücklich ausgeschlossen sind nach § 1 Abs. 2 BetrKV:
 
-- **Verwaltungskosten:** Hausverwaltung, Ihr eigener Zeitaufwand für die Abrechnung, Steuerberater, Porto, Kontoführung, Bankgebühren.
+- **Verwaltungskosten:** Hausverwaltung, Ihr eigener Zeitaufwand für die Abrechnung, Steuerberater, Porto, Kontoführungsgebühren.
 - **Instandhaltung und Instandsetzung:** Reparaturen an Heizung, Dach oder Leitungen, Rohrbruch, Austausch defekter Teile.
 
 Ebenfalls keine Betriebskosten sind:
@@ -77,11 +78,12 @@ Ebenfalls keine Betriebskosten sind:
 - Anschaffungen wie neue Mülltonnen, Gartengeräte oder Rauchwarnmelder
 - Versicherungen ohne Gebäudebezug, etwa die eigene Rechtsschutzversicherung
 - Zinsen, Tilgung und Abschreibung
-- Kosten leerstehender Wohnungen – diesen Anteil tragen Sie selbst
+
+Keine Ausnahme, aber eine Besonderheit: Auf leerstehende Wohnungen entfallende Betriebskosten dürfen Sie nicht auf die anderen Mieter verteilen – diesen Anteil tragen Sie selbst.
 
 ## Sonderfälle, die oft falsch abgerechnet werden {#sonderfaelle}
 
-**Kabel-TV:** Seit dem **1.7.2024** dürfen Kabel-TV-Gebühren nicht mehr über die Nebenkosten umgelegt werden. Weiter zulässig sind Betriebsstrom und Prüfung einer Gemeinschaftsantenne sowie unter Bedingungen das Glasfaser-Bereitstellungsentgelt. Die Gebühren unter „Sonstige“ zu verbuchen, ist keine Lösung.
+**Kabel-TV:** Seit dem **1.7.2024** dürfen Kabel-TV-Gebühren nicht mehr über die Nebenkosten umgelegt werden. Weiter zulässig sind Betriebsstrom und Prüfung einer Gemeinschaftsantenne, die vor dem 1.12.2021 errichtet wurde, sowie unter Bedingungen das Glasfaser-Bereitstellungsentgelt. Die Gebühren unter „Sonstige“ zu verbuchen, ist keine Lösung.
 
 **Rauchwarnmelder:** Die **Miete** von Rauchwarnmeldern ist nicht umlagefähig, sie ersetzt die Anschaffung (BGH, VIII ZR 379/20). Die **Wartung** dürfen Sie als sonstige Betriebskosten umlegen, wenn sie im Mietvertrag vereinbart ist. Bei Komplettverträgen rechnen Sie den Wartungsanteil heraus.
 
@@ -99,6 +101,4 @@ Mieter können für bestimmte Nebenkosten eine Steuerermäßigung nach § 35a ES
 
 ## Abrechnung erstellen {#abrechnung}
 
-Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) enthält alle 17 Kostenarten als Auswahlliste. Sie warnt bei nicht vereinbarten oder nicht umlagefähigen Kosten, bei Kabel-TV und bei Heizkosten mit falschem Schlüssel. Sie weist die § 35a-Anteile je Mieter getrennt aus. Bis wann die Abrechnung beim Mieter sein muss, zeigt der [Abrechnungsfrist-Rechner](abrechnungsfrist-rechner.html).
-
-*Allgemeine Information, Stand 2026, keine Rechtsberatung. Im Einzelfall helfen Haus & Grund, Mieterverein oder Anwalt.*
+Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) enthält alle 17 Kostenarten als Auswahlliste. Sie warnt bei nicht vereinbarten Kosten, bei Bezeichnungen wie Verwaltung, Reparatur oder Kabel-TV und bei Heizkosten mit falschem Schlüssel. Sie weist die § 35a-Anteile je Mieter getrennt aus. Bis wann die Abrechnung beim Mieter sein muss, zeigt der [Abrechnungsfrist-Rechner](abrechnungsfrist-rechner.html).
