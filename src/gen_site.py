@@ -220,7 +220,7 @@ for p in P:
 <div><img class="heroimg" src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}"></div>
 </div>
 <section class="band"><div class="wrap">
-<h2 class="serif">Das bekommst du</h2>
+<h2 class="serif">Das bekommen Sie</h2>
 <div class="split"><div><table class="spec">{tbl}</table></div>
 {f'<div class="shots">{shots}</div>' if shots else ''}</div>
 </div></section>
@@ -273,11 +273,11 @@ page(f"Impressum | {B['name']}", f"Impressum von {B['name']}.", imp, "impressum.
 co = CFG["checkout"]
 checkout_txt = ""
 if co.get("provider"):
-    role = (f"{esc(co['provider'])} tritt dabei als Wiederverkäufer auf und ist dein Vertragspartner für Bestellung, Zahlung, Rechnung und Auslieferung des Downloads."
+    role = (f"{esc(co['provider'])} tritt dabei als Wiederverkäufer auf und ist Ihr Vertragspartner für Bestellung, Zahlung, Rechnung und Auslieferung des Downloads."
             if co.get("reseller") else f"{esc(co['provider'])} wickelt Bestellung und Zahlung für uns ab.")
     checkout_txt = f"""<h2>5. Kauf über {esc(co['provider'])}</h2>
 <p>Unsere Produkte werden über {esc(co.get('provider_address') or co['provider'])} verkauft. {role}</p>
-<p>Wenn du auf „{esc(co.get('buy_label', 'Jetzt kaufen'))}“ klickst, gelangst du auf das Bestellformular von {esc(co['provider'])}. Die dort eingegebenen Daten verarbeitet {esc(co['provider'])} in eigener Verantwortung.{f' Einzelheiten findest du in der <a href="{esc(co["privacy_url"])}" rel="noopener">Datenschutzerklärung von {esc(co["provider"])}</a>.' if co.get('privacy_url') else ''}</p>
+<p>Wenn Sie auf „{esc(co.get('buy_label', 'Jetzt kaufen'))}“ klicken, gelangen Sie auf das Bestellformular von {esc(co['provider'])}. Die dort eingegebenen Daten verarbeitet {esc(co['provider'])} in eigener Verantwortung.{f' Einzelheiten finden Sie in der <a href="{esc(co["privacy_url"])}" rel="noopener">Datenschutzerklärung von {esc(co["provider"])}</a>.' if co.get('privacy_url') else ''}</p>
 <p>Nach einem Kauf erhalten wir von {esc(co['provider'])} die für die Kaufabwicklung nötigen Angaben, etwa Name, E-Mail-Adresse und Bestelldaten, zum Beispiel um Supportanfragen zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO. Steuer- und handelsrechtliche Aufbewahrungspflichten bleiben unberührt (Art. 6 Abs. 1 lit. c DSGVO).</p>"""
 ds = f"""<div class="wrap legal">
 <h1 class="serif">Datenschutzerklärung</h1>
@@ -287,23 +287,23 @@ ds = f"""<div class="wrap legal">
 <p>{_addr_block()}<br>
 E-Mail: {_mail(OP.get('email', ''))}</p>
 <h2>2. Das Wichtigste in Kürze</h2>
-<p>Diese Website setzt keine Cookies, nutzt keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von Drittanbietern wie Schriftarten oder Videos. Die Rechner auf dieser Website rechnen ausschließlich in deinem Browser; eingegebene Werte werden nicht übertragen. Personenbezogene Daten fallen nur an, wenn du die Seite aufrufst (Server-Logfiles), uns eine E-Mail schreibst oder ein Produkt kaufst.</p>
+<p>Diese Website setzt keine Cookies, nutzt keine Analyse- oder Tracking-Werkzeuge und lädt keine Inhalte von Drittanbietern wie Schriftarten oder Videos. Die Rechner auf dieser Website rechnen ausschließlich in Ihrem Browser; eingegebene Werte werden nicht übertragen. Personenbezogene Daten fallen nur an, wenn Sie die Seite aufrufen (Server-Logfiles), uns eine E-Mail schreibst oder ein Produkt kaufst.</p>
 <h2>3. Hosting und Server-Logfiles</h2>
-<p>Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite übermittelt dein Browser automatisch Daten, die GitHub in Server-Logfiles verarbeitet, insbesondere:</p>
+<p>Diese Website wird über GitHub Pages bereitgestellt, einen Dienst der GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA. Beim Aufruf der Seite übermittelt Ihr Browser automatisch Daten, die GitHub in Server-Logfiles verarbeitet, insbesondere:</p>
 <ul>
 <li>IP-Adresse</li>
 <li>Datum und Uhrzeit des Zugriffs</li>
 <li>aufgerufene Seite bzw. Datei</li>
 <li>Browsertyp, Betriebssystem und Referrer-URL</li>
 </ul>
-<p>Die Verarbeitung ist technisch notwendig, um die Website auszuliefern und ihre Sicherheit zu gewährleisten. Rechtsgrundlage ist unser berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO. Dabei können Daten in die USA übertragen werden. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert (Angemessenheitsbeschluss nach Art. 45 DSGVO). Einzelheiten findest du in der <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
+<p>Die Verarbeitung ist technisch notwendig, um die Website auszuliefern und ihre Sicherheit zu gewährleisten. Rechtsgrundlage ist unser berechtigtes Interesse nach Art. 6 Abs. 1 lit. f DSGVO. Dabei können Daten in die USA übertragen werden. GitHub ist nach dem EU-US Data Privacy Framework zertifiziert (Angemessenheitsbeschluss nach Art. 45 DSGVO). Einzelheiten finden Sie in der <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
 <h2>4. Kontakt per E-Mail</h2>
-<p>Wenn du uns eine E-Mail schreibst, verarbeiten wir deine E-Mail-Adresse und den Inhalt deiner Nachricht, um deine Anfrage zu beantworten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern deine Anfrage mit einem Kauf oder Vertrag zusammenhängt, ansonsten unser berechtigtes Interesse an der Beantwortung nach Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, sobald die Anfrage erledigt ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
+<p>Wenn Sie uns eine E-Mail schreiben, verarbeiten wir Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht, um Ihre Anfrage zu beantworten. Unser E-Mail-Postfach liegt bei der IONOS SE, Elgendorfer Str. 57, 56410 Montabaur; mit IONOS besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit einem Kauf oder Vertrag zusammenhängt, ansonsten unser berechtigtes Interesse an der Beantwortung nach Art. 6 Abs. 1 lit. f DSGVO. Wir löschen die Daten, sobald die Anfrage erledigt ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
 {checkout_txt}
 <h2>6. Deine Rechte</h2>
-<p>Du hast jederzeit das Recht auf:</p>
+<p>Sie haben jederzeit das Recht auf:</p>
 <ul>
-<li>Auskunft über deine gespeicherten Daten (Art. 15 DSGVO)</li>
+<li>Auskunft über Ihre gespeicherten Daten (Art. 15 DSGVO)</li>
 <li>Berichtigung unrichtiger Daten (Art. 16 DSGVO)</li>
 <li>Löschung (Art. 17 DSGVO) und Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
 <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
@@ -311,9 +311,9 @@ E-Mail: {_mail(OP.get('email', ''))}</p>
 </ul>
 <p>Eine formlose E-Mail an {_mail(OP.get('email', ''))} genügt.</p>
 <h2>7. Beschwerderecht</h2>
-<p>Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren. Für uns zuständig ist: {esc(OP.get('supervisory_authority', ''))}</p>
+<p>Sie können sich bei einer Datenschutz-Aufsichtsbehörde beschweren. Für uns zuständig ist: {esc(OP.get('supervisory_authority', ''))}</p>
 <h2>8. SSL-/TLS-Verschlüsselung</h2>
-<p>Diese Website nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Du erkennst sie am Schloss-Symbol und an „https://“ in der Adresszeile deines Browsers.</p>
+<p>Diese Website nutzt aus Sicherheitsgründen eine SSL-/TLS-Verschlüsselung. Sie erkennen sie am Schloss-Symbol und an „https://“ in der Adresszeile Ihres Browsers.</p>
 <h2>9. Änderungen</h2>
 <p>Wir passen diese Datenschutzerklärung an, wenn sich unser Angebot ändert, etwa bei Einführung eines Newsletters.</p>
 </div>"""

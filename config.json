@@ -4,8 +4,8 @@
     "name": "Vermieterordner",
     "domain": "vermieterordner.de",
     "claim": "Nebenkostenabrechnung & Co. – sauber gerechnet für private Vermieter",
-    "description": "BEISPIEL-Beschreibung: Digitale Vorlagen und kostenlose Online-Werkzeuge für private Vermieter. Einmal kaufen, sofort herunterladen.",
-    "footer_text": "BEISPIEL: Digitale Vorlagen und kostenlose Werkzeuge für private Vermieter.",
+    "description": "Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebskosten- und Heizkostenverordnung, Stand 2026.",
+    "footer_text": "Excel-Vorlagen und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
     "lang": "de",
     "locale": "de_DE",
     "copyright_year": 2026
@@ -77,14 +77,14 @@
     }
   ],
   "nav_cta": {
-    "label": "Startpaket ansehen",
-    "href": "starter-vorlage.html"
+    "label": "Vorlage für 14,90 €",
+    "href": "nebenkostenabrechnung.html"
   },
   "home": {
-    "title": "Vermieterordner – Digitale Vorlagen für private Vermieter",
-    "meta_description": "BEISPIEL: Digitale Vorlagen und kostenlose Rechner für private Vermieter. Sofort-Download, kein Abo.",
-    "h1": "Weniger Kleinkram, mehr Zeit fürs Wesentliche",
-    "lead": "BEISPIEL-TEXT: Digitale Vorlagen und kostenlose Online-Rechner, die private Vermieter Zeit sparen. Hier steht in zwei Sätzen, welches Problem dein Business löst.",
+    "title": "Vermieterordner – Nebenkostenabrechnung für private Vermieter",
+    "meta_description": "Nebenkostenabrechnung als Excel-Vorlage für private Vermieter: rechnet Betriebs-, Heiz- und CO2-Kosten je Mieter und erstellt das Abrechnungsschreiben. Stand 2026.",
+    "h1": "Die Nebenkosten­abrechnung, sauber gerechnet",
+    "lead": "Excel-Vorlage und kostenlose Rechner für private Vermieter mit ein paar Wohnungen: Betriebskosten, Heizung, Warmwasser und CO2-Aufteilung je Mieter – mit fertigem Abrechnungsschreiben und Prüfungen gegen typische Fehler.",
     "cta_primary": {
       "label": "Produkte ansehen",
       "href": "#produkte"
@@ -95,25 +95,25 @@
     },
     "facts": [
       "Einmal kaufen, kein Abo",
-      "Download sofort nach der Zahlung",
-      "Ohne Anmeldung testen"
+      "Excel, Google Sheets, LibreOffice",
+      "Rechtsstand 2026 mit Quellen"
     ],
-    "hero_product": "starter-vorlage",
-    "products_title": "Die Produkte",
-    "products_sub": "Jedes Produkt löst ein konkretes Problem.",
+    "hero_product": "nebenkostenabrechnung",
+    "products_title": "Die Vorlage",
+    "products_sub": "Für Häuser mit bis zu 12 Mietverhältnissen im Jahr.",
     "why_title": "Warum Vermieterordner?",
     "why": [
       [
-        "Echte Probleme",
-        "BEISPIEL: Jedes Produkt beantwortet eine Frage, die sich deine Zielgruppe wirklich stellt."
+        "Formell vollständig",
+        "Gesamtkosten, Verteilerschlüssel, Ihr Anteil und Vorauszahlungen stehen im Schreiben – die Mindestangaben, die der BGH verlangt."
       ],
       [
-        "Sofort einsatzbereit",
-        "BEISPIEL: Ausfüllen, fertig. Jede Vorlage hat eine Anleitung und Beispielwerte."
+        "Fehler fallen auf",
+        "Fristen-Ampel, Warnung bei nicht umlagefähigen Kosten, Kabel-TV, fehlenden Verbrauchswerten und Überschneidungen beim Mieterwechsel."
       ],
       [
-        "Kein Abo",
-        "BEISPIEL: Einmal kaufen, dauerhaft nutzen. Deine Daten bleiben bei dir."
+        "Heizung nach Verordnung",
+        "Heizung und Warmwasser getrennt, 50–70 % nach Verbrauch, CO2-Kostenaufteilung nach Stufenmodell, Angaben nach § 6a HeizkostenV."
       ]
     ]
   },
@@ -121,20 +121,24 @@
   "faq": [
     [
       "Wie bekomme ich die Datei?",
-      "Direkt nach der Zahlung über den Download-Link auf der Bestätigungsseite und zusätzlich per E-Mail."
+      "Direkt nach der Zahlung über den Download-Link auf der Bestätigungsseite und zusätzlich per E-Mail von Digistore24."
     ],
     [
       "Welche Programme brauche ich?",
-      "BEISPIEL: Hier steht, womit die Produkte funktionieren (z. B. Excel, Google Sheets, PDF-Reader)."
+      "Microsoft Excel (Windows/Mac), Google Sheets oder LibreOffice Calc. Das Abrechnungsschreiben drucken Sie direkt oder speichern es als PDF."
     ],
     [
-      "Ich habe eine Frage.",
-      "Schreib eine E-Mail an die Adresse im Impressum."
+      "Für welche Häuser passt die Vorlage?",
+      "Für private Vermieter von Wohnraum mit einem Haus und bis zu 12 Mietverhältnissen im Abrechnungsjahr. Für vermietete Eigentumswohnungen mit WEG-Abrechnung und für Gewerbe ist sie nicht gebaut."
+    ],
+    [
+      "Ersetzt die Vorlage eine Rechtsberatung?",
+      "Nein. Sie rechnet nach den allgemeinen Regeln (BGB, Betriebskosten-, Heizkostenverordnung, CO2-Kostenaufteilungsgesetz, Stand 2026) und warnt vor typischen Fehlern. Im Einzelfall helfen Haus & Grund, Mieterverein oder Anwalt."
     ]
   ],
   "product_defaults": {
     "type": "Digitales Produkt zum Herunterladen. Kein Versand, keine Installation, kein Abo.",
-    "format": "BEISPIEL: ZIP-Datei mit Vorlage und PDF-Kurzanleitung, Sprache Deutsch.",
+    "format": "ZIP-Datei mit Excel-Vorlage (.xlsx) und PDF-Kurzanleitung, Sprache Deutsch.",
     "delivery": "Download-Link sofort nach der Zahlung, zusätzlich per E-Mail",
     "audience": "private Vermieter",
     "currency": "EUR",
@@ -142,89 +146,85 @@
   },
   "products": [
     {
-      "slug": "starter-vorlage",
-      "name": "Starter-Vorlage",
-      "short": "BEISPIEL: Kurzbeschreibung für die Produktkarte",
-      "price": 19,
+      "slug": "nebenkostenabrechnung",
+      "name": "Nebenkostenabrechnung",
+      "short": "Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen – mit fertigem Abrechnungsschreiben.",
+      "price": 14.9,
       "compare_price": null,
       "checkout_url": "",
       "image": "",
       "shots": [],
-      "eyebrow": "BEISPIEL · Vorlage zum Download",
-      "h1": "BEISPIEL: Die Überschrift nennt das Problem, das das Produkt löst",
-      "lead": "BEISPIEL-TEXT: Zwei bis drei Sätze, was das Produkt kann, für wen es ist und warum es Zeit oder Geld spart. Konkret bleiben, keine Superlative.",
-      "content": "BEISPIEL: 3 Tabellenblätter: Start, Eingabe, Auswertung",
+      "eyebrow": "Excel-Vorlage · Stand 2026",
+      "h1": "Nebenkostenabrechnung für private Vermieter – als Excel-Vorlage",
+      "lead": "Kosten eintragen, Mieter eintragen, fertig: Die Vorlage verteilt Betriebskosten nach Wohnfläche, Personen, Wohneinheiten oder Verbrauch, rechnet Heizung und Warmwasser nach der Heizkostenverordnung und teilt die CO2-Kosten nach dem Stufenmodell auf. Für jeden Mieter entsteht ein druckfertiges Abrechnungsschreiben.",
+      "content": "9 Tabellenblätter: Start mit Prüfungen, Mieter, Kosten, CO2, Verteilung, Übersicht, Schreiben, Anlage Heizung (§ 6a HeizkostenV)",
       "features": [
         [
-          "Funktion 1",
-          "BEISPIEL: Was die Funktion macht und welchen Nutzen sie hat."
+          "Bis zu 12 Mietverhältnisse",
+          "Mieterwechsel mitten im Jahr tagesgenau; Leerstand und Eigennutzung bleiben beim Vermieter – auch beim Personenschlüssel."
         ],
         [
-          "Funktion 2",
-          "BEISPIEL: Was die Funktion macht und welchen Nutzen sie hat."
+          "Alle 17 Kostenarten",
+          "Kostenarten nach § 2 BetrKV mit Umlageschlüssel je Position; Warnungen bei nicht umlagefähigen Kosten, Kabel-TV und „Sonstigen“ ohne Vereinbarung."
         ],
         [
-          "Funktion 3",
-          "BEISPIEL: Was die Funktion macht und welchen Nutzen sie hat."
+          "Heizung, Warmwasser, CO2",
+          "Getrennte Verteilung nach Wärmezähler und Warmwasserzählern, 50–70 % Verbrauchsanteil, CO2-Stufe mit Vermieteranteil – oder Beträge aus der Messdienst-Abrechnung übernehmen."
+        ],
+        [
+          "Abrechnungsschreiben",
+          "Eine Seite je Mieter: Gesamtkosten, Schlüssel, Ihr Anteil, Vorauszahlungen, Ergebnis, CO2-Angaben, § 35a-Beträge getrennt nach Dienstleistung und Handwerker."
+        ],
+        [
+          "Prüfungen",
+          "Abrechnungsfrist, Zeitraum über 12 Monate, Kontrollsumme „wer trägt was“, fehlende Verbrauchswerte, Überschneidungen beim Mieterwechsel, Beispieldaten nicht ersetzt."
+        ],
+        [
+          "Anlage nach § 6a HeizkostenV",
+          "Verbrauchsvergleich mit dem Durchschnitt im Haus und dem witterungsbereinigten Vorjahr, mit Diagramm."
         ]
       ],
       "faq": [
         [
-          "BEISPIEL: Produktspezifische Frage?",
-          "BEISPIEL: Antwort in ein bis zwei Sätzen."
-        ]
-      ]
-    },
-    {
-      "slug": "profi-vorlage",
-      "name": "Profi-Vorlage",
-      "short": "BEISPIEL: Die erweiterte Variante mit mehr Funktionen",
-      "price": 29,
-      "compare_price": null,
-      "checkout_url": "",
-      "image": "",
-      "shots": [],
-      "eyebrow": "BEISPIEL · Vorlage zum Download",
-      "h1": "BEISPIEL: Zweites Produkt mit eigener Überschrift",
-      "lead": "BEISPIEL-TEXT: Beschreibung des zweiten Produkts. Checkout-URL leer lassen, solange das Produkt beim Zahlungsanbieter noch nicht angelegt ist – dann erscheint „Bald verfügbar“.",
-      "content": "BEISPIEL: 5 Tabellenblätter",
-      "features": [
-        [
-          "Alles aus der Starter-Vorlage",
-          "BEISPIEL: Plus erweiterte Auswertungen."
+          "Kann ich die Heizkostenabrechnung von ista oder Techem übernehmen?",
+          "Ja. Im Modus „Beträge aus Messdienst-Abrechnung“ tragen Sie die Heizkosten je Mieter ein; die Messdienst-Abrechnung legen Sie dem Schreiben bei."
         ],
         [
-          "Funktion 2",
-          "BEISPIEL: Was die Funktion macht und welchen Nutzen sie hat."
+          "Was ist, wenn ein Mieter mitten im Jahr auszieht?",
+          "Sie legen zwei Zeilen für die Wohnung an, mit Aus- und Einzugsdatum und den Zählerständen der Zwischenablesung. Die Vorlage teilt tagesgenau, Leerstand trägt der Vermieter."
         ]
-      ],
-      "faq": []
+      ]
     }
   ],
   "ratgeber": {
     "title": "Ratgeber",
     "h1": "Ratgeber für private Vermieter",
-    "lead": "BEISPIEL: Verständliche Antworten auf die Fragen, die sich deine Zielgruppe wirklich stellt – mit Beispielen und Quellen.",
+    "lead": "Fristen, Kostenarten und Heizkosten verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
     "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung."
   },
   "rechner": {
     "title": "Kostenlose Rechner",
     "h1": "Kostenlose Rechner",
-    "lead": "BEISPIEL: Schnelle Antworten direkt im Browser – nichts wird gespeichert.",
+    "lead": "Schnelle Antworten direkt im Browser – nichts wird gespeichert oder übertragen.",
     "app_category": "UtilitiesApplication"
   },
   "pinterest": {
     "domain_verify": "",
     "boards": [
       {
-        "slug": "tipps",
-        "name": "BEISPIEL Tipps",
-        "description": "Tipps und Rechner für private Vermieter."
+        "slug": "nebenkosten",
+        "name": "Nebenkostenabrechnung Tipps",
+        "description": "Fristen, Kostenarten und Beispiele zur Nebenkostenabrechnung für private Vermieter."
+      },
+      {
+        "slug": "vermieter",
+        "name": "Vermieten leicht gemacht",
+        "description": "Wissen und Rechner für private Vermieter: Heizkosten, CO2, Mieterwechsel."
       },
       {
         "slug": "vorlagen",
-        "name": "BEISPIEL Vorlagen",
-        "description": "Digitale Vorlagen für private Vermieter."
+        "name": "Excel-Vorlagen für Vermieter",
+        "description": "Excel-Vorlagen für private Vermieter: Nebenkostenabrechnung und mehr."
       }
     ]
   },
