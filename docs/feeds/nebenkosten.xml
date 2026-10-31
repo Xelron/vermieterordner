@@ -6,5 +6,14 @@
 <atom:link href="https://vermieterordner.de/feeds/nebenkosten.xml" rel="self" type="application/rss+xml"/>
 <description>Fristen, Kostenarten und Beispiele zur Nebenkostenabrechnung für private Vermieter.</description>
 <language>de-de</language>
+<item>
+<title>Abrechnungsfrist Nebenkosten: bis wann muss die Abrechnung beim Mieter sein?</title>
+<link>https://vermieterordner.de/abrechnungsfrist-nebenkosten.html#abrechnungsfrist</link>
+<guid isPermaLink="false">vermieterordner.de-pin-01</guid>
+<pubDate>Sat, 31 Oct 2026 00:30:00 +0000</pubDate>
+<description>12 Monate nach Ende des Abrechnungszeitraums – entscheidend ist der Zugang beim Mieter, nicht das Absenden. Mit Beispielen und kostenlosem Fristen-Rechner.</description>
+<enclosure url="https://vermieterordner.de/pins/pin-01.jpg" length="87908" type="image/jpeg"/>
+<media:content url="https://vermieterordner.de/pins/pin-01.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+</item>
 </channel>
 </rss>

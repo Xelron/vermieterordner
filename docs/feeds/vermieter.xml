@@ -6,5 +6,14 @@
 <atom:link href="https://vermieterordner.de/feeds/vermieter.xml" rel="self" type="application/rss+xml"/>
 <description>Wissen und Rechner für private Vermieter: Heizkosten, CO2, Mieterwechsel.</description>
 <language>de-de</language>
+<item>
+<title>Kostenloser Abrechnungsfrist-Rechner für Vermieter</title>
+<link>https://vermieterordner.de/abrechnungsfrist-rechner.html</link>
+<guid isPermaLink="false">vermieterordner.de-pin-02</guid>
+<pubDate>Sat, 31 Oct 2026 00:30:00 +0000</pubDate>
+<description>Datum eingeben und sofort sehen, bis wann die Nebenkostenabrechnung beim Mieter sein muss – mit Ampel und Einwendungsfrist. Ohne Anmeldung.</description>
+<enclosure url="https://vermieterordner.de/pins/pin-02.jpg" length="63878" type="image/jpeg"/>
+<media:content url="https://vermieterordner.de/pins/pin-02.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+</item>
 </channel>
 </rss>

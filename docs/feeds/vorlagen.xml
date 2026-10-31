@@ -6,5 +6,14 @@
 <atom:link href="https://vermieterordner.de/feeds/vorlagen.xml" rel="self" type="application/rss+xml"/>
 <description>Excel-Vorlagen für private Vermieter: Nebenkostenabrechnung und mehr.</description>
 <language>de-de</language>
+<item>
+<title>Nebenkostenabrechnung als Excel-Vorlage für private Vermieter</title>
+<link>https://vermieterordner.de/nebenkostenabrechnung.html</link>
+<guid isPermaLink="false">vermieterordner.de-pin-05</guid>
+<pubDate>Sat, 31 Oct 2026 00:30:00 +0000</pubDate>
+<description>Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen und das Abrechnungsschreiben automatisch erstellen. Für bis zu 12 Mietverhältnisse.</description>
+<enclosure url="https://vermieterordner.de/pins/pin-05.jpg" length="92807" type="image/jpeg"/>
+<media:content url="https://vermieterordner.de/pins/pin-05.jpg" medium="image" type="image/jpeg" width="1000" height="1500"/>
+</item>
 </channel>
 </rss>
