@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Vermieterordner – Excel-Vorlagen für Vermieter</title>
+<link>https://vermieterordner.de/</link>
+<atom:link href="https://vermieterordner.de/feeds/vorlagen.xml" rel="self" type="application/rss+xml"/>
+<description>Excel-Vorlagen für private Vermieter: Nebenkostenabrechnung und mehr.</description>
+<language>de-de</language>
+</channel>
+</rss>
