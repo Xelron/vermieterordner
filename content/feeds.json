@@ -223,5 +223,110 @@
    "value": "14,90 €",
    "label": "EINMALIG"
   }
+ },
+ {
+  "id": "pin-15",
+  "board": "Vermieten leicht gemacht",
+  "title": "Kaution zurückzahlen: Wie lange darf der Vermieter sie behalten?",
+  "description": "Eine feste Frist gibt es nicht – aber Schadensersatz wegen Schäden an der Wohnung verjährt 6 Monate nach Rückgabe. Was Vermieter bei der Kautionsabrechnung beachten müssen.",
+  "link": "kaution-zurueckzahlen.html#frist",
+  "image": "pins/pin-15.jpg",
+  "date": "2026-11-14T05:00:00",
+  "pin": {
+   "h1": "Wie lange dürfen Sie die Kaution behalten?",
+   "h2": "Keine feste Frist – aber Schadensersatz verjährt nach 6 Monaten",
+   "sub": "Für private Vermieter"
+  }
+ },
+ {
+  "id": "pin-16",
+  "board": "Vermieten leicht gemacht",
+  "title": "Kautionszinsen kostenlos berechnen – Kautionsrechner",
+  "description": "Zinsen auf die Mietkaution bis zur Rückzahlung berechnen, taggenau mit Zinseszins, auch bei Zahlung in drei Raten. Plus Prüfung des Höchstbetrags (3 Nettokaltmieten).",
+  "link": "kautionsrechner.html",
+  "image": "pins/pin-16.jpg",
+  "date": "2026-11-15T05:00:00",
+  "pin": {
+   "h1": "Kautions­zinsen berechnen",
+   "h2": "Taggenau mit Zinseszins",
+   "sub": "Kostenloser Rechner · ohne Anmeldung"
+  }
+ },
+ {
+  "id": "pin-17",
+  "board": "Vermieten leicht gemacht",
+  "title": "Das dürfen Vermieter von der Kaution abziehen",
+  "description": "Schäden über die normale Abnutzung, Mietrückstände, Betriebskosten-Nachzahlungen und ein Einbehalt für die ausstehende Abrechnung – und was nicht abgezogen werden darf.",
+  "link": "kaution-zurueckzahlen.html#abzuege",
+  "image": "pins/pin-17.jpg",
+  "date": "2026-11-16T05:00:00",
+  "pin": {
+   "h1": "Das dürfen Sie von der Kaution abziehen",
+   "h2": "Jede Forderung einzeln benennen",
+   "sub": "Kein Pauschalbetrag",
+   "style": "list",
+   "items": [
+    "Schäden (nicht Abnutzung)",
+    "Mietrückstände",
+    "Betriebskosten-Nachzahlung",
+    "Einbehalt für offene Abrechnung"
+   ]
+  }
+ },
+ {
+  "id": "pin-18",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Kaution einbehalten, bis die Nebenkostenabrechnung da ist?",
+  "description": "Ist eine Nachzahlung zu erwarten, dürfen Vermieter einen angemessenen Teil der Kaution bis zur Betriebskostenabrechnung zurückbehalten – aber nicht über die Abrechnungsfrist hinaus.",
+  "link": "kaution-zurueckzahlen.html#einbehalt",
+  "image": "pins/pin-18.jpg",
+  "date": "2026-11-17T05:00:00",
+  "pin": {
+   "h1": "Kaution einbehalten für die Nebenkosten?",
+   "h2": "Nur einen angemessenen Teil",
+   "sub": "Und nur bis zur Abrechnungsfrist"
+  }
+ },
+ {
+  "id": "pin-19",
+  "board": "Vermieten leicht gemacht",
+  "title": "Schaden in der Mietwohnung: Abzug „neu für alt“ berechnen",
+  "description": "Bei Schäden an alten Sachen zahlt der Mieter nur den Zeitwert: Neupreis × (1 − Alter ÷ Nutzungsdauer). Mit Rechenbeispiel und Nutzungsdauern von Teppich bis Badewanne.",
+  "link": "kaution-zurueckzahlen.html#zeitwert",
+  "image": "pins/pin-19.jpg",
+  "date": "2026-11-18T05:00:00",
+  "pin": {
+   "h1": "Schaden in der Wohnung: Was zahlt der Mieter?",
+   "h2": "Nur den Zeitwert – „neu für alt“",
+   "sub": "Mit Rechenbeispiel"
+  }
+ },
+ {
+  "id": "pin-20",
+  "board": "Vermieten leicht gemacht",
+  "title": "6 Monate: Dann verjährt Schadensersatz des Vermieters",
+  "description": "Ersatzansprüche wegen Schäden an der Wohnung verjähren 6 Monate nach Rückgabe. Was danach mit der Kaution noch geht – und was nicht.",
+  "link": "kaution-zurueckzahlen.html#verjaehrung",
+  "image": "pins/pin-20.jpg",
+  "date": "2026-11-19T05:00:00",
+  "pin": {
+   "h1": "Nach 6 Monaten verjährt!",
+   "h2": "Schadensersatz wegen Schäden an der Wohnung",
+   "sub": "Was mit der Kaution noch geht"
+  }
+ },
+ {
+  "id": "pin-21",
+  "board": "Vermieten leicht gemacht",
+  "title": "Wie hoch darf die Mietkaution sein?",
+  "description": "Höchstens drei Nettokaltmieten – und der Mieter darf in drei Monatsraten zahlen. Mit kostenlosem Kautionsrechner für Höchstbetrag und Zinsen.",
+  "link": "kautionsrechner.html",
+  "image": "pins/pin-21.jpg",
+  "date": "2026-11-20T05:00:00",
+  "pin": {
+   "h1": "Wie hoch darf die Kaution sein?",
+   "h2": "Höchstens 3 Nettokaltmieten",
+   "sub": "Zahlung in 3 Monatsraten erlaubt"
+  }
  }
 ]

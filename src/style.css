@@ -125,5 +125,6 @@ footer nav a{color:var(--muted)}
  .brand{font-size:19px}.brand .mark{width:30px;height:30px}[id]{scroll-margin-top:16px}
  .bwrap{padding-top:40px;padding-bottom:48px}
  .calc .row2{grid-template-columns:1fr}
+ .tbl{font-size:14px}.tbl th,.tbl td{padding:8px;hyphens:auto;-webkit-hyphens:auto}
 }
 @media (prefers-reduced-motion:reduce){.pcard{transition:none}.pcard:hover{transform:none}}

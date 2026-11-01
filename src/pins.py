@@ -60,7 +60,7 @@ def render(i, item):
         mid = f'<div class=box style="background:{t["box"]}">' + "".join(
             f'<div class=item style="color:{t["fg"]}"><b style="background:{t["acc"]};color:{t["bg"]}">✓</b>{e(x)}</div>' for x in pin.get("items", [])) + "</div>"
     else:
-        mid = f'<div style="border-top:10px solid {t["acc"]};padding-top:40px;font-size:40px;font-weight:700;color:{t["fg"]};display:inline-block;align-self:flex-start">Jetzt lesen →</div>'
+        mid = f'<div style="border-top:10px solid {t["acc"]};padding-top:40px;font-size:40px;font-weight:700;color:{t["fg"]};display:inline-block;align-self:flex-start">{pin.get("cta") or ("Jetzt berechnen →" if "rechner" in item.get("link", "") else "Jetzt lesen →")}</div>'
     h1 = pin.get("h1") or item["title"]
     big = len(h1) > 30 or max(len(w) for w in h1.split()) > 13
     return f"""<div class=p style="background:{t['bg']};color:{t['fg']}"><div>

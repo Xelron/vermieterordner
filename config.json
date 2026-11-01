@@ -4,8 +4,8 @@
     "name": "Vermieterordner",
     "domain": "vermieterordner.de",
     "claim": "Nebenkostenabrechnung & Co. – sauber gerechnet für private Vermieter",
-    "description": "Excel-Vorlage und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebskosten- und Heizkostenverordnung, Stand 2026.",
-    "footer_text": "Excel-Vorlage und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
+    "description": "Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebs- und Heizkostenverordnung, Kautionsabrechnung mit Zinsen. Stand 2026.",
+    "footer_text": "Excel-Vorlagen und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
     "lang": "de",
     "locale": "de_DE",
     "copyright_year": 2026
@@ -60,7 +60,8 @@
     "buy_label": "Jetzt kaufen",
     "soon_label": "Bald verfügbar",
     "note": "Digitales Produkt · Download-Link direkt nach dem Kauf · Einmalzahlung, kein Abo",
-    "payment_note": "Sichere Zahlung und Rechnung über Digistore24. Preis inkl. gesetzlicher MwSt., sofern anfallend."
+    "payment_note": "Sichere Zahlung und Rechnung über Digistore24. Preis inkl. gesetzlicher MwSt., sofern anfallend.",
+    "soon_note": "Erscheint in Kürze: Die Vorlage ist fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet."
   },
   "nav": [
     {
@@ -99,8 +100,8 @@
       "Rechtsstand 2026 mit Quellen"
     ],
     "hero_product": "nebenkostenabrechnung",
-    "products_title": "Die Vorlage",
-    "products_sub": "Für Häuser mit bis zu 12 Mietverhältnissen im Jahr.",
+    "products_title": "Die Vorlagen",
+    "products_sub": "Für private Vermieter von Wohnraum – je Vorlage eine Aufgabe, sauber gerechnet und mit fertigem Schreiben.",
     "why_title": "Warum Vermieterordner?",
     "why": [
       [
@@ -125,11 +126,11 @@
     ],
     [
       "Welche Programme brauche ich?",
-      "Microsoft Excel (Windows/Mac), LibreOffice Calc oder Google Sheets. In Google Sheets fehlen einige Farbmarkierungen, die Berechnungen stimmen trotzdem. Das Abrechnungsschreiben drucken Sie direkt oder speichern es als PDF."
+      "Microsoft Excel (Windows/Mac), LibreOffice Calc oder Google Sheets. In Google Sheets fehlen der Blattschutz und einige Farbmarkierungen, die Berechnungen stimmen trotzdem. Zum Drucken der Schreiben empfehlen wir Excel oder LibreOffice; Sie können sie auch als PDF speichern."
     ],
     [
-      "Für welche Häuser passt die Vorlage?",
-      "Für private Vermieter von Wohnraum mit einem Haus und bis zu 12 Mietverhältnissen im Abrechnungsjahr. Für vermietete Eigentumswohnungen mit WEG-Abrechnung und für Gewerbe ist sie nicht gebaut."
+      "Für wen sind die Vorlagen gebaut?",
+      "Für private Vermieter von Wohnraum in Deutschland. Für Gewerberaum sind sie nicht gebaut. Was jede Vorlage genau abdeckt, steht auf der jeweiligen Produktseite."
     ]
   ],
   "product_defaults": {
@@ -192,16 +193,82 @@
         [
           "Was ist, wenn ein Mieter mitten im Jahr auszieht?",
           "Sie legen zwei Zeilen für die Wohnung an, mit Aus- bzw. Einzugsdatum und den Verbrauchswerten bis bzw. ab der Zwischenablesung. Die Vorlage teilt tagesgenau, Leerstand trägt der Vermieter."
+        ],
+        [
+          "Für welche Häuser passt die Vorlage?",
+          "Für private Vermieter von Wohnraum mit einem Haus und bis zu 12 Mietverhältnissen im Abrechnungsjahr. Für vermietete Eigentumswohnungen mit WEG-Abrechnung und für Gewerbe ist sie nicht gebaut."
         ]
       ],
       "seo_title": "Nebenkostenabrechnung Vorlage (Excel) für Vermieter – 2026",
       "meta_description": "Nebenkostenabrechnung als Excel-Vorlage: Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen, Abrechnungsschreiben fertig. Für private Vermieter, 14,90 €."
+    },
+    {
+      "slug": "kautionsabrechnung",
+      "name": "Kautionsabrechnung",
+      "short": "Kaution mit Zinsen abrechnen, Schäden zum Zeitwert ansetzen – mit fertigem Schreiben an den Mieter.",
+      "price": 9.9,
+      "compare_price": null,
+      "checkout_url": null,
+      "image": "kautionsabrechnung-1.jpg",
+      "shots": [
+        "kautionsabrechnung-1.jpg",
+        "kautionsabrechnung-2.jpg",
+        "kautionsabrechnung-3.jpg"
+      ],
+      "eyebrow": "Excel-Vorlage · Stand 2026",
+      "h1": "Kautionsabrechnung für private Vermieter – als Excel-Vorlage",
+      "lead": "Kautionszahlungen, Zinsen und Ihre Forderungen eintragen – die Vorlage rechnet den Rest: Zinsen laut Kontoauszug oder taggenau berechnet, Schäden zum Zeitwert (Abzug „neu für alt“), Auszahlungsbetrag oder Restforderung. Dazu ein druckfertiges Abrechnungsschreiben an den Mieter und Prüfungen zu Höchstbetrag, Verjährung und Fristen.",
+      "format": "ZIP-Datei mit Excel-Vorlage (.xlsx) und PDF-Kurzanleitung, Sprache Deutsch.",
+      "content": "5 Arbeitsblätter: Start mit Ergebnis und 8 Prüfungen, Zinsen, Abzüge, Schreiben, Info (Zinssätze, Nutzungsdauern, Rechtsgrundlagen)",
+      "audience": "private Vermieter von Wohnraum – je Mietverhältnis eine Kopie der Datei",
+      "features": [
+        [
+          "Zinsen richtig berechnet",
+          "Zinsgutschriften je Jahr laut Kontoauszug übernehmen – oder taggenau mit jährlichem Zinseszins berechnen, etwa wenn die Kaution nicht verzinslich angelegt war. Mit Orientierungswerten der Bundesbank."
+        ],
+        [
+          "Schäden zum Zeitwert",
+          "Neupreis, Alter und Nutzungsdauer eintragen: Die Vorlage setzt nur den Zeitwert an (Abzug „neu für alt“). Orientierungswerte für Nutzungsdauern von Teppichboden bis Badewanne."
+        ],
+        [
+          "Jede Forderung einzeln",
+          "Schadensersatz, Mietrückstand, Betriebskosten-Nachzahlung, Einbehalt für eine noch ausstehende Betriebskostenabrechnung und Sonstiges – je Zeile mit Beschreibung und Nachweis. 15 Zeilen, im Schreiben bis zu 8 Forderungen und 2 Einbehalte."
+        ],
+        [
+          "Fristen und Verjährung",
+          "Für jede Schadensposition nennt die Vorlage das Verjährungsdatum (6 Monate ab Rückgabe, § 548 BGB) bzw. weist nach Ablauf darauf hin. Sie warnt bei verjährten Mietrückständen und Betriebskosten-Nachzahlungen und bei einem Einbehalt nach Ablauf der Abrechnungsfrist."
+        ],
+        [
+          "Abrechnungsschreiben",
+          "Eine Seite A4 mit Kaution, Zinsen, Forderungen, Einbehalt und Ergebnis. Passende Formulierungen für Barkaution, verpfändetes Sparbuch, Restforderung und fehlende Bankverbindung."
+        ],
+        [
+          "8 Prüfungen",
+          "Vollständige Daten, Art der Sicherheit, Höchstbetrag von 3 Nettokaltmieten, gezahlte gegen vereinbarte Kaution, Zinsen (auch bei nicht getrennter Anlage), Zeitpunkt der Abrechnung, Forderungen inklusive Restforderung mit verjährtem Schadensersatz, Beispieldaten ersetzt."
+        ]
+      ],
+      "faq": [
+        [
+          "Kann ich auch eine Mietbürgschaft oder Kautionsversicherung abrechnen?",
+          "Nein, diese Fälle rechnet die Vorlage nicht ab. Sie zeigt aber, was zu tun ist: ohne Forderungen die Bürgschaftsurkunde im Original zurückgeben (meist an den Bürgen) oder die Freigabe erklären, mit Forderungen den Bürgen schriftlich in Anspruch nehmen."
+        ],
+        [
+          "Was ist, wenn die Betriebskostenabrechnung noch aussteht?",
+          "Sie tragen einen Einbehalt in Höhe der zu erwartenden Nachzahlung ein, mit Begründung, etwa der Nachzahlung des Vorjahres. Das Schreiben weist ihn als vorläufig aus und nennt das Ende der Abrechnungsfrist, bis zu dem Sie darüber abrechnen."
+        ],
+        [
+          "Was, wenn die Kaution nicht für alle Forderungen reicht?",
+          "Dann weist die Vorlage die Restforderung aus und das Schreiben fordert den Betrag mit Zahlungsfrist an. Wichtig: Das Schreiben stoppt die Verjährung nicht. Schadensersatz, den die Kaution nicht deckt, müssen Sie vor Ablauf von 6 Monaten nach Rückgabe zum Beispiel per Mahnbescheid geltend machen – die Vorlage weist darauf hin."
+        ]
+      ],
+      "seo_title": "Kautionsabrechnung Vorlage (Excel) für Vermieter – 2026",
+      "meta_description": "Kautionsabrechnung als Excel-Vorlage: Zinsen, Abzüge und Zeitwert bei Schäden berechnen, Schreiben an den Mieter fertig. Für private Vermieter, 9,90 €."
     }
   ],
   "ratgeber": {
     "title": "Ratgeber",
     "h1": "Ratgeber für private Vermieter",
-    "lead": "Fristen, Kostenarten und Heizkosten verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
+    "lead": "Fristen, Kostenarten, Heizkosten und Kaution verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
     "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung."
   },
   "rechner": {
@@ -210,7 +277,7 @@
     "lead": "Schnelle Antworten direkt im Browser – nichts wird gespeichert oder übertragen.",
     "app_category": "UtilitiesApplication",
     "disclaimer": "Dieser Rechner gibt allgemeine Informationen und ersetzt keine individuelle Beratung.",
-    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist der Nebenkostenabrechnung und Heizkostenaufteilung – im Browser, ohne Anmeldung."
+    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist der Nebenkostenabrechnung, Heizkostenaufteilung und Kautionszinsen – im Browser, ohne Anmeldung."
   },
   "pinterest": {
     "domain_verify": "6619a1c3e96181cb258971813ee2eca4",
@@ -228,7 +295,7 @@
       {
         "slug": "vorlagen",
         "name": "Excel-Vorlagen für Vermieter",
-        "description": "Excel-Vorlagen für private Vermieter: Nebenkostenabrechnung und mehr."
+        "description": "Excel-Vorlagen für private Vermieter: Nebenkostenabrechnung, Kautionsabrechnung und mehr."
       }
     ]
   },
@@ -244,8 +311,26 @@
       "Wärmeschutzverordnung": "Wärmeschutz|verordnung",
       "Einwendungsfrist": "Einwendungs|frist",
       "Abrechnungszeitraum": "Abrechnungs|zeitraum",
-      "Vorauszahlungen": "Voraus|zahlungen"
+      "Vorauszahlungen": "Voraus|zahlungen",
+      "Kautionsabrechnung": "Kautions|abrechnung",
+      "Kautionsguthaben": "Kautions|guthaben",
+      "Betriebskostenabrechnung": "Betriebskosten|abrechnung",
+      "Schadensersatz": "Schadens|ersatz"
     }
   },
-  "indexnow_key": "1e99dcbf13c45d98dea360d288fd4c8f"
+  "indexnow_key": "1e99dcbf13c45d98dea360d288fd4c8f",
+  "nav_cta_pages": {
+    "kautionsabrechnung.html": {
+      "label": "Kautions-Vorlage",
+      "href": "kautionsabrechnung.html"
+    },
+    "kaution-zurueckzahlen.html": {
+      "label": "Kautions-Vorlage",
+      "href": "kautionsabrechnung.html"
+    },
+    "kautionsrechner.html": {
+      "label": "Kautions-Vorlage",
+      "href": "kautionsabrechnung.html"
+    }
+  }
 }

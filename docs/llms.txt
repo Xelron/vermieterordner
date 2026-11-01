@@ -1,7 +1,8 @@
 # Vermieterordner
-> Excel-Vorlage und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebskosten- und Heizkostenverordnung, Stand 2026. Betreiber: Felix Merklinger-Lötzsch.
+> Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebs- und Heizkostenverordnung, Kautionsabrechnung mit Zinsen. Stand 2026. Betreiber: Felix Merklinger-Lötzsch.
 
 ## Ratgeber
+- [Kaution zurückzahlen – Fristen, Abzüge und Zinsen für Vermieter](https://vermieterordner.de/kaution-zurueckzahlen.html): Rückzahlung der Mietkaution aus Vermietersicht – angemessene Prüfungsfrist ohne feste Höchstdauer (BGH VIII ZR 263/14, VIII ZR 141/17), Verjährung von Schadensersatz nach 6 Monaten ab Rückgabe (§ 548 BGB) und Aufrechnung gegen die Barkaution danach (BGH VIII ZR 184/23), verjährte Betriebskosten (BGH VIII ZR 263/14), Abzug neu für alt, Einbehalt für Betriebskosten (BGH VIII ZR 71/05), Zinsen (§ 551 Abs. 3 BGB).
 - [Abrechnungsfrist der Nebenkostenabrechnung – bis wann muss sie beim Mieter sein?](https://vermieterordner.de/abrechnungsfrist-nebenkosten.html): Abrechnungsfrist (§ 556 Abs. 3 S. 2–3 BGB, 12 Monate nach Ende des Abrechnungszeitraums, maßgeblich Zugang, Nachforderungsausschluss, Guthaben bleibt) und Einwendungsfrist des Mieters (12 Monate nach Zugang).
 - [Nebenkostenabrechnung erstellen – Schritt für Schritt mit Beispiel](https://vermieterordner.de/nebenkostenabrechnung-erstellen.html): Anleitung Nebenkostenabrechnung für private Vermieter in 7 Schritten mit Rechenbeispiel (Wohnfläche, Personentage, Wasserverbrauch, Heizkosten 70/30), Leerstand trägt der Vermieter, Mieterwechsel zeitanteilig mit Zwischenablesung (§ 9b HeizkostenV), formelle Mindestangaben.
 - [Umlagefähige Nebenkosten 2026 – die Liste nach Betriebskostenverordnung](https://vermieterordner.de/umlagefaehige-nebenkosten.html): Liste der umlagefähigen Betriebskosten nach § 2 BetrKV (Nr. 1–17) mit Beispielen und üblichem Umlageschlüssel; nicht umlagefähig nach § 1 Abs. 2 BetrKV (Verwaltung, Instandhaltung); Sonderfälle Kabel-TV (seit 1.7.2024 nicht umlagefähig), Rauchwarnmelder (Miete nein, Wartung als Nr. 17), Hauswart, Schornsteinfeger.
@@ -9,6 +10,8 @@
 ## Kostenlose Rechner
 - [Abrechnungsfrist-Rechner](https://vermieterordner.de/abrechnungsfrist-rechner.html): Rechner für die Abrechnungsfrist (12 Monate nach Ende des Abrechnungszeitraums, maßgeblich ist der Zugang beim Mieter) und die Einwendungsfrist des Mieters (bis Ende des 12. Monats nach Zugang), § 556 Abs. 3 BGB.
 - [Heizkosten-Rechner](https://vermieterordner.de/heizkosten-rechner.html): Rechner für die Heizkostenaufteilung nach § 7 HeizkostenV: Verbrauchsanteil 50–70 % nach erfasstem Verbrauch (Einheiten oder kWh), Rest nach Wohnfläche; optional zeitanteilig bei Mieterwechsel.
+- [Kautionsrechner](https://vermieterordner.de/kautionsrechner.html): Rechner für die Mietkaution: Höchstbetrag 3 Nettokaltmieten (§ 551 Abs. 1 BGB) und Zinsen bis zur Rückzahlung (§ 551 Abs. 3 BGB), je Kalenderjahr taggenau mit jährlichem Zinseszins, wahlweise in drei Monatsraten gezahlt.
 
 ## Produkte
 - [Nebenkostenabrechnung](https://vermieterordner.de/nebenkostenabrechnung.html): Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen – mit fertigem Abrechnungsschreiben. (14,90 €)
+- [Kautionsabrechnung](https://vermieterordner.de/kautionsabrechnung.html): Kaution mit Zinsen abrechnen, Schäden zum Zeitwert ansetzen – mit fertigem Schreiben an den Mieter. (9,90 €)

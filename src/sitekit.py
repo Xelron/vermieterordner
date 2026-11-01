@@ -222,7 +222,7 @@ def page(title, desc, body, path, head="", noindex=False):
     canon = abs_url(path)
     ogi = og_image()
     pv = CFG.get("pinterest", {}).get("domain_verify")
-    cta = CFG.get("nav_cta")
+    cta = CFG.get("nav_cta_pages", {}).get(path) or CFG.get("nav_cta")
     email = OP.get("email", "")
     mail_link = "" if is_placeholder(email) else f'<a href="mailto:{esc(email)}">{esc(email)}</a>'
     owner = "" if is_placeholder(OP.get("name")) else " · " + esc(OP.get("company") or OP["name"])
