@@ -765,5 +765,21 @@
     "Gezahlte Vorauszahlungen"
    ]
   }
+ },
+ {
+  "id": "pin-50",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Kautionsabrechnung Excel-Vorlage für private Vermieter",
+  "description": "Kautionszinsen, Forderungen und Einbehalt verrechnen – die Vorlage rechnet Auszahlung oder Restforderung aus und erstellt das Abrechnungsschreiben an den Mieter auf einer A4-Seite. Für Excel, LibreOffice und Google Sheets. 9,90 €.",
+  "link": "kautionsabrechnung.html#kaufen",
+  "image": "pins/pin-50.jpg",
+  "date": "2026-11-02T05:00:00",
+  "pin": {
+   "h1": "Kautions­abrechnung in Excel",
+   "h2": "Mit fertigem Schreiben an den Mieter",
+   "sub": "Zinsen, Abzüge, Einbehalt · 9,90 €",
+   "style": "img",
+   "img": "img/kautionsabrechnung-1.jpg"
+  }
  }
 ]
