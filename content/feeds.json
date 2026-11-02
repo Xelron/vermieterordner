@@ -34,7 +34,7 @@
   "description": "Grundsteuer, Wasser, Müll, Versicherung & Co.: Welche Nebenkosten Vermieter umlegen dürfen – und welche nie. Die komplette Liste mit Beispielen.",
   "link": "umlagefaehige-nebenkosten.html#liste",
   "image": "pins/pin-03.jpg",
-  "date": "2026-11-02T05:00:00",
+  "date": "2026-11-02T04:00:00",
   "pin": {
    "h1": "Diese 17 Nebenkosten dürfen Sie umlegen",
    "h2": "Wenn im Mietvertrag vereinbart",
@@ -56,7 +56,7 @@
   "description": "In 7 Schritten zur fertigen Nebenkostenabrechnung: Belege, Umlageschlüssel, Leerstand, Heizkosten und das Abrechnungsschreiben – mit Rechenbeispiel.",
   "link": "nebenkostenabrechnung-erstellen.html",
   "image": "pins/pin-04.jpg",
-  "date": "2026-11-03T05:00:00",
+  "date": "2026-11-03T04:00:00",
   "pin": {
    "h1": "Nebenkosten­abrechnung in 7 Schritten",
    "h2": "Mit Rechenbeispiel",
@@ -87,7 +87,7 @@
   "description": "Verwaltung, Reparaturen, Rücklagen, Bankgebühren: Diese Kosten gehören nicht in die Nebenkostenabrechnung. Plus: Kabel-TV seit 1.7.2024.",
   "link": "umlagefaehige-nebenkosten.html#nicht-umlagefaehig",
   "image": "pins/pin-06.jpg",
-  "date": "2026-11-05T05:00:00",
+  "date": "2026-11-05T04:00:00",
   "pin": {
    "h1": "Nicht umlagefähig!",
    "h2": "Diese Kosten tragen Sie selbst",
@@ -109,7 +109,7 @@
   "description": "Heizkostenanteil einer Wohnung nach Heizkostenverordnung berechnen: Grundkosten nach Fläche, Verbrauchskosten nach Zählerwerten.",
   "link": "heizkosten-rechner.html",
   "image": "pins/pin-07.jpg",
-  "date": "2026-11-06T05:00:00",
+  "date": "2026-11-06T04:00:00",
   "pin": {
    "h1": "Heizkosten 70/30 richtig aufteilen",
    "h2": "Kostenloser Rechner",
@@ -123,7 +123,7 @@
   "description": "Nach Ablauf der Frist sind Nachzahlungen meist ausgeschlossen – ein Guthaben muss der Vermieter trotzdem auszahlen. Was Vermieter wissen müssen.",
   "link": "abrechnungsfrist-nebenkosten.html#verspaetung",
   "image": "pins/pin-08.jpg",
-  "date": "2026-11-07T05:00:00",
+  "date": "2026-11-07T04:00:00",
   "pin": {
    "h1": "Abrechnung zu spät?",
    "h2": "Nachzahlung weg – Guthaben bleibt",
@@ -137,7 +137,7 @@
   "description": "Leerstand trägt der Vermieter, beim Mieterwechsel wird tagesgenau geteilt – mit Zwischenablesung. So rechnen Sie richtig.",
   "link": "nebenkostenabrechnung-erstellen.html#leerstand",
   "image": "pins/pin-09.jpg",
-  "date": "2026-11-08T05:00:00",
+  "date": "2026-11-08T04:00:00",
   "pin": {
    "h1": "Leerstand & Mieterwechsel",
    "h2": "So verteilen Sie richtig",
@@ -151,7 +151,7 @@
   "description": "Die Miete von Rauchwarnmeldern ist nicht umlagefähig (BGH), die Wartung schon – wenn sie im Mietvertrag steht.",
   "link": "umlagefaehige-nebenkosten.html#sonderfaelle",
   "image": "pins/pin-10.jpg",
-  "date": "2026-11-09T05:00:00",
+  "date": "2026-11-09T04:00:00",
   "pin": {
    "h1": "Rauchmelder: Miete oder Wartung?",
    "h2": "Nur eins ist umlagefähig",
@@ -165,7 +165,7 @@
   "description": "Die Vorlage trennt Warmwasser über den Wärmezähler, verteilt 50–70 % nach Verbrauch und teilt die CO2-Kosten nach dem Stufenmodell auf.",
   "link": "nebenkostenabrechnung.html",
   "image": "pins/pin-11.jpg",
-  "date": "2026-11-10T05:00:00",
+  "date": "2026-11-10T04:00:00",
   "pin": {
    "h1": "Heizung, Warmwasser, CO2",
    "h2": "Automatisch je Mieter",
@@ -179,7 +179,7 @@
   "description": "Gesamtkosten, Umlageschlüssel, Anteil des Mieters, Vorauszahlungen: Fehlt eine Angabe, ist die Abrechnung formell unwirksam.",
   "link": "abrechnungsfrist-nebenkosten.html#verspaetung",
   "image": "pins/pin-12.jpg",
-  "date": "2026-11-11T05:00:00",
+  "date": "2026-11-11T04:00:00",
   "pin": {
    "h1": "4 Pflichtangaben",
    "h2": "Sonst ist die Abrechnung unwirksam",
@@ -200,7 +200,7 @@
   "description": "12 Monate nach Zugang der Abrechnung kann der Mieter Einwendungen erheben – danach ist er ausgeschlossen. Beispiel und Rechner.",
   "link": "abrechnungsfrist-nebenkosten.html#einwendungsfrist",
   "image": "pins/pin-13.jpg",
-  "date": "2026-11-12T05:00:00",
+  "date": "2026-11-12T04:00:00",
   "pin": {
    "h1": "Wie lange darf der Mieter widersprechen?",
    "h2": "12 Monate nach Zugang",
@@ -214,7 +214,7 @@
   "description": "Eine Seite je Mieter mit Gesamtkosten, Schlüssel, Anteil, Vorauszahlungen, CO2-Angaben und § 35a-Beträgen.",
   "link": "nebenkostenabrechnung.html",
   "image": "pins/pin-14.jpg",
-  "date": "2026-11-13T05:00:00",
+  "date": "2026-11-13T04:00:00",
   "pin": {
    "h1": "Das Schreiben macht die Vorlage",
    "h2": "Eine Seite je Mieter",
@@ -231,7 +231,7 @@
   "description": "Eine feste Frist gibt es nicht – aber Schadensersatz wegen Schäden an der Wohnung verjährt 6 Monate nach Rückgabe. Was Vermieter bei der Kautionsabrechnung beachten müssen.",
   "link": "kaution-zurueckzahlen.html#frist",
   "image": "pins/pin-15.jpg",
-  "date": "2026-11-14T05:00:00",
+  "date": "2026-11-14T04:00:00",
   "pin": {
    "h1": "Wie lange dürfen Sie die Kaution behalten?",
    "h2": "Keine feste Frist – aber Schadensersatz verjährt nach 6 Monaten",
@@ -245,7 +245,7 @@
   "description": "Zinsen auf die Mietkaution bis zur Rückzahlung berechnen, taggenau mit Zinseszins, auch bei Zahlung in drei Raten. Plus Prüfung des Höchstbetrags (3 Nettokaltmieten).",
   "link": "kautionsrechner.html",
   "image": "pins/pin-16.jpg",
-  "date": "2026-11-15T05:00:00",
+  "date": "2026-11-15T04:00:00",
   "pin": {
    "h1": "Kautions­zinsen berechnen",
    "h2": "Taggenau mit Zinseszins",
@@ -259,7 +259,7 @@
   "description": "Schäden über die normale Abnutzung, Mietrückstände, Betriebskosten-Nachzahlungen und ein Einbehalt für die ausstehende Abrechnung – und was nicht abgezogen werden darf.",
   "link": "kaution-zurueckzahlen.html#abzuege",
   "image": "pins/pin-17.jpg",
-  "date": "2026-11-16T05:00:00",
+  "date": "2026-11-16T04:00:00",
   "pin": {
    "h1": "Das dürfen Sie von der Kaution abziehen",
    "h2": "Jede Forderung einzeln benennen",
@@ -280,7 +280,7 @@
   "description": "Ist eine Nachzahlung zu erwarten, dürfen Vermieter einen angemessenen Teil der Kaution bis zur Betriebskostenabrechnung zurückbehalten – aber nicht über die Abrechnungsfrist hinaus.",
   "link": "kaution-zurueckzahlen.html#einbehalt",
   "image": "pins/pin-18.jpg",
-  "date": "2026-11-17T05:00:00",
+  "date": "2026-11-17T04:00:00",
   "pin": {
    "h1": "Kaution einbehalten für die Nebenkosten?",
    "h2": "Nur einen angemessenen Teil",
@@ -294,7 +294,7 @@
   "description": "Bei Schäden an alten Sachen zahlt der Mieter nur den Zeitwert: Neupreis × (1 − Alter ÷ Nutzungsdauer). Mit Rechenbeispiel und Nutzungsdauern von Teppich bis Badewanne.",
   "link": "kaution-zurueckzahlen.html#zeitwert",
   "image": "pins/pin-19.jpg",
-  "date": "2026-11-18T05:00:00",
+  "date": "2026-11-18T04:00:00",
   "pin": {
    "h1": "Schaden in der Wohnung: Was zahlt der Mieter?",
    "h2": "Nur den Zeitwert – „neu für alt“",
@@ -308,7 +308,7 @@
   "description": "Ersatzansprüche wegen Schäden an der Wohnung verjähren 6 Monate nach Rückgabe. Was danach mit der Kaution noch geht – und was nicht.",
   "link": "kaution-zurueckzahlen.html#verjaehrung",
   "image": "pins/pin-20.jpg",
-  "date": "2026-11-19T05:00:00",
+  "date": "2026-11-19T04:00:00",
   "pin": {
    "h1": "Nach 6 Monaten verjährt!",
    "h2": "Schadensersatz wegen Schäden an der Wohnung",
@@ -322,7 +322,7 @@
   "description": "Höchstens drei Nettokaltmieten – und der Mieter darf in drei Monatsraten zahlen. Mit kostenlosem Kautionsrechner für Höchstbetrag und Zinsen.",
   "link": "kautionsrechner.html",
   "image": "pins/pin-21.jpg",
-  "date": "2026-11-20T05:00:00",
+  "date": "2026-11-20T04:00:00",
   "pin": {
    "h1": "Wie hoch darf die Kaution sein?",
    "h2": "Höchstens 3 Nettokaltmieten",
@@ -336,7 +336,7 @@
   "description": "Für das Kalenderjahr 2025 muss die Nebenkostenabrechnung bis zum 31.12.2026 beim Mieter sein. Planen Sie zwei Wochen Puffer ein – kommt sie später, ist eine Nachzahlung in der Regel verloren.",
   "link": "abrechnungsfrist-nebenkosten.html#abrechnungsfrist",
   "image": "pins/pin-22.jpg",
-  "date": "2026-11-02T05:00:00",
+  "date": "2026-11-02T04:00:00",
   "pin": {
    "h1": "Abrechnung für 2025?",
    "h2": "Muss bis 31.12.2026 beim Mieter sein",
@@ -350,7 +350,7 @@
   "description": "Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen und das Abrechnungsschreiben druckfertig erstellen – für bis zu 12 Mietverhältnisse im Jahr. Für Excel, LibreOffice und Google Sheets.",
   "link": "nebenkostenabrechnung.html#kaufen",
   "image": "pins/pin-23.jpg",
-  "date": "2026-11-02T05:00:00",
+  "date": "2026-11-02T04:00:00",
   "pin": {
    "h1": "Nebenkosten­abrechnung in Excel",
    "h2": "Für bis zu 12 Mietverhältnisse",
@@ -366,7 +366,7 @@
   "description": "Die Frist ist nur gewahrt, wenn die Abrechnung beim Mieter ankommt – das Risiko tragen Sie. Drei Wege, mit denen Sie den Zugang beweisen können, und warum Sie zwei Wochen Puffer einplanen sollten.",
   "link": "abrechnungsfrist-nebenkosten.html#zugang",
   "image": "pins/pin-24.jpg",
-  "date": "2026-11-03T05:00:00",
+  "date": "2026-11-03T04:00:00",
   "pin": {
    "h1": "Zugang beweisen",
    "h2": "So kommt die Abrechnung sicher an",
@@ -385,7 +385,7 @@
   "description": "Kabel-TV-Gebühren dürfen seit dem 1.7.2024 nicht mehr über die Nebenkosten umgelegt werden. Was unter Bedingungen weiter zulässig ist (Gemeinschaftsantenne, Glasfaser-Bereitstellungsentgelt) – in der Liste der umlagefähigen Nebenkosten.",
   "link": "umlagefaehige-nebenkosten.html#sonderfaelle",
   "image": "pins/pin-25.jpg",
-  "date": "2026-11-03T05:00:00",
+  "date": "2026-11-03T04:00:00",
   "pin": {
    "h1": "Kabel-TV umlegen?",
    "h2": "Seit 1.7.2024 nicht mehr erlaubt",
@@ -399,7 +399,7 @@
   "description": "Abgezogen werden die tatsächlich gezahlten Vorauszahlungen, nicht die vereinbarten. Ein positives Ergebnis ist eine Nachzahlung, ein negatives ein Guthaben – Schritt für Schritt in der Anleitung.",
   "link": "nebenkostenabrechnung-erstellen.html#vorauszahlungen",
   "image": "pins/pin-26.jpg",
-  "date": "2026-11-04T05:00:00",
+  "date": "2026-11-04T04:00:00",
   "pin": {
    "h1": "Vorauszahlungen abziehen",
    "h2": "Die gezahlten – nicht die vereinbarten",
@@ -413,7 +413,7 @@
   "description": "4.000 € Heizkosten, 70 % nach Verbrauch, 30 % nach Fläche: Wer 4.120 von 9.860 Einheiten verbraucht und 85 von 230 m² bewohnt, zahlt 1.169,98 € + 443,48 € = 1.613,46 €. Ihren Fall rechnet der kostenlose Heizkosten-Rechner.",
   "link": "heizkosten-rechner.html",
   "image": "pins/pin-27.jpg",
-  "date": "2026-11-04T05:00:00",
+  "date": "2026-11-04T04:00:00",
   "pin": {
    "h1": "Heizkosten 70/30: Rechenbeispiel",
    "h2": "4.000 € Heizkosten im Haus",
@@ -432,7 +432,7 @@
   "description": "Ihre Mieter können für Treppenhausreinigung, Gartenpflege oder Wartung eine Steuerermäßigung nutzen – begünstigt sind nur die Arbeitskosten. Weisen Sie die Anteile getrennt nach haushaltsnahen Dienstleistungen und Handwerkerleistungen aus, entfällt eine extra Bescheinigung.",
   "link": "umlagefaehige-nebenkosten.html#35a",
   "image": "pins/pin-28.jpg",
-  "date": "2026-11-05T05:00:00",
+  "date": "2026-11-05T04:00:00",
   "pin": {
    "h1": "§ 35a für Ihre Mieter",
    "h2": "Arbeitskosten getrennt ausweisen",
@@ -446,7 +446,7 @@
   "description": "Verteilung nach Wohnfläche, Personen, Wohneinheiten oder Verbrauch, tagesgenau bei Mieterwechsel, Heizung nach Heizkostenverordnung und eine Prüfung der Abrechnungsfrist – in der Excel-Vorlage Nebenkostenabrechnung.",
   "link": "nebenkostenabrechnung.html",
   "image": "pins/pin-29.jpg",
-  "date": "2026-11-05T05:00:00",
+  "date": "2026-11-05T04:00:00",
   "pin": {
    "h1": "Nebenkosten in Excel abrechnen",
    "h2": "Die Vorlage für private Vermieter",
@@ -466,7 +466,7 @@
   "description": "Müllgebühren nach Personen verteilen? Rechnen Sie mit Personentagen (Personen × bewohnte Tage) – so bleiben Mieterwechsel und Leerstand fair. Beispiel: 1.095 von 3.073 Personentagen.",
   "link": "nebenkostenabrechnung-erstellen.html#schluessel",
   "image": "pins/pin-30.jpg",
-  "date": "2026-11-06T05:00:00",
+  "date": "2026-11-06T04:00:00",
   "pin": {
    "h1": "Schlüssel nach Personen?",
    "h2": "Mit Personentagen rechnen",
@@ -480,7 +480,7 @@
   "description": "Eine gesetzliche Zahlungsfrist für die Nachzahlung gibt es nicht. Üblich und angemessen sind etwa 30 Tage nach Zugang, damit der Mieter die Abrechnung prüfen kann.",
   "link": "abrechnungsfrist-nebenkosten.html#zahlungsfrist",
   "image": "pins/pin-31.jpg",
-  "date": "2026-11-06T05:00:00",
+  "date": "2026-11-06T04:00:00",
   "pin": {
    "h1": "Nachzahlung: bis wann?",
    "h2": "Üblich: etwa 30 Tage nach Zugang",
@@ -494,7 +494,7 @@
   "description": "Umlagefähig sind nur die 17 Kostenarten aus § 2 der Betriebskostenverordnung – und nur, wenn der Mietvertrag ihre Umlage vorsieht. Verwaltung, Reparaturen und Rücklagen sind nie umlagefähig.",
   "link": "umlagefaehige-nebenkosten.html#grundregel",
   "image": "pins/pin-32.jpg",
-  "date": "2026-11-07T05:00:00",
+  "date": "2026-11-07T04:00:00",
   "pin": {
    "h1": "Was ist umlagefähig?",
    "h2": "Verordnung + Mietvertrag",
@@ -508,7 +508,7 @@
   "description": "Ende des Abrechnungszeitraums eingeben – der kostenlose Rechner zeigt, bis wann die Nebenkostenabrechnung beim Mieter sein muss und wie viele Tage noch bleiben. Ohne Anmeldung, nichts wird gespeichert.",
   "link": "abrechnungsfrist-rechner.html",
   "image": "pins/pin-33.jpg",
-  "date": "2026-11-07T05:00:00",
+  "date": "2026-11-07T04:00:00",
   "pin": {
    "h1": "Wie viele Tage bleiben noch?",
    "h2": "Abrechnungsfrist sofort berechnen",
@@ -522,7 +522,7 @@
   "description": "Bei zentraler Heizung gilt die Heizkostenverordnung – sie hat Vorrang vor dem Mietvertrag. 50 bis 70 % der Kosten werden nach Verbrauch verteilt, der Rest nach Wohnfläche. Wann 70 % Pflicht sind, steht in der Anleitung.",
   "link": "nebenkostenabrechnung-erstellen.html#heizkosten",
   "image": "pins/pin-34.jpg",
-  "date": "2026-11-08T05:00:00",
+  "date": "2026-11-08T04:00:00",
   "pin": {
    "h1": "Heizkosten verteilen",
    "h2": "50–70 % nach Verbrauch",
@@ -536,7 +536,7 @@
   "description": "Die Excel-Vorlage prüft Abrechnungsfrist, Kontrollsumme, fehlende Verbrauchswerte, verdächtige Kosten wie Verwaltung oder Kabel-TV und Überschneidungen beim Mieterwechsel.",
   "link": "nebenkostenabrechnung.html",
   "image": "pins/pin-35.jpg",
-  "date": "2026-11-08T05:00:00",
+  "date": "2026-11-08T04:00:00",
   "pin": {
    "h1": "Fehler finden – vor dem Versand",
    "h2": "Die Vorlage prüft mit",
@@ -556,7 +556,7 @@
   "description": "Ja: Eigenleistungen dürfen Sie mit dem Betrag ansetzen, den eine Fachfirma verlangen würde – ohne Umsatzsteuer (§ 1 Abs. 1 S. 2 BetrKV). Ein Vergleichsangebot als Beleg ist sinnvoll.",
   "link": "umlagefaehige-nebenkosten.html#faq",
   "image": "pins/pin-36.jpg",
-  "date": "2026-11-09T05:00:00",
+  "date": "2026-11-09T04:00:00",
   "pin": {
    "h1": "Garten selbst gepflegt?",
    "h2": "Eigenleistung darf in die Abrechnung",
@@ -570,7 +570,7 @@
   "description": "Belege laufend sammeln, im ersten Quartal abrechnen, die vier Mindestangaben prüfen und den Zugang dokumentieren – so halten Sie die Abrechnungsfrist sicher ein.",
   "link": "abrechnungsfrist-nebenkosten.html#checkliste",
   "image": "pins/pin-37.jpg",
-  "date": "2026-11-09T05:00:00",
+  "date": "2026-11-09T04:00:00",
   "pin": {
    "h1": "Checkliste Nebenkosten­abrechnung",
    "h2": "So halten Sie die Frist",
@@ -590,7 +590,7 @@
   "description": "Die Gebühr für die Zwischenablesung ist keine Betriebskostenart. Sie kann nur dem ausziehenden Mieter berechnet werden – und nur, wenn das vereinbart ist.",
   "link": "umlagefaehige-nebenkosten.html#faq",
   "image": "pins/pin-38.jpg",
-  "date": "2026-11-10T05:00:00",
+  "date": "2026-11-10T04:00:00",
   "pin": {
    "h1": "Zwischenablesung: Wer zahlt?",
    "h2": "Keine Betriebskostenart",
@@ -604,7 +604,7 @@
   "description": "Die Geldkaution ist getrennt und verzinslich anzulegen. Die Zinsen stehen dem Mieter zu und erhöhen die Kaution (§ 551 Abs. 3 BGB) – bei der Rückzahlung gehören sie dazu.",
   "link": "kaution-zurueckzahlen.html#zinsen",
   "image": "pins/pin-39.jpg",
-  "date": "2026-11-10T05:00:00",
+  "date": "2026-11-10T04:00:00",
   "pin": {
    "h1": "Kautionszinsen",
    "h2": "Gehören dem Mieter",
@@ -618,7 +618,7 @@
   "description": "Zieht ein Mieter aus, ist für Heizung und Warmwasser eine Zwischenablesung Pflicht (§ 9b Abs. 1 HeizkostenV). Die übrigen Kosten teilen Sie tagesgenau auf – mit Beispiel in der Anleitung.",
   "link": "nebenkostenabrechnung-erstellen.html#leerstand",
   "image": "pins/pin-40.jpg",
-  "date": "2026-11-11T05:00:00",
+  "date": "2026-11-11T04:00:00",
   "pin": {
    "h1": "Mieter zieht aus?",
    "h2": "Zwischenablesung ist Pflicht",
@@ -632,7 +632,7 @@
   "description": "Excel-Vorlage mit Kurzanleitung: alle 17 Kostenarten, Heizung nach HeizkostenV, CO2-Aufteilung und ein druckfertiges Schreiben je Mieter. Für Excel, LibreOffice und Google Sheets.",
   "link": "nebenkostenabrechnung.html#kaufen",
   "image": "pins/pin-41.jpg",
-  "date": "2026-11-11T05:00:00",
+  "date": "2026-11-11T04:00:00",
   "pin": {
    "h1": "Nebenkosten­abrechnung Vorlage 2026",
    "h2": "Excel, LibreOffice, Google Sheets",
@@ -648,7 +648,7 @@
   "description": "Veränderungen durch vertragsgemäßen Gebrauch hat der Mieter nicht zu vertreten (§ 538 BGB) – etwa Laufspuren im Teppich, verblasste Tapeten oder Dübellöcher in üblichem Umfang. Was Sie von der Kaution abziehen dürfen.",
   "link": "kaution-zurueckzahlen.html#abzuege",
   "image": "pins/pin-42.jpg",
-  "date": "2026-11-12T05:00:00",
+  "date": "2026-11-12T04:00:00",
   "pin": {
    "h1": "Normale Abnutzung",
    "h2": "Zahlt der Mieter nicht",
@@ -662,7 +662,7 @@
   "description": "Beim Hauswart ist nur der Anteil für laufende Aufgaben wie Reinigung, Winterdienst und Kontrollgänge umlagefähig. Reparatur- und Verwaltungsanteile ziehen Sie ab.",
   "link": "umlagefaehige-nebenkosten.html#sonderfaelle",
   "image": "pins/pin-43.jpg",
-  "date": "2026-11-12T05:00:00",
+  "date": "2026-11-12T04:00:00",
   "pin": {
    "h1": "Hausmeister umlegen?",
    "h2": "Nur laufende Aufgaben",
@@ -676,7 +676,7 @@
   "description": "Auch bei einem Abrechnungszeitraum, der nicht dem Kalenderjahr entspricht, gilt: 12 Monate nach Ende des Zeitraums. Für 01.07.2025–30.06.2026 muss die Abrechnung bis zum 30.06.2027 zugehen.",
   "link": "abrechnungsfrist-nebenkosten.html#abrechnungsfrist",
   "image": "pins/pin-44.jpg",
-  "date": "2026-11-13T05:00:00",
+  "date": "2026-11-13T04:00:00",
   "pin": {
    "h1": "Zeitraum Juli bis Juni?",
    "h2": "Frist: 12 Monate nach Ende",
@@ -690,7 +690,7 @@
   "description": "Für Schäden zahlt der Mieter nur den Zeitwert. Orientierung für die Nutzungsdauer: Teppichboden 8–10, Laminat 10–15, Anstrich 5–8, Einbauküche 10–15 Jahre.",
   "link": "kaution-zurueckzahlen.html#zeitwert",
   "image": "pins/pin-45.jpg",
-  "date": "2026-11-13T05:00:00",
+  "date": "2026-11-13T04:00:00",
   "pin": {
    "h1": "Wie lange hält was?",
    "h2": "Nutzungsdauer (Orientierung)",
@@ -710,7 +710,7 @@
   "description": "Umlagefähig ist nur der Teil für laufende Wartung, Prüfung und Pflege – den Reparaturanteil rechnen Sie heraus. Lassen Sie ihn im Zweifel auf der Rechnung getrennt ausweisen.",
   "link": "umlagefaehige-nebenkosten.html#faq",
   "image": "pins/pin-46.jpg",
-  "date": "2026-11-14T05:00:00",
+  "date": "2026-11-14T04:00:00",
   "pin": {
    "h1": "Wartung oder Reparatur?",
    "h2": "Nur die Wartung ist umlagefähig",
@@ -724,7 +724,7 @@
   "description": "Die Excel-Vorlage Nebenkostenabrechnung teilt die CO2-Kosten nach dem Stufenmodell des CO2-Kostenaufteilungsgesetzes auf und weist die Angaben im Schreiben an den Mieter aus.",
   "link": "nebenkostenabrechnung.html",
   "image": "pins/pin-47.jpg",
-  "date": "2026-11-14T05:00:00",
+  "date": "2026-11-14T04:00:00",
   "pin": {
    "h1": "CO2-Kosten aufteilen",
    "h2": "Stufenmodell automatisch",
@@ -739,7 +739,7 @@
   "description": "50 bis 70 % der Heizkosten werden nach Verbrauch verteilt – in bestimmten Altbauten mit Öl- oder Gasheizung sind 70 % Pflicht. Der kostenlose Heizkosten-Rechner teilt nach Verbrauch und Fläche auf, auch zeitanteilig bei Mieterwechsel.",
   "link": "heizkosten-rechner.html",
   "image": "pins/pin-48.jpg",
-  "date": "2026-11-15T05:00:00",
+  "date": "2026-11-15T04:00:00",
   "pin": {
    "h1": "50/50, 60/40 oder 70/30?",
    "h2": "Heizkosten richtig aufteilen",
@@ -753,7 +753,7 @@
   "description": "Zum ersten Mal abrechnen? Legen Sie Mietvertrag, alle Rechnungen des Zeitraums, Zählerstände und die gezahlten Vorauszahlungen bereit – dann führt die Anleitung Schritt für Schritt durch Zeitraum, Belege und Umlageschlüssel.",
   "link": "nebenkostenabrechnung-erstellen.html#belege",
   "image": "pins/pin-49.jpg",
-  "date": "2026-11-15T05:00:00",
+  "date": "2026-11-15T04:00:00",
   "pin": {
    "h1": "Erste Abrechnung?",
    "h2": "Das brauchen Sie vorher",
@@ -773,7 +773,7 @@
   "description": "Kautionszinsen, Forderungen und Einbehalt verrechnen – die Vorlage rechnet Auszahlung oder Restforderung aus und erstellt das Abrechnungsschreiben an den Mieter auf einer A4-Seite. Für Excel, LibreOffice und Google Sheets. 9,90 €.",
   "link": "kautionsabrechnung.html#kaufen",
   "image": "pins/pin-50.jpg",
-  "date": "2026-11-02T05:00:00",
+  "date": "2026-11-02T04:00:00",
   "pin": {
    "h1": "Kautions­abrechnung in Excel",
    "h2": "Mit fertigem Schreiben an den Mieter",
