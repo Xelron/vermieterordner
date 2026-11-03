@@ -96,7 +96,7 @@
     },
     "facts": [
       "Einmal kaufen, kein Abo",
-      "Excel, Google Sheets, LibreOffice",
+      "Für Excel und LibreOffice",
       "Rechtsstand 2026 mit Quellen"
     ],
     "hero_product": "nebenkostenabrechnung",
@@ -126,7 +126,7 @@
     ],
     [
       "Welche Programme brauche ich?",
-      "Microsoft Excel (Windows/Mac), LibreOffice Calc oder Google Sheets. In Google Sheets fehlen der Blattschutz und einige Farbmarkierungen, die Berechnungen stimmen trotzdem. Zum Drucken der Schreiben empfehlen wir Excel oder LibreOffice; Sie können sie auch als PDF speichern."
+      "Die Nebenkosten- und die Kautionsabrechnung laufen in Microsoft Excel (Windows/Mac), LibreOffice Calc und Google Sheets – in Google Sheets fehlen der Blattschutz und einige Farbmarkierungen, die Berechnungen stimmen trotzdem. Welche Programme für jede Vorlage gelten, steht auf der jeweiligen Produktseite. Zum Drucken empfehlen wir Excel oder LibreOffice; Sie können auch als PDF speichern."
     ],
     [
       "Für wen sind die Vorlagen gebaut?",
@@ -263,6 +263,68 @@
       ],
       "seo_title": "Kautionsabrechnung Vorlage (Excel) für Vermieter – 2026",
       "meta_description": "Kautionsabrechnung als Excel-Vorlage: Zinsen, Abzüge und Zeitwert bei Schäden berechnen, Schreiben an den Mieter fertig. Für private Vermieter, 9,90 €."
+    },
+    {
+      "slug": "wohnungsuebergabeprotokoll",
+      "name": "Wohnungsübergabeprotokoll",
+      "short": "Einzug und Auszug Raum für Raum protokollieren – mit Mängelliste, Zählern, Schlüsseln und Unterschriftsfeldern.",
+      "price": 9.9,
+      "compare_price": null,
+      "checkout_url": null,
+      "image": "uebergabeprotokoll-1.jpg",
+      "shots": [
+        "uebergabeprotokoll-1.jpg",
+        "uebergabeprotokoll-2.jpg",
+        "uebergabeprotokoll-3.jpg"
+      ],
+      "eyebrow": "Excel-Vorlage · Stand 2026",
+      "h1": "Wohnungs­übergabe­protokoll für private Vermieter – als Excel-Vorlage",
+      "lead": "Eine Datei für Einzug und Auszug: Zustand Raum für Raum erfassen, Zählerstände und Schlüssel eintragen, Protokoll drucken und unterschreiben lassen. Beim Auszug zeigt die Vorlage automatisch, was seit dem Einzug neu ist – dazu eine Mängelliste und die Wohnungsgeberbestätigung für den Einzug.",
+      "format": "ZIP-Datei mit leerer Excel-Vorlage, ausgefülltem Beispiel (.xlsx) und PDF-Kurzanleitung, Sprache Deutsch.",
+      "content": "7 Arbeitsblätter: Start mit Übersicht und 8 Prüfungen, Räume (90 Positionen), Zähler, Schlüssel, Protokoll (2 Seiten A4), Wohnungsgeberbestätigung, Info mit Checkliste",
+      "audience": "private Vermieter von Wohnraum – je Übergabe eine Kopie der leeren Vorlage",
+      "features": [
+        [
+          "Raum für Raum",
+          "90 Positionen in 11 Bereichen plus 8 freie Zeilen – je Position Zustand, Beschreibung und Foto-Nr., getrennt für Einzug und Auszug. Positionen lassen sich umbenennen oder als „entfällt“ markieren."
+        ],
+        [
+          "Vergleich mit dem Einzug",
+          "Beim Auszug zeigt die Spalte „Vergleich“, was neu seit dem Einzug ist, was schon bei Einzug vorhanden war und wo nur Gebrauchsspuren hinzugekommen sind."
+        ],
+        [
+          "Zähler und Schlüssel",
+          "Zählerstände mit Zählernummer (14 Zeilen) und die übergebenen Schlüssel mit Art und Anzahl (11 Zeilen)."
+        ],
+        [
+          "Protokoll zum Unterschreiben",
+          "Zwei Seiten A4 mit Angaben, Ergebnis, Mängelliste, Zählern, Schlüsseln, Vereinbarungen und Unterschriftsfeldern – die Räume-Liste wird als Anlage mitgedruckt."
+        ],
+        [
+          "Wohnungsgeberbestätigung",
+          "Für den Einzug: die Bestätigung nach § 19 Bundesmeldegesetz, die der Mieter für die Anmeldung braucht."
+        ],
+        [
+          "Prüfungen und Fristen",
+          "8 Prüfungen auf fehlende Angaben. Beim Auszug nennt die Vorlage das Datum, an dem Ersatzansprüche wegen Schäden verjähren (6 Monate ab Rückgabe, § 548 BGB), beim Einzug die Frist für die Wohnungsgeberbestätigung."
+        ]
+      ],
+      "faq": [
+        [
+          "Läuft diese Vorlage in Google Sheets?",
+          "Sie ist für Microsoft Excel (Windows/Mac) und LibreOffice Calc gebaut. In Google Sheets ist sie nicht getestet."
+        ],
+        [
+          "Brauche ich für Einzug und Auszug zwei Dateien?",
+          "Nein. Sie legen beim Einzug eine Kopie an und verwenden sie beim Auszug weiter: Art auf „Auszug“ stellen und die Spalten für den Auszug ausfüllen. So steht der Vergleich automatisch daneben."
+        ],
+        [
+          "Kann ich auch auf Papier protokollieren?",
+          "Ja. Die Blätter „Räume“, „Zähler“ und „Schlüssel“ lassen sich leer ausdrucken, beim Termin von Hand ausfüllen und später in die Datei übertragen."
+        ]
+      ],
+      "seo_title": "Wohnungsübergabeprotokoll Vorlage (Excel) – Einzug & Auszug 2026",
+      "meta_description": "Übergabeprotokoll als Excel-Vorlage für Einzug und Auszug: Räume, Zähler, Schlüssel, Mängelliste, Wohnungsgeberbestätigung. Für Vermieter, 9,90 €."
     }
   ],
   "ratgeber": {
@@ -331,6 +393,10 @@
     "kautionsrechner.html": {
       "label": "Kautions-Vorlage",
       "href": "kautionsabrechnung.html"
+    },
+    "wohnungsuebergabeprotokoll.html": {
+      "label": "Übergabe-Vorlage",
+      "href": "wohnungsuebergabeprotokoll.html"
     }
   }
 }
