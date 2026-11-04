@@ -1017,5 +1017,21 @@
    "h2": "Auf 2 bis 5 Jahre verteilen",
    "sub": "§ 82b EStDV – Ratgeber zur Anlage V"
   }
+ },
+ {
+  "id": "pin-66",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Anlage V 2026 Excel-Vorlage für private Vermieter",
+  "description": "Mieten, Umlagen und Kosten eintragen – die Vorlage verteilt gemeinsame Kosten nach Wohnfläche, rechnet Eigennutzung heraus, prüft die 15-%-Grenze und berechnet die Gebäude-AfA. Am Ende stehen die Summen für die Anlage V. Für Excel und LibreOffice. 12,90 €.",
+  "link": "anlage-v.html#kaufen",
+  "image": "pins/pin-66.jpg",
+  "date": "2026-11-06T04:00:00",
+  "pin": {
+   "h1": "Anlage V 2026 in Excel",
+   "h2": "Mieteinnahmen, Werbungskosten, AfA",
+   "sub": "Für private Vermieter · 12,90 €",
+   "style": "img",
+   "img": "img/anlagev-1.jpg"
+  }
  }
 ]
