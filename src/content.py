@@ -101,6 +101,14 @@ def cta_box(slug, products):
             + f'<a class="btn" href="{p["slug"]}.html">{esc(p["name"])} ansehen</a></div>')
 
 
+def _aphoto(slug):
+    for key, name in CFG.get("article_photos", {}).items():
+        if key in slug:
+            h = S.photo(name, "aphoto", sizes="(max-width:800px) 100vw, 760px")
+            return f'<figure class="afig">{h}</figure>' if h else ""
+    return ""
+
+
 def build(articles, tools, products):
     R = CFG.get("ratgeber", {})
     RC = CFG.get("rechner", {})
@@ -112,6 +120,7 @@ def build(articles, tools, products):
 {f'<p class="eyebrow">{esc(a["eyebrow"])}</p>' if a.get('eyebrow') else ''}
 <h1 class="serif">{esc(a.get('h1') or a['title'])}</h1>
 {byline(a)}
+{_aphoto(a["slug"])}
 {f'<div class="answer"><p><strong>Kurz gesagt:</strong> {mdlite.inline(a["answer"])}</p></div>' if a.get('answer') else ''}
 {a['_html']}
 {cta_box(a.get('cta_product'), products)}

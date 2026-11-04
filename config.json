@@ -17,16 +17,16 @@
     "accent_dark": "#8A4519",
     "muted": "#3A4654",
     "soft": "#5A6573",
-    "bg": "#F7F5F0",
-    "surface": "#FFFFFF",
-    "line": "#E4E1DA",
+    "bg": "#FFFFFF",
+    "surface": "#F4F3EF",
+    "line": "#E3E1DB",
     "on_primary": "#FFFFFF",
     "on_primary_muted": "#D6DCEB",
-    "input_bg": "#FFFDF4",
+    "input_bg": "#FFFFFF",
     "focus": "#E9B44C"
   },
   "fonts": {
-    "heading": "Georgia, 'Times New Roman', serif",
+    "heading": "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
     "body": "system-ui, -apple-system, 'Segoe UI', sans-serif"
   },
   "logo": {
@@ -116,7 +116,14 @@
         "Heizung nach Verordnung",
         "Heizung und Warmwasser getrennt, 50–70 % nach Verbrauch, CO2-Kostenaufteilung nach Stufenmodell, Angaben nach § 6a HeizkostenV."
       ]
-    ]
+    ],
+    "about": {
+      "title": "Gemacht für private Vermieter",
+      "text": [
+        "Die meisten privaten Vermieter haben eine, zwei oder fünf Wohnungen – und keine Hausverwaltung. Einmal im Jahr steht die Nebenkostenabrechnung an, beim Mieterwechsel Übergabe und Kaution. Genau dafür sind die Vorlagen gebaut: ausfüllen, prüfen lassen, Schreiben ausdrucken.",
+        "Vermieterordner ist ein kleines Angebot von Felix Merklinger-Lötzsch aus Aßlar in Hessen. Rechenwege und Hinweise stützen sich auf Gesetzestexte und BGH-Urteile; die Quellen stehen in jedem Ratgeber."
+      ]
+    }
   },
   "faq_title": "Häufige Fragen",
   "faq": [
@@ -205,7 +212,9 @@
         "nebenkostenabrechnung-erstellen",
         "abrechnungsfrist-rechner",
         "heizkosten-rechner"
-      ]
+      ],
+      "photo": "heizung",
+      "photo_caption": "Betriebskosten, Heizung und Warmwasser – einmal im Jahr, für jede Wohnung einzeln."
     },
     {
       "slug": "kautionsabrechnung",
@@ -272,7 +281,9 @@
         "kaution-zurueckzahlen",
         "kautionsrechner",
         "uebergabe-fristenrechner"
-      ]
+      ],
+      "photo": "schluessel",
+      "photo_caption": "Nach dem Auszug: Kaution samt Zinsen zurückrechnen und offene Posten sauber belegen."
     },
     {
       "slug": "wohnungsuebergabeprotokoll",
@@ -338,7 +349,9 @@
       "related": [
         "uebergabeprotokoll-wohnung",
         "uebergabe-fristenrechner"
-      ]
+      ],
+      "photo": "uebergabe",
+      "photo_caption": "Beim Einzug und Auszug: Zustand, Zählerstände und Schlüssel festhalten – Raum für Raum."
     }
   ],
   "ratgeber": {
@@ -420,5 +433,43 @@
       "label": "Übergabe-Vorlage",
       "href": "wohnungsuebergabeprotokoll.html"
     }
+  },
+  "photos": {
+    "hero": {
+      "alt": "Helles Altbau-Mehrfamilienhaus mit Balkonen im Herbst",
+      "credit": "Ahmed Slimene",
+      "url": "https://unsplash.com/de/fotos/dlCMVsVQrkQ"
+    },
+    "haus": {
+      "alt": "Reihe historischer Stadthäuser mit roten Dächern",
+      "credit": "jordi",
+      "url": "https://unsplash.com/de/fotos/3fPy4IT4mVA"
+    },
+    "papiere": {
+      "alt": "Unterlagen, Stift und Taschenrechner auf dem Tisch",
+      "credit": "Kelly Sikkema",
+      "url": "https://unsplash.com/de/fotos/xoU52jUVUXA"
+    },
+    "schluessel": {
+      "alt": "Wohnungsschlüssel auf einem Holztisch",
+      "credit": "Filip Szalbot",
+      "url": "https://unsplash.com/de/fotos/PxiAc1aElFQ"
+    },
+    "uebergabe": {
+      "alt": "Hand hält einen Wohnungsschlüssel in der offenen Tür",
+      "credit": "Jakub Żerdzicki",
+      "url": "https://unsplash.com/de/fotos/bqUZEAeWuok"
+    },
+    "heizung": {
+      "alt": "Heizkörper unter einem Fenster in einer Wohnung",
+      "credit": "e24",
+      "url": "https://unsplash.com/de/fotos/N6KVqGA44ZI"
+    }
+  },
+  "article_photos": {
+    "kaution": "schluessel",
+    "uebergabe": "uebergabe",
+    "heiz": "heizung",
+    "nebenkosten": "haus"
   }
 }

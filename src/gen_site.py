@@ -133,6 +133,9 @@ for p in P:
     p["_shots"] = [s for s in p.get("shots", []) if os.path.exists(os.path.join(OUT, "img", s))]
 
 
+PH = S.PH
+photo = S.photo
+
 def buy(p, cls="btn", label=None):
     co = CFG["checkout"]
     if p.get("checkout_url"):
@@ -161,7 +164,6 @@ ARTICLES, TOOLS = CONTENT.load_all()
 # ---------------------------------------------------------------- Startseite
 H = CFG["home"]
 hero_p = BY.get(H.get("hero_product") or "")
-visual = f'<div class="bvisual"><img src="img/{hero_p["_img"]}" width="1000" height="1000" alt="Produktbild {esc(hero_p["name"])}"></div>' if hero_p else ""
 cta_html = "".join(f'<a class="btn{" ghost" if k == "cta_secondary" else ""}" href="{esc(H[k]["href"])}">{esc(H[k]["label"])}</a>'
                    for k in ("cta_primary", "cta_secondary") if H.get(k) and not (H[k]["href"] == "rechner.html" and not TOOLS))
 tools_band = ""
@@ -170,23 +172,38 @@ if TOOLS:
 <h2 class="serif">{esc(CFG.get('rechner', {}).get('title', 'Kostenlose Rechner'))}</h2>
 <ul class="rlist">{''.join(f'<li><a href="{t["slug"]}.html"><b>{esc(t["name"])}</b><span>{esc(t["card_text"])}</span></a></li>' for t in TOOLS)}</ul>
 </div></section>"""
-why = "".join(f'<div class="feat"><h3>{esc(t)}</h3><p>{esc(d)}</p></div>' for t, d in H.get("why", []))
-idx = f"""<section class="banner"><div class="wrap bwrap">
-<div class="btext">
+
+
+def prow(p):
+    pts = "".join(f"<li>{esc(t)}</li>" for t, _ in p.get("features", [])[:3])
+    return f"""<article class="prow2"><a class="pthumb" href="{p['slug']}.html"><img src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}" loading="lazy"></a>
+<div class="ptxt"><h3><a href="{p['slug']}.html">{esc(p['name'])}</a></h3><p>{esc(p['short'])}</p>{f'<ul class="ticks">{pts}</ul>' if pts else ''}</div>
+<div class="pbuy"><span class="price">{money(p['price'])}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
+
+
+why = "".join(f'<li><b>{esc(t)}</b> {esc(d)}</li>' for t, d in H.get("why", []))
+ab = H.get("about") or {}
+about = ""
+if ab:
+    about = f"""<section class="about"><div class="wrap duo">
+<div class="duo-img">{photo("haus", sizes="(max-width:800px) 100vw, 540px")}</div>
+<div class="duo-txt"><h2 class="serif">{esc(ab.get('title', ''))}</h2>{''.join(f'<p>{esc(x)}</p>' for x in ab.get('text', []))}
+{f'<h3>{esc(H.get("why_title", ""))}</h3><ol class="why">{why}</ol>' if why else ''}</div>
+</div></section>"""
+hero_photo = photo(H.get("photo", "hero"), "phero-img", eager=True)
+idx = f"""<section class="phero{'' if hero_photo else ' nophoto'}">{hero_photo}<div class="wrap phero-in"><div class="ptext">
 <h1 class="serif">{esc(H['h1'])}</h1>
 <p class="lead">{esc(H['lead'])}</p>
 <div class="cta2">{cta_html}</div>
 <ul class="facts">{''.join(f'<li>{esc(x)}</li>' for x in H.get('facts', []))}</ul>
-</div>
-{visual}
-</div></section>
-{tools_band}
-<section class="band" id="produkte"><div class="wrap">
+</div></div></section>
+<section id="produkte" class="prods"><div class="wrap">
 <h2 class="serif">{esc(H.get('products_title', 'Produkte'))}</h2>
 <p class="sub2">{esc(H.get('products_sub', ''))}</p>
-<div class="pgrid">{''.join(card(p) for p in P)}</div>
+<div class="plist">{''.join(prow(p) for p in P)}</div>
 </div></section>
-{f'<section><div class="wrap"><h2 class="serif">{esc(H.get("why_title", ""))}</h2><div class="grid3">{why}</div></div></section>' if why else ''}
+{about}
+{tools_band}
 {faq_section()}"""
 org_ld = {"@context": "https://schema.org", "@type": "Organization", "name": B["name"], "url": S.BASE, "logo": abs_url("favicon.svg")}
 if not is_placeholder(OP.get("email")):
@@ -226,6 +243,7 @@ for p in P:
 </div>
 <div><img class="heroimg" src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}"></div>
 </div>
+{(f'<figure class="strip">' + photo(p["photo"]) + (f'<figcaption><span class="wrap">{esc(p.get("photo_caption", ""))}</span></figcaption>' if p.get("photo_caption") else '') + '</figure>') if p.get("photo") and photo(p["photo"]) else ''}
 <section class="band"><div class="wrap">
 <h2 class="serif">Das bekommen Sie</h2>
 <div class="split"><div><table class="spec">{tbl}</table></div>
@@ -273,6 +291,7 @@ imp = f"""<div class="wrap legal">
 {f'<h2>Umsatzsteuer-ID</h2><p>Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: {esc(OP["vat_id"])}</p>' if OP.get('vat_id') else ''}
 <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
 <p>{esc(OP.get('name', ''))}, Anschrift wie oben</p>
+{('<h2>Bildnachweis</h2><p>Fotos von Unsplash (Unsplash-Lizenz): ' + ', '.join(f'<a href="{esc(v["url"])}" rel="noopener">{esc(v["credit"])}</a>' for v in PH.values()) + '. Produktbilder: eigene Screenshots der Vorlagen.</p>') if PH else ''}
 <h2>Verbraucherstreitbeilegung</h2>
 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 </div>"""

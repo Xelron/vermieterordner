@@ -169,6 +169,21 @@ def _webp_variants():
             im.save(dst, "WEBP", quality=80, method=6)
 
 
+PH = CFG.get("photos", {})
+
+
+def photo(name, cls="", sizes="100vw", eager=False):
+    """Echtes Foto aus docs/img/foto/ (JPG + WebP 800/1600)."""
+    if name not in PH or not os.path.exists(os.path.join(OUT, "img", "foto", name + ".jpg")):
+        return ""
+    from PIL import Image
+    w, h = Image.open(os.path.join(OUT, "img", "foto", name + ".jpg")).size
+    ld_ = ' fetchpriority="high"' if eager else ' loading="lazy"'
+    return (f'<picture class="{cls}"><source type="image/webp" srcset="img/foto/{name}-800.webp 800w, img/foto/{name}-1600.webp 1600w" sizes="{sizes}">'
+            f'<img src="img/foto/{name}.jpg" width="{w}" height="{h}" alt="{esc(PH[name]["alt"])}"{ld_}></picture>')
+
+
+
 def _pic(h):
     def r(m):
         tag, name = m.group(0), m.group(1)
