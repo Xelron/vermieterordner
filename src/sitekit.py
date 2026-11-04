@@ -106,10 +106,13 @@ def author():
     return publisher()
 
 
-def article_ld(headline, desc, path, date, updated=None):
-    return {"@context": "https://schema.org", "@type": "Article", "headline": headline, "description": desc,
-            "inLanguage": LANG_TAG, "datePublished": date, "dateModified": updated or date,
-            "author": author(), "publisher": publisher(), "mainEntityOfPage": abs_url(path)}
+def article_ld(headline, desc, path, date, updated=None, image=None):
+    d = {"@context": "https://schema.org", "@type": "Article", "headline": headline, "description": desc,
+         "inLanguage": LANG_TAG, "datePublished": date, "dateModified": updated or date,
+         "author": author(), "publisher": publisher(), "mainEntityOfPage": abs_url(path)}
+    if image:
+        d["image"] = abs_url(image)
+    return d
 
 
 def faq_html(qas):

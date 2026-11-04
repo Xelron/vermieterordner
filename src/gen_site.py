@@ -149,8 +149,13 @@ def card(p):
 <div class="pbody"><h3>{esc(p['name'])}</h3><p>{esc(p['short'])}</p><div class="prow"><span class="price">{money(p['price'])}{cmp_}</span><span class="more">Ansehen</span></div></div></a>"""
 
 
-def faq_section(extra=()):
-    qas = list(extra) + [tuple(x) for x in CFG.get("faq", [])]
+def global_faq(exclude=()):
+    """Globale FAQ aus config.json; ein Produkt kann einzelne Fragen per "faq_exclude": ["Frage?"] ausblenden."""
+    return [tuple(x) for x in CFG.get("faq", []) if x[0] not in set(exclude or ())]
+
+
+def faq_section(extra=(), exclude=()):
+    qas = list(extra) + global_faq(exclude)
     if not qas:
         return ""
     return f"""<section class="band"><div class="wrap faq">
@@ -251,7 +256,7 @@ for p in P:
 </div></section>
 {f'<section><div class="wrap"><h2 class="serif">Was das Produkt kann</h2><div class="grid2">{feats}</div></div></section>' if feats else ''}
 {extra}
-{faq_section(pfaq)}
+{faq_section(pfaq, p.get('faq_exclude'))}
 <section id="kaufen" class="band"><div class="wrap buy">
 <h2 class="serif">{esc(p['name'])} {'kaufen' if p.get('checkout_url') else '– bald verfügbar'}</h2>
 <p class="sub2">{'Digitaler Download · sofort nach der Zahlung verfügbar' if p.get('checkout_url') else esc(co.get('soon_note', ''))}</p>
@@ -267,7 +272,7 @@ for p in P:
                           "availability": "https://schema.org/InStock" if p.get("checkout_url") else "https://schema.org/OutOfStock",
                           "url": abs_url(p["slug"] + ".html")}}
     # Product-Markup erst, wenn das Produkt kaufbar ist (sonst zeigt Google evtl. „nicht vorrätig“)
-    head = (ld(prod_ld) if p.get("checkout_url") else "") + ld(S.faq_ld(pfaq + [tuple(x) for x in CFG.get("faq", [])])) + ld(S.crumbs_ld([(B["name"], "index.html"), (p["name"], p["slug"] + ".html")]))
+    head = (ld(prod_ld) if p.get("checkout_url") else "") + ld(S.faq_ld(pfaq + global_faq(p.get("faq_exclude")))) + ld(S.crumbs_ld([(B["name"], "index.html"), (p["name"], p["slug"] + ".html")]))
     suffix = PD.get("title_suffix")
     page(p.get("seo_title") or f"{p['name']}{' – ' + suffix if suffix else ''} | {B['name']}", p.get("meta_description") or md, body, f"{p['slug']}.html", head)
 

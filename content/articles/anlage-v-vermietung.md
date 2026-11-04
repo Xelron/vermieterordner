@@ -1,6 +1,6 @@
 ---
 title: Anlage V ausfüllen – Mieteinnahmen und Werbungskosten für private Vermieter (2026)
-description: Was in die Anlage V gehört: Mieteinnahmen, 10-Tage-Regel, typische Werbungskosten, Erhaltung oder Herstellung, 15-%-Grenze, Gebäude-AfA und verbilligte Vermietung.
+description: Anlage V für private Vermieter: Mieteinnahmen, 10-Tage-Regel, Werbungskosten, Erhaltung, 15-%-Grenze, Gebäude-AfA und verbilligte Vermietung.
 date: 2026-11-04
 updated: 2026-11-04
 seo_title: "Anlage V ausfüllen 2026: Mieteinnahmen, Werbungskosten, AfA"
@@ -44,8 +44,12 @@ sources:
     url: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BFH&Datum=14.01.2025&Aktenzeichen=IX+R+19%2F24
   - title: BFH, Urteil vom 14.06.2016, IX R 22/15 – Schönheitsreparaturen als anschaffungsnahe Herstellungskosten (dejure.org)
     url: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BFH&Datum=14.06.2016&Aktenzeichen=IX+R+22%2F15
+  - title: BFH, Urteil vom 14.06.2016, IX R 25/14 – anschaffungsnahe Herstellungskosten, Schönheitsreparaturen, Gebäudeteile (dejure.org)
+    url: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BFH&Datum=14.06.2016&Aktenzeichen=IX+R+25%2F14
   - title: BFH, Urteil vom 21.07.2020, IX R 26/19 – Kaufpreisaufteilung auf Grund und Gebäude (dejure.org)
     url: https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=BFH&Datum=21.07.2020&Aktenzeichen=IX+R+26%2F19
+  - title: Der Betrieb, 26.08.2026 – Kaufpreisaufteilung bei bebauten Grundstücken: gesetzliche Neuregelung durch das JStG 2026 (§ 6f EStG-E)
+    url: https://der-betrieb.de/meldungen/kaufpreisaufteilung-bei-bebauten-grundstuecken-gesetzliche-neuregelung-durch-das-jahressteuergesetz-2026-%c2%a7-6f-estg-e/
 ---
 ## Was in die Anlage V gehört {#anlage-v}
 
@@ -102,17 +106,17 @@ Werbungskosten sind alle Aufwendungen, die durch die Vermietung veranlasst sind 
 | Fahrten zum Objekt | ja | Zum Beispiel für Besichtigungen und Reparaturen – Fahrtenbuch oder Notizen führen |
 | Gebäude-AfA | ja | Siehe [AfA](#afa) |
 | Einbauküche und andere Einrichtung | ja, über die Nutzungsdauer | Einbauküche: 10 Jahre; Gegenstände bis 800 € ohne Umsatzsteuer sofort |
-| Kaufpreis, Grunderwerbsteuer, Notar für den Kauf, Makler | nur über die AfA | Gehören zu den Anschaffungskosten |
+| Kaufpreis, Grunderwerbsteuer, Notar für den Kauf, Makler | nur über die AfA (Gebäudeanteil; Grund und Boden gar nicht) | Gehören zu den Anschaffungskosten |
 | Eigene Arbeitszeit | nein | Nur Material und fremde Leistungen zählen |
 
 Die Vermietung von Wohnungen ist umsatzsteuerfrei (§ 4 Nr. 12 UStG); private Vermieter können deshalb keine Vorsteuer abziehen und setzen die **Bruttobeträge** an.
 
 ## Erhaltung: sofort absetzen oder verteilen? {#erhaltung}
 
-Zuerst ist zu klären, ob eine Maßnahme **Erhaltungsaufwand** oder **Herstellungskosten** sind.
+Zuerst ist zu klären, ob es sich bei einer Maßnahme um **Erhaltungsaufwand** oder um **Herstellungskosten** handelt.
 
 - **Erhaltungsaufwand** hält das Gebäude in Schuss: Reparaturen, Austausch von Fenstern, Heizung oder Bad durch zeitgemäße Gegenstücke, Streichen und Tapezieren. Er ist grundsätzlich im Jahr der Zahlung abziehbar.
-- **Herstellungskosten** schaffen etwas Neues oder deutlich Besseres: eine Erweiterung (z. B. Dachausbau, Gaube, Balkon) oder eine wesentliche Verbesserung über den ursprünglichen Zustand hinaus. Die Finanzverwaltung nimmt sie bei Wohngebäuden in der Regel an, wenn der Standard in **mindestens drei der vier zentralen Ausstattungsbereiche** Heizung, Sanitär, Elektro und Fenster deutlich gehoben wird (BMF-Schreiben vom 26.01.2026, Rn. 13, 19, 47). Herstellungskosten wirken sich nur über die AfA aus.
+- **Herstellungskosten** schaffen etwas Neues oder deutlich Besseres: eine Erweiterung (z. B. Dachausbau, Gaube, Balkon) oder eine wesentliche Verbesserung über den ursprünglichen Zustand hinaus. Die Finanzverwaltung nimmt sie bei Wohngebäuden in der Regel an, wenn der Standard in **mindestens drei der vier zentralen Ausstattungsbereiche** Heizung, Sanitär, Elektro und Fenster deutlich gehoben wird (BMF-Schreiben vom 26.01.2026, Randnummern (Rn.) 13, 19, 47). Herstellungskosten wirken sich nur über die AfA aus.
 
 **Größeren Erhaltungsaufwand verteilen:** Statt alles in einem Jahr abzuziehen, dürfen Sie größere Erhaltungsaufwendungen **gleichmäßig auf 2 bis 5 Jahre** verteilen (§ 82b EStDV). Voraussetzung: Das Gebäude gehört nicht zu einem Betriebsvermögen und dient **überwiegend Wohnzwecken** – die Wohnfläche ist größer als die Hälfte der Nutzfläche. Das lohnt sich, wenn Ihr Einkommen in den Folgejahren voraussichtlich höher ist oder ein einzelnes Jahr sonst nicht ausgenutzt würde. Verkaufen Sie das Haus während des Zeitraums, ziehen Sie den Rest im Jahr des Verkaufs ab. Gehört das Haus mehreren, müssen alle gleich verteilen.
 
@@ -125,13 +129,13 @@ Wer ein Haus oder eine Wohnung kauft und renoviert, muss eine Sonderregel beacht
 Was Sie wissen sollten:
 
 - **Schönheitsreparaturen zählen mit**, etwa Tapezieren, Streichen von Wänden, Decken, Heizkörpern, Türen und Fenstern – ein enger Zusammenhang mit einer Modernisierung ist nicht nötig (BFH, Urteil vom 14.06.2016, IX R 22/15; BMF-Schreiben vom 26.01.2026, Rn. 55).
-- **Nicht mit zählen** Erweiterungen (die sind ohnehin Herstellungskosten) und Erhaltungsarbeiten, die **jährlich üblicherweise** anfallen, wie Wartung der Heizung oder Ablesekosten (Rn. 60).
+- **Nicht mitgezählt werden** Erweiterungen (die sind ohnehin Herstellungskosten) und Erhaltungsarbeiten, die **jährlich üblicherweise** anfallen, wie Wartung der Heizung oder Ablesekosten (Rn. 60).
 - **Die Frist** läuft taggenau ab dem Übergang von Besitz, Nutzen und Lasten. Maßgeblich sind die bis zum Fristende **erbrachten Bauleistungen**, nicht die Zahlung (Rn. 62, 63).
 - **Verglichen wird ohne Umsatzsteuer:** Rechnen Sie die Bruttorechnungen auf netto zurück, bevor Sie sie mit der Grenze vergleichen.
-- **Bei teilweiser Eigennutzung** besteht das Haus steuerlich aus mehreren Gebäudeteilen – die selbst bewohnte und die vermieteten Wohnungen (R 4.2 Abs. 4 EStR). Die Grenze wird dann **für den jeweiligen Gebäudeteil** geprüft (BMF-Schreiben vom 26.01.2026, Rn. 58): Anschaffungskosten und Renovierungskosten des vermieteten Teils.
+- **Bei teilweiser Eigennutzung** besteht das Haus steuerlich aus mehreren Gebäudeteilen – die selbst bewohnte und die vermieteten Wohnungen (R 4.2 Abs. 4 EStR). Die Grenze wird dann **für den jeweiligen Gebäudeteil** geprüft (BFH, Urteil vom 14.06.2016, IX R 25/14; BMF-Schreiben vom 26.01.2026, Rn. 58): Anschaffungskosten und Renovierungskosten des vermieteten Teils.
 - **Rückwirkung:** Wird die Grenze erst im zweiten oder dritten Jahr überschritten, ändert das Finanzamt auch die Bescheide der Vorjahre (Rn. 68).
 
-**Beispiel:** Gebäudeanteil der Anschaffungskosten 327.075 € (siehe AfA-Beispiel unten). Die Grenze liegt bei 15 % = **49.061,25 € netto**. Kosten Renovierung und Schönheitsreparaturen in den ersten drei Jahren zusammen 52.000 € netto, ist die Grenze überschritten – dann erhöht der gesamte Betrag (mit Umsatzsteuer) die AfA-Bemessungsgrundlage, nicht nur der Teil über der Grenze.
+**Beispiel:** Gebäudeanteil der Anschaffungskosten 327.075 € (siehe AfA-Beispiel unten). Die Grenze liegt bei 15 % = **49.061,25 € netto**. Betragen die Kosten für Renovierung und Schönheitsreparaturen in den ersten drei Jahren zusammen 52.000 € netto, ist die Grenze überschritten – dann erhöht der gesamte Betrag (mit Umsatzsteuer) die AfA-Bemessungsgrundlage, nicht nur der Teil über der Grenze.
 
 ## Gebäude-AfA: 2, 2,5 oder 3 Prozent {#afa}
 
@@ -146,7 +150,7 @@ Den Kaufpreis des Gebäudes setzen Sie über die **Absetzung für Abnutzung (AfA
 **So entsteht die Bemessungsgrundlage:**
 
 1. Kaufpreis **plus Kaufnebenkosten** (Grunderwerbsteuer, Notar und Grundbuch für den Eigentumsübergang, Makler). Kosten für die Grundschuld gehören nicht dazu – sie sind sofort abziehbare Geldbeschaffungskosten.
-2. Davon den Anteil für **Grund und Boden** abziehen. Grund und Boden nutzt sich nicht ab und wird **nicht abgeschrieben**. Eine Aufteilung im Kaufvertrag ist grundsätzlich maßgeblich, solange sie die realen Wertverhältnisse nicht grundsätzlich verfehlt und wirtschaftlich haltbar ist (BFH, Urteil vom 21.07.2020, IX R 26/19). Sonst wird nach Verkehrswerten aufgeteilt; die Arbeitshilfe des Bundesfinanzministeriums ist dafür nicht bindend.
+2. Davon den Anteil für **Grund und Boden** abziehen. Grund und Boden nutzt sich nicht ab und wird **nicht abgeschrieben**. Eine Aufteilung im Kaufvertrag ist grundsätzlich maßgeblich, solange sie die realen Wertverhältnisse nicht grundsätzlich verfehlt und wirtschaftlich haltbar ist (BFH, Urteil vom 21.07.2020, IX R 26/19). Sonst wird nach Verkehrswerten aufgeteilt; die Arbeitshilfe des Bundesfinanzministeriums ist dafür nicht bindend. **Geplante Änderung:** Der Regierungsentwurf zum Jahressteuergesetz 2026 (Kabinettsbeschluss vom 12.08.2026) soll die Kaufpreisaufteilung in einem neuen § 6f EStG gesetzlich regeln. Danach könnte das Ergebnis der Arbeitshilfe zugrunde gelegt werden und eine abweichende Aufteilung nur mit dem Gutachten eines öffentlich bestellten und vereidigten Sachverständigen oder einer nach DIN EN ISO/IEC 17024 zertifizierten Person nachgewiesen werden – nach dem Entwurf erst für Kaufverträge, die nach der Verkündung geschlossen werden. Das Gesetz ist noch nicht in Kraft; der Inhalt kann sich im Verfahren ändern.
 3. Wohnen Sie selbst im Haus, entfällt die AfA auf Ihren Teil.
 
 **Im Kaufjahr** zählt die AfA **monatsgenau**: Für jeden vollen Monat vor dem Monat der Anschaffung kürzt sie sich um ein Zwölftel (§ 7 Abs. 1 S. 4 EStG). Der Anschaffungsmonat zählt also voll mit – maßgeblich ist der Übergang von Besitz, Nutzen und Lasten, nicht der Tag des Notartermins.
@@ -157,13 +161,15 @@ Ist die tatsächliche Nutzungsdauer nachweislich kürzer, etwa durch ein Gutacht
 
 ## Verbilligte Vermietung an Angehörige {#verbilligt}
 
-Vermieten Sie günstiger als ortsüblich – häufig an Kinder oder Eltern –, entscheidet das Verhältnis der Miete zur **ortsüblichen Miete** über den Werbungskostenabzug (§ 21 Abs. 2 EStG):
+Vermieten Sie günstiger als ortsüblich – häufig an Kinder oder Eltern –, entscheidet das Verhältnis der Miete zur **ortsüblichen Miete** über den Werbungskostenabzug (§ 21 Abs. 2 EStG; Totalüberschussprognose nach Verwaltungsauffassung):
 
 | Miete in % der ortsüblichen Miete | Folge |
 |---|---|
 | mindestens 66 % | gilt als voll entgeltlich: voller Werbungskostenabzug |
-| 50 % bis unter 66 % | Das Finanzamt prüft mit einer Totalüberschussprognose, ob auf Dauer ein Überschuss zu erwarten ist. Positiv: voller Abzug, negativ: Abzug nur anteilig |
+| 50 % bis unter 66 % | Nach Auffassung der Finanzverwaltung entscheidet eine Totalüberschussprognose. Positiv: voller Abzug, negativ: Abzug nur anteilig |
 | unter 50 % | Aufteilung in einen entgeltlichen und einen unentgeltlichen Teil: Werbungskosten nur anteilig |
+
+Die **Totalüberschussprognose** ist eine Rechnung, ob über die gesamte voraussichtliche Vermietungsdauer – typisierend 30 Jahre – ein Überschuss der Einnahmen über die Werbungskosten bleibt.
 
 Verglichen wird die **Warmmiete**: Kaltmiete plus die nach der Betriebskostenverordnung umlagefähigen Kosten – jeweils für Ihre Wohnung und für die ortsübliche Vergleichsmiete. Grundlage ist zum Beispiel der Mietspiegel. Der Mietvertrag mit Angehörigen muss wirksam sein und wie unter Fremden durchgeführt werden.
 
@@ -177,7 +183,7 @@ Wohnen Sie selbst im Haus oder überlassen eine Wohnung unentgeltlich, sind die 
 - **Verhältnismäßige Zuordnung:** Kosten für das ganze Haus – Dach, Grundsteuer, Gebäudeversicherung, Schuldzinsen für den Kauf des ganzen Hauses – tragen Sie als **Gesamtbetrag** mit dem **abzugsfähigen Anteil in Prozent** ein, meist dem Anteil der vermieteten an der gesamten Wohnfläche.
 - Kosten, die nur Ihre eigene Wohnung betreffen, gehören gar nicht in die Anlage V.
 
-**Beispiel:** Dreifamilienhaus mit 80 + 80 + 60 m², die 60-m²-Wohnung bewohnen Sie selbst. Abzugsfähiger Anteil für gemeinsame Kosten: 160 ÷ 220 = 72,73 %. Die Grundsteuer von 900 € steht als Gesamtbetrag 900 € mit 72,73 % im Formular.
+**Beispiel:** Dreifamilienhaus mit 80 + 80 + 60 m², die 60-m²-Wohnung bewohnen Sie selbst. Abzugsfähiger Anteil für gemeinsame Kosten: 160 ÷ 220 = 72,73 %. Für eine Grundsteuer von 900 € tragen Sie im Formular 900 € als Gesamtbetrag und 72,73 % als abzugsfähigen Anteil ein.
 
 ## Checkliste für die Anlage V {#checkliste}
 

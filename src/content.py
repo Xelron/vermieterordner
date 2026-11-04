@@ -101,6 +101,21 @@ def cta_box(slug, products):
             + f'<a class="btn" href="{p["slug"]}.html">{esc(p["name"])} ansehen</a></div>')
 
 
+def _aphoto_name(slug):
+    for key, name in CFG.get("article_photos", {}).items():
+        if key in slug:
+            return name
+    return None
+
+
+def _ld_image(slug):
+    """Bild für Article-JSON-LD: Artikelfoto, sonst das Hausfoto."""
+    for name in (_aphoto_name(slug), "haus"):
+        if name and os.path.exists(os.path.join(OUT, "img", "foto", name + ".jpg")):
+            return f"img/foto/{name}.jpg"
+    return None
+
+
 def _aphoto(slug):
     for key, name in CFG.get("article_photos", {}).items():
         if key in slug:
@@ -128,7 +143,7 @@ def build(articles, tools, products):
 {f'<h2 class="serif">Quellen</h2>{S.sources_html(a["sources"])}' if a['sources'] else ''}
 {f'<p class="note">{esc(disclaimer)}</p>' if disclaimer else ''}
 </article></div>"""
-        head = ld(S.article_ld(a["title"], a["description"], path, a["date"], a["updated"]))
+        head = ld(S.article_ld(a["title"], a["description"], path, a["date"], a["updated"], _ld_image(a["slug"])))
         if a["faq"]:
             head += ld(S.faq_ld(a["faq"]))
         head += ld(S.crumbs_ld([(B["name"], "index.html"), (R.get("title", "Ratgeber"), "ratgeber.html"), (a["title"], path)]))

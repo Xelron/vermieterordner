@@ -164,6 +164,12 @@ footer nav a{color:var(--muted)}
  .bwrap{padding-top:40px;padding-bottom:48px}
  .calc .row2{grid-template-columns:1fr}
  .tbl{font-size:14px}.tbl th,.tbl td{padding:8px;hyphens:auto;-webkit-hyphens:auto}
+ .tbl.stack,.tbl.stack tbody,.tbl.stack tr,.tbl.stack td{display:block;width:100%}
+ .tbl.stack tr.hd{display:none}
+ .tbl.stack tr{padding:8px 0;border-bottom:2px solid var(--line)}
+ .tbl.stack td{border:0;padding:3px 12px;hyphens:manual;-webkit-hyphens:manual}
+ .tbl.stack td:first-child{font-weight:700;padding-top:6px}
+ .tbl.stack td:not(:first-child)::before{content:attr(data-label);display:block;font-size:12px;font-weight:700;color:var(--soft);margin-bottom:1px}
 }
 @media (prefers-reduced-motion:reduce){.pcard{transition:none}.pcard:hover{transform:none}}
 [hidden]{display:none!important}

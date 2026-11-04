@@ -135,8 +135,10 @@ def to_html(md):
             cells = [[c.strip() for c in r.strip("|").split("|")] for r in rows]
             head = cells[0]
             bodyrows = [r for r in cells[1:] if not all(re.match(r"^:?-{2,}:?$", c) for c in r)]
-            t = '<div class="tblwrap"><table class="tbl"><tr>' + "".join(f"<th>{inline(c)}</th>" for c in head) + "</tr>"
-            t += "".join("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>" for r in bodyrows)
+            # Am Handy (style.css, .tbl.stack) wird jede Zeile als Karte gestapelt; data-label = Spaltenkopf.
+            lab = [html.escape(re.sub(r"[*`]", "", c), quote=True) for c in head]
+            t = '<div class="tblwrap"><table class="tbl stack"><tr class="hd">' + "".join(f'<th scope="col">{inline(c)}</th>' for c in head) + "</tr>"
+            t += "".join("<tr>" + "".join(f'<td data-label="{lab[k] if k < len(lab) else ""}">{inline(c)}</td>' for k, c in enumerate(r)) + "</tr>" for r in bodyrows)
             out.append(t + "</table></div>"); continue
         para.append(s); i += 1
     flush()
