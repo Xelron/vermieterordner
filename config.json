@@ -414,7 +414,10 @@
       ],
       "seo_title": "Anlage V Vorlage (Excel) 2026 – Mieteinnahmen & Werbungskosten",
       "meta_description": "Anlage V 2026 als Excel-Vorlage: Mieteinnahmen, Werbungskosten, AfA und 15-%-Grenze je Objekt rechnen, Summen für die Steuererklärung. 12,90 €.",
-      "related": [],
+      "related": [
+        "anlage-v-vermietung",
+        "gebaeude-afa-rechner"
+      ],
       "photo": "haus",
       "photo_caption": "Einmal im Jahr: Mieten, Belege und Abschreibung für die Steuererklärung zusammentragen."
     }
@@ -422,7 +425,7 @@
   "ratgeber": {
     "title": "Ratgeber",
     "h1": "Ratgeber für private Vermieter",
-    "lead": "Fristen, Kostenarten, Heizkosten, Kaution und Wohnungsübergabe verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
+    "lead": "Fristen, Kostenarten, Heizkosten, Kaution, Wohnungsübergabe und Anlage V verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
     "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung."
   },
   "rechner": {
@@ -431,7 +434,7 @@
     "lead": "Schnelle Antworten direkt im Browser – nichts wird gespeichert oder übertragen.",
     "app_category": "UtilitiesApplication",
     "disclaimer": "Dieser Rechner gibt allgemeine Informationen und ersetzt keine individuelle Beratung.",
-    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist, Heizkosten, Kautionszinsen und Fristen bei der Wohnungsübergabe – im Browser, ohne Anmeldung."
+    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist, Heizkosten, Kautionszinsen, Fristen bei der Wohnungsübergabe und Gebäude-AfA – im Browser, ohne Anmeldung."
   },
   "pinterest": {
     "domain_verify": "6619a1c3e96181cb258971813ee2eca4",
@@ -501,6 +504,14 @@
     "anlage-v.html": {
       "label": "Anlage-V-Vorlage",
       "href": "anlage-v.html#kaufen"
+    },
+    "anlage-v-vermietung.html": {
+      "label": "Anlage-V-Vorlage",
+      "href": "anlage-v.html"
+    },
+    "gebaeude-afa-rechner.html": {
+      "label": "Anlage-V-Vorlage",
+      "href": "anlage-v.html"
     }
   },
   "photos": {
@@ -539,6 +550,7 @@
     "kaution": "schluessel",
     "uebergabe": "uebergabe",
     "heiz": "heizung",
-    "nebenkosten": "haus"
+    "nebenkosten": "haus",
+    "anlage-v": "haus"
   }
 }

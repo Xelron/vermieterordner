@@ -907,5 +907,115 @@
    "style": "img",
    "img": "img/uebergabeprotokoll-1.jpg"
   }
+ },
+ {
+  "id": "pin-59",
+  "board": "Vermieten leicht gemacht",
+  "title": "Anlage V ausfüllen: Was private Vermieter eintragen",
+  "description": "Kaltmiete und Umlagen, Schuldzinsen ohne Tilgung, Erhaltungsaufwand und Gebäude-AfA: Was in die Anlage V gehört – mit 10-Tage-Regel, 15-%-Grenze und verbilligter Vermietung. Ratgeber mit Quellen, Steuerjahr 2026.",
+  "link": "anlage-v-vermietung.html#werbungskosten",
+  "image": "pins/pin-59.jpg",
+  "date": "2026-11-23T04:00:00",
+  "pin": {
+   "h1": "Anlage V",
+   "h2": "Das gehört rein",
+   "style": "list",
+   "items": [
+    "Kaltmiete und Umlagen",
+    "Schuldzinsen – ohne Tilgung",
+    "Reparaturen und laufende Kosten",
+    "Gebäude-AfA ohne Grundstück"
+   ]
+  }
+ },
+ {
+  "id": "pin-60",
+  "board": "Vermieten leicht gemacht",
+  "title": "Gebäude-AfA berechnen: kostenloser Rechner für Vermieter",
+  "description": "Kaufpreis und Nebenkosten ohne Grund und Boden, 2 %, 2,5 % oder 3 % je nach Fertigstellungsjahr, im Kaufjahr monatsgenau: Der kostenlose AfA-Rechner zeigt Ihre Abschreibung für die Anlage V. Ohne Anmeldung.",
+  "link": "gebaeude-afa-rechner.html",
+  "image": "pins/pin-60.jpg",
+  "date": "2026-11-24T04:00:00",
+  "pin": {
+   "h1": "Gebäude-AfA berechnen",
+   "h2": "2 %, 2,5 % oder 3 % – im Kaufjahr monatsgenau",
+   "sub": "Kostenloser Rechner · ohne Anmeldung"
+  }
+ },
+ {
+  "id": "pin-61",
+  "board": "Vermieten leicht gemacht",
+  "title": "Renovieren nach dem Kauf: die 15-%-Grenze",
+  "description": "Kosten für Instandsetzung und Modernisierung in den ersten drei Jahren nach dem Kauf sind nicht sofort absetzbar, wenn sie ohne Umsatzsteuer 15 % der Anschaffungskosten des Gebäudes übersteigen (§ 6 Abs. 1 Nr. 1a EStG). Auch Schönheitsreparaturen zählen mit.",
+  "link": "anlage-v-vermietung.html#15-prozent",
+  "image": "pins/pin-61.jpg",
+  "date": "2026-11-25T04:00:00",
+  "pin": {
+   "h1": "Renovieren nach dem Kauf?",
+   "h2": "Die 15-%-Grenze in den ersten 3 Jahren",
+   "sub": "Auch Schönheitsreparaturen zählen mit"
+  }
+ },
+ {
+  "id": "pin-62",
+  "board": "Vermieten leicht gemacht",
+  "title": "Miete zum Jahreswechsel: die 10-Tage-Regel",
+  "description": "Mieten gehören in das Jahr, in dem sie eingehen – außer bei Zahlung und Fälligkeit zwischen 22.12. und 10.01. Dann zählt das Jahr, zu dem die Miete gehört (§ 11 EStG, BFH X R 2/21). Beispiele im Ratgeber zur Anlage V.",
+  "link": "anlage-v-vermietung.html#zufluss",
+  "image": "pins/pin-62.jpg",
+  "date": "2026-11-26T04:00:00",
+  "pin": {
+   "h1": "Miete am 28.12. bezahlt?",
+   "h2": "Die 10-Tage-Regel zum Jahreswechsel",
+   "sub": "Welches Jahr in die Anlage V gehört"
+  }
+ },
+ {
+  "id": "pin-63",
+  "board": "Vermieten leicht gemacht",
+  "title": "Grund und Boden wird nicht abgeschrieben",
+  "description": "Die AfA gibt es nur für das Gebäude: Ziehen Sie vom Kaufpreis plus Nebenkosten den Anteil für Grund und Boden ab. Der kostenlose Gebäude-AfA-Rechner zeigt Bemessungsgrundlage, AfA im Kaufjahr und volle Jahres-AfA.",
+  "link": "gebaeude-afa-rechner.html",
+  "image": "pins/pin-63.jpg",
+  "date": "2026-11-27T04:00:00",
+  "pin": {
+   "h1": "Keine AfA aufs Grundstück",
+   "h2": "Kaufpreis richtig aufteilen",
+   "sub": "Kostenloser Gebäude-AfA-Rechner"
+  }
+ },
+ {
+  "id": "pin-64",
+  "board": "Vermieten leicht gemacht",
+  "title": "Wohnung an Angehörige vermieten: die 66-%-Grenze",
+  "description": "Ab 66 % der ortsüblichen Miete voller Werbungskostenabzug, von 50 bis unter 66 % entscheidet eine Prognose, unter 50 % nur anteilig (§ 21 Abs. 2 EStG). Verglichen wird die Warmmiete. Mehr im Ratgeber zur Anlage V.",
+  "link": "anlage-v-vermietung.html#verbilligt",
+  "image": "pins/pin-64.jpg",
+  "date": "2026-11-28T04:00:00",
+  "pin": {
+   "h1": "Miete an Angehörige",
+   "h2": "Die 66-%-Grenze",
+   "style": "list",
+   "items": [
+    "ab 66 %: voller Abzug",
+    "50 bis unter 66 %: Prognose",
+    "unter 50 %: nur anteilig",
+    "Vergleich mit Warmmiete"
+   ]
+  }
+ },
+ {
+  "id": "pin-65",
+  "board": "Vermieten leicht gemacht",
+  "title": "Große Reparatur: auf 2 bis 5 Jahre verteilen",
+  "description": "Größeren Erhaltungsaufwand an überwiegend zu Wohnzwecken genutzten Gebäuden dürfen private Vermieter gleichmäßig auf 2 bis 5 Jahre verteilen (§ 82b EStDV). Wann sich das lohnt und was Herstellungskosten sind, erklärt der Ratgeber.",
+  "link": "anlage-v-vermietung.html#erhaltung",
+  "image": "pins/pin-65.jpg",
+  "date": "2026-11-29T04:00:00",
+  "pin": {
+   "h1": "Große Reparatur?",
+   "h2": "Auf 2 bis 5 Jahre verteilen",
+   "sub": "§ 82b EStDV – Ratgeber zur Anlage V"
+  }
  }
 ]
