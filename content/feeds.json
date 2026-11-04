@@ -891,5 +891,21 @@
    "h2": "Im Übergabeprotokoll sauber trennen",
    "sub": "Ratgeber mit Beispielen"
   }
+ },
+ {
+  "id": "pin-58",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Wohnungsübergabeprotokoll Excel-Vorlage für Einzug und Auszug",
+  "description": "Raum für Raum den Zustand erfassen, Zählerstände und Schlüssel eintragen, Protokoll mit Mängelliste drucken und unterschreiben lassen – beim Auszug zeigt die Vorlage automatisch, was seit dem Einzug neu ist. Für Excel und LibreOffice. 9,90 €.",
+  "link": "wohnungsuebergabeprotokoll.html#kaufen",
+  "image": "pins/pin-58.jpg",
+  "date": "2026-11-05T04:00:00",
+  "pin": {
+   "h1": "Wohnungs­übergabe­protokoll in Excel",
+   "h2": "Einzug und Auszug in einer Datei",
+   "sub": "Mängelliste, Zähler, Schlüssel · 9,90 €",
+   "style": "img",
+   "img": "img/uebergabeprotokoll-1.jpg"
+  }
  }
 ]
