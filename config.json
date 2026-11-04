@@ -4,7 +4,7 @@
     "name": "Vermieterordner",
     "domain": "vermieterordner.de",
     "claim": "Nebenkostenabrechnung & Co. – sauber gerechnet für private Vermieter",
-    "description": "Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebs- und Heizkostenverordnung, Kautionsabrechnung mit Zinsen. Stand 2026.",
+    "description": "Excel-Vorlagen und kostenlose Rechner für private Vermieter: Nebenkostenabrechnung nach Betriebs- und Heizkostenverordnung, Kautionsabrechnung mit Zinsen, Wohnungsübergabeprotokoll für Einzug und Auszug. Stand 2026.",
     "footer_text": "Excel-Vorlagen und kostenlose Rechner für private Vermieter in Deutschland. Stand 2026.",
     "lang": "de",
     "locale": "de_DE",
@@ -200,7 +200,12 @@
         ]
       ],
       "seo_title": "Nebenkostenabrechnung Vorlage (Excel) für Vermieter – 2026",
-      "meta_description": "Nebenkostenabrechnung als Excel-Vorlage: Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen, Abrechnungsschreiben fertig. Für private Vermieter, 14,90 €."
+      "meta_description": "Nebenkostenabrechnung als Excel-Vorlage: Betriebs-, Heiz- und CO2-Kosten je Mieter verteilen, Abrechnungsschreiben fertig. Für private Vermieter, 14,90 €.",
+      "related": [
+        "nebenkostenabrechnung-erstellen",
+        "abrechnungsfrist-rechner",
+        "heizkosten-rechner"
+      ]
     },
     {
       "slug": "kautionsabrechnung",
@@ -262,7 +267,12 @@
         ]
       ],
       "seo_title": "Kautionsabrechnung Vorlage (Excel) für Vermieter – 2026",
-      "meta_description": "Kautionsabrechnung als Excel-Vorlage: Zinsen, Abzüge und Zeitwert bei Schäden berechnen, Schreiben an den Mieter fertig. Für private Vermieter, 9,90 €."
+      "meta_description": "Kautionsabrechnung als Excel-Vorlage: Zinsen, Abzüge und Zeitwert bei Schäden berechnen, Schreiben an den Mieter fertig. Für private Vermieter, 9,90 €.",
+      "related": [
+        "kaution-zurueckzahlen",
+        "kautionsrechner",
+        "uebergabe-fristenrechner"
+      ]
     },
     {
       "slug": "wohnungsuebergabeprotokoll",
@@ -281,7 +291,7 @@
       "h1": "Wohnungs­übergabe­protokoll für private Vermieter – als Excel-Vorlage",
       "lead": "Eine Datei für Einzug und Auszug: Zustand Raum für Raum erfassen, Zählerstände und Schlüssel eintragen, Protokoll drucken und unterschreiben lassen. Beim Auszug zeigt die Vorlage automatisch, was seit dem Einzug neu ist – dazu eine Mängelliste und die Wohnungsgeberbestätigung für den Einzug.",
       "format": "ZIP-Datei mit leerer Excel-Vorlage, ausgefülltem Beispiel (.xlsx) und PDF-Kurzanleitung, Sprache Deutsch.",
-      "content": "7 Arbeitsblätter: Start mit Übersicht und 8 Prüfungen, Räume (90 Positionen), Zähler, Schlüssel, Protokoll (2 Seiten A4), Wohnungsgeberbestätigung, Info mit Checkliste",
+      "content": "7 Arbeitsblätter: Start mit Übersicht und 8 Prüfungen, Räume (90 Positionen), Zähler, Schlüssel, Protokoll (2 Seiten A4), Wohnungsgeberbestätigung, Info mit Checkliste.",
       "audience": "private Vermieter von Wohnraum – je Übergabe eine Kopie der leeren Vorlage",
       "features": [
         [
@@ -316,21 +326,25 @@
         ],
         [
           "Brauche ich für Einzug und Auszug zwei Dateien?",
-          "Nein. Sie legen beim Einzug eine Kopie an und verwenden sie beim Auszug weiter: Art auf „Auszug“ stellen und die Spalten für den Auszug ausfüllen. So steht der Vergleich automatisch daneben."
+          "Nein. Sie legen beim Einzug eine Kopie an und verwenden sie beim Auszug weiter: das Feld „Art“ auf „Auszug“ stellen und die Spalten für den Auszug ausfüllen. So steht der Vergleich automatisch daneben."
         ],
         [
           "Kann ich auch auf Papier protokollieren?",
           "Ja. Die Blätter „Räume“, „Zähler“ und „Schlüssel“ lassen sich leer ausdrucken, beim Termin von Hand ausfüllen und später in die Datei übertragen."
         ]
       ],
-      "seo_title": "Wohnungsübergabeprotokoll Vorlage (Excel) – Einzug & Auszug 2026",
-      "meta_description": "Übergabeprotokoll als Excel-Vorlage für Einzug und Auszug: Räume, Zähler, Schlüssel, Mängelliste, Wohnungsgeberbestätigung. Für Vermieter, 9,90 €."
+      "seo_title": "Wohnungsübergabeprotokoll Vorlage (Excel) – Einzug & Auszug",
+      "meta_description": "Übergabeprotokoll als Excel-Vorlage für Einzug und Auszug: Räume, Zähler, Schlüssel, Mängelliste, Wohnungsgeberbestätigung. Für Vermieter, 9,90 €.",
+      "related": [
+        "uebergabeprotokoll-wohnung",
+        "uebergabe-fristenrechner"
+      ]
     }
   ],
   "ratgeber": {
     "title": "Ratgeber",
     "h1": "Ratgeber für private Vermieter",
-    "lead": "Fristen, Kostenarten, Heizkosten und Kaution verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
+    "lead": "Fristen, Kostenarten, Heizkosten, Kaution und Wohnungsübergabe verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
     "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung."
   },
   "rechner": {
@@ -339,7 +353,7 @@
     "lead": "Schnelle Antworten direkt im Browser – nichts wird gespeichert oder übertragen.",
     "app_category": "UtilitiesApplication",
     "disclaimer": "Dieser Rechner gibt allgemeine Informationen und ersetzt keine individuelle Beratung.",
-    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist der Nebenkostenabrechnung, Heizkostenaufteilung und Kautionszinsen – im Browser, ohne Anmeldung."
+    "meta_description": "Kostenlose Rechner für Vermieter: Abrechnungsfrist, Heizkosten, Kautionszinsen und Fristen bei der Wohnungsübergabe – im Browser, ohne Anmeldung."
   },
   "pinterest": {
     "domain_verify": "6619a1c3e96181cb258971813ee2eca4",
@@ -395,6 +409,14 @@
       "href": "kautionsabrechnung.html"
     },
     "wohnungsuebergabeprotokoll.html": {
+      "label": "Übergabe-Vorlage",
+      "href": "wohnungsuebergabeprotokoll.html"
+    },
+    "uebergabeprotokoll-wohnung.html": {
+      "label": "Übergabe-Vorlage",
+      "href": "wohnungsuebergabeprotokoll.html"
+    },
+    "uebergabe-fristenrechner.html": {
       "label": "Übergabe-Vorlage",
       "href": "wohnungsuebergabeprotokoll.html"
     }

@@ -97,7 +97,8 @@ def cta_box(slug, products):
     if not p:
         return ""
     return (f'<div class="cta"><h3>{esc(p["name"])}</h3><p>{esc(p.get("short", ""))}</p>'
-            f'<a class="btn" href="{p["slug"]}.html">{esc(p["name"])} ansehen</a></div>')
+            + ('' if p.get("checkout_url") else '<p class="note">Erscheint in Kürze.</p>')
+            + f'<a class="btn" href="{p["slug"]}.html">{esc(p["name"])} ansehen</a></div>')
 
 
 def build(articles, tools, products):
@@ -198,5 +199,5 @@ def build(articles, tools, products):
     if tools:
         L += [f"## {RC.get('title', 'Werkzeuge')}"] + [f"- [{t['name']}]({abs_url(t['slug'] + '.html')}): {t['llms']}" for t in tools] + [""]
     if products:
-        L += ["## Produkte"] + [f"- [{p['name']}]({abs_url(p['slug'] + '.html')}): {p.get('short', '')} ({S.money_txt(p['price'])})" for p in products.values()] + [""]
+        L += ["## Produkte"] + [f"- [{p['name']}]({abs_url(p['slug'] + '.html')}): {p.get('short', '')} ({S.money_txt(p['price'])}{'' if p.get('checkout_url') else ', erscheint in Kürze'})" for p in products.values()] + [""]
     open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(L))

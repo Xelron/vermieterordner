@@ -198,7 +198,7 @@ page(H["title"], H["meta_description"], idx, "index.html", ld(org_ld) + ld(site_
 for p in P:
     includes = [BY[s] for s in p.get("includes", []) if s in BY]
     rows = [("Produkt", p["name"]), ("Art", PD.get("type", "")), ("Format", p.get("format") or PD.get("format", "")),
-            ("Inhalt", p.get("content", "")), ("Lieferung", p.get("delivery") or PD.get("delivery", "")),
+            ("Inhalt", p.get("content", "")), ("Lieferung", ("" if p.get("checkout_url") else "Nach Verkaufsstart: ") + (p.get("delivery") or PD.get("delivery", ""))),
             ("Preis", f"<strong>{money(p['price'])} einmalig</strong>" + (f" (statt {money(p['compare_price'])})" if p.get("compare_price") else "")),
             ("Für wen", p.get("audience") or PD.get("audience", ""))]
     tbl = "".join(f"<tr><th>{k}</th><td>{v if k == 'Preis' else esc(v)}</td></tr>" for k, v in rows if v)
@@ -207,6 +207,13 @@ for p in P:
     extra = ""
     if includes:
         extra = ('<section><div class="wrap"><h2 class="serif">Im Paket enthalten</h2><div class="pgrid">' + "".join(card(q) for q in includes) + "</div></div></section>")
+    # Kostenlose Ratgeber/Rechner zum Produkt (config: "related": [slug, ...])
+    rel = [x for s in p.get("related", []) for x in ARTICLES + TOOLS if x["slug"] == s]
+    if rel:
+        extra += ('<section><div class="wrap"><h2 class="serif">Kostenlos dazu</h2><div class="grid2">' + "".join(
+            f'<a class="pcard" href="{x["slug"]}.html"><div class="pbody"><h3>{esc(x.get("name") if x in TOOLS else x["title"])}</h3>'
+            f'<p>{esc(x["card_text"])}</p><div class="prow"><span class="more">{"Zum Rechner →" if x in TOOLS else "Lesen →"}</span></div></div></a>'
+            for x in rel) + "</div></div></section>")
     pfaq = [tuple(x) for x in p.get("faq", [])]
     co = CFG["checkout"]
     body = f"""<div class="wrap hero">
@@ -228,7 +235,7 @@ for p in P:
 {extra}
 {faq_section(pfaq)}
 <section id="kaufen" class="band"><div class="wrap buy">
-<h2 class="serif">{esc(p['name'])} kaufen</h2>
+<h2 class="serif">{esc(p['name'])} {'kaufen' if p.get('checkout_url') else '– bald verfügbar'}</h2>
 <p class="sub2">{'Digitaler Download · sofort nach der Zahlung verfügbar' if p.get('checkout_url') else esc(co.get('soon_note', ''))}</p>
 <div class="price-big serif">{money(p['price'])}</div>
 {buy(p, "btn btn-lg", co.get("buy_label", "Jetzt kaufen"))}

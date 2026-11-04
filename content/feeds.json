@@ -781,5 +781,115 @@
    "style": "img",
    "img": "img/kautionsabrechnung-1.jpg"
   }
+ },
+ {
+  "id": "pin-51",
+  "board": "Vermieten leicht gemacht",
+  "title": "Übergabeprotokoll Wohnung: Was rein muss",
+  "description": "Datum und Beteiligte, Zustand jedes Raums, Mängel mit Foto-Nummer, Zählerstände mit Zählernummer, Schlüssel, Vereinbarungen und beide Unterschriften: Diese Punkte gehören in jedes Wohnungsübergabeprotokoll – mit Checkliste für Vermieter.",
+  "link": "uebergabeprotokoll-wohnung.html#inhalt",
+  "image": "pins/pin-51.jpg",
+  "date": "2026-11-16T04:00:00",
+  "pin": {
+   "h1": "Übergabe­protokoll",
+   "h2": "Das muss rein",
+   "style": "list",
+   "items": [
+    "Räume und Mängel mit Foto",
+    "Zählerstände mit Nummer",
+    "Schlüssel nach Art und Anzahl",
+    "Unterschriften beider Seiten"
+   ]
+  }
+ },
+ {
+  "id": "pin-52",
+  "board": "Vermieten leicht gemacht",
+  "title": "Nach dem Auszug: Schadensersatz verjährt nach 6 Monaten",
+  "description": "Ersatzansprüche wegen Schäden an der Wohnung verjähren 6 Monate nach der Rückgabe – nicht nach dem Vertragsende (§ 548 BGB). Der kostenlose Fristenrechner zeigt das Fristende für Ihre Rückgabe.",
+  "link": "uebergabe-fristenrechner.html",
+  "image": "pins/pin-52.jpg",
+  "date": "2026-11-17T04:00:00",
+  "pin": {
+   "h1": "6 Monate nach Rückgabe",
+   "h2": "Dann verjähren Ihre Ansprüche wegen Schäden",
+   "sub": "Kostenloser Fristenrechner"
+  }
+ },
+ {
+  "id": "pin-53",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mängel im Übergabeprotokoll richtig beschreiben",
+  "description": "„Boden beschädigt“ hilft im Streit kaum. Beschreiben Sie jeden Mangel so, dass ein Dritter ihn wiederfindet: was, wo, wie groß – und mit Foto-Nummer. Beispiele und Checkliste im Ratgeber.",
+  "link": "uebergabeprotokoll-wohnung.html#maengel",
+  "image": "pins/pin-53.jpg",
+  "date": "2026-11-18T04:00:00",
+  "pin": {
+   "h1": "Mängel richtig notieren",
+   "h2": "Was, wo, wie groß – mit Foto",
+   "sub": "Beispiele für das Übergabeprotokoll"
+  }
+ },
+ {
+  "id": "pin-54",
+  "board": "Vermieten leicht gemacht",
+  "title": "Wohnungsgeberbestätigung: 2 Wochen nach Einzug",
+  "description": "Der Mieter muss sich innerhalb von 2 Wochen nach dem Einzug anmelden und braucht dafür Ihre Wohnungsgeberbestätigung (§§ 17, 19 BMG). Welche 4 Angaben hineingehören und bis wann – mit kostenlosem Fristenrechner.",
+  "link": "uebergabe-fristenrechner.html#einzug",
+  "image": "pins/pin-54.jpg",
+  "date": "2026-11-19T04:00:00",
+  "pin": {
+   "h1": "Wohnungsgeber­bestätigung",
+   "h2": "Spätestens 2 Wochen nach dem Einzug",
+   "sub": "Kostenloser Fristenrechner"
+  }
+ },
+ {
+  "id": "pin-55",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Mieterwechsel: Zählerstände ablesen nicht vergessen",
+  "description": "Zieht ein Mieter während des Abrechnungszeitraums aus, ist für Heizung und Warmwasser grundsätzlich eine Zwischenablesung vorgeschrieben (§ 9b HeizkostenV). Notieren Sie alle Zählerstände mit Zählernummer im Übergabeprotokoll.",
+  "link": "uebergabeprotokoll-wohnung.html#einzug",
+  "image": "pins/pin-55.jpg",
+  "date": "2026-11-20T04:00:00",
+  "pin": {
+   "h1": "Mieterwechsel?",
+   "h2": "Zählerstände mit Zählernummer ins Protokoll",
+   "sub": "Zwischenablesung nach § 9b HeizkostenV"
+  }
+ },
+ {
+  "id": "pin-56",
+  "board": "Vermieten leicht gemacht",
+  "title": "Übergabetermin: Checkliste für Vermieter",
+  "description": "Bei Tageslicht, mit Einzugsprotokoll, Zollstock und Kamera: Raum für Raum durchgehen, Mängel fotografieren, Heizung und Rauchwarnmelder testen, Zähler und Schlüssel erfassen, beide unterschreiben. Die vollständige Checkliste im Ratgeber.",
+  "link": "uebergabeprotokoll-wohnung.html#checkliste",
+  "image": "pins/pin-56.jpg",
+  "date": "2026-11-21T04:00:00",
+  "pin": {
+   "h1": "Übergabe­termin",
+   "h2": "Checkliste für Vermieter",
+   "style": "list",
+   "items": [
+    "Einzugsprotokoll mitnehmen",
+    "Mängel fotografieren",
+    "Zähler und Schlüssel erfassen",
+    "Verdeckte Mängel vorbehalten"
+   ]
+  }
+ },
+ {
+  "id": "pin-57",
+  "board": "Vermieten leicht gemacht",
+  "title": "Gebrauchsspuren oder Schaden? Was der Mieter zahlen muss",
+  "description": "Abnutzung durch vertragsgemäßen Gebrauch hat der Mieter nicht zu vertreten (§ 538 BGB). Halten Sie Gebrauchsspuren im Übergabeprotokoll trotzdem fest – aber getrennt von echten Schäden.",
+  "link": "uebergabeprotokoll-wohnung.html#maengel",
+  "image": "pins/pin-57.jpg",
+  "date": "2026-11-22T04:00:00",
+  "pin": {
+   "h1": "Gebrauchs­spuren oder Schaden?",
+   "h2": "Im Übergabeprotokoll sauber trennen",
+   "sub": "Ratgeber mit Beispielen"
+  }
  }
 ]

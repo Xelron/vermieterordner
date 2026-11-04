@@ -128,3 +128,4 @@ footer nav a{color:var(--muted)}
  .tbl{font-size:14px}.tbl th,.tbl td{padding:8px;hyphens:auto;-webkit-hyphens:auto}
 }
 @media (prefers-reduced-motion:reduce){.pcard{transition:none}.pcard:hover{transform:none}}
+[hidden]{display:none!important}
