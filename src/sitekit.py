@@ -175,12 +175,33 @@ def _webp_variants():
 PH = CFG.get("photos", {})
 
 
+def _jpeg_size(path):
+    """Breite/Höhe eines JPEG ohne Pillow (die GitHub-Action hat kein PIL)."""
+    import struct
+    with open(path, "rb") as f:
+        data = f.read()
+    i = 2
+    while i < len(data):
+        if data[i] != 0xFF:
+            i += 1
+            continue
+        marker = data[i + 1]
+        if marker in (0xD8, 0x01) or 0xD0 <= marker <= 0xD7:
+            i += 2
+            continue
+        seg = struct.unpack(">H", data[i + 2:i + 4])[0]
+        if marker in (0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF):
+            h, w = struct.unpack(">HH", data[i + 5:i + 9])
+            return w, h
+        i += 2 + seg
+    return 1600, 1067
+
+
 def photo(name, cls="", sizes="100vw", eager=False):
     """Echtes Foto aus docs/img/foto/ (JPG + WebP 800/1600)."""
     if name not in PH or not os.path.exists(os.path.join(OUT, "img", "foto", name + ".jpg")):
         return ""
-    from PIL import Image
-    w, h = Image.open(os.path.join(OUT, "img", "foto", name + ".jpg")).size
+    w, h = _jpeg_size(os.path.join(OUT, "img", "foto", name + ".jpg"))
     ld_ = ' fetchpriority="high"' if eager else ' loading="lazy"'
     return (f'<picture class="{cls}"><source type="image/webp" srcset="img/foto/{name}-800.webp 800w, img/foto/{name}-1600.webp 1600w" sizes="{sizes}">'
             f'<img src="img/foto/{name}.jpg" width="{w}" height="{h}" alt="{esc(PH[name]["alt"])}"{ld_}></picture>')
