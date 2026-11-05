@@ -444,8 +444,8 @@
       "h1": "Vermieter-Paket 2026 – alle 4 Excel-Vorlagen für private Vermieter",
       "lead": "Die vier Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung und die Steuererklärung bis zum Auszug.",
       "format": "ZIP-Datei mit allen vier Vorlagen – jede mit Excel-Datei (.xlsx) und PDF-Kurzanleitung, Wohnungsübergabeprotokoll und Anlage V zusätzlich mit ausgefülltem Beispiel. Sprache Deutsch.",
-      "content": "Nebenkostenabrechnung (8 Arbeitsblätter), Kautionsabrechnung (5), Wohnungsübergabeprotokoll (7), Anlage V 2026 (7) – Details auf den einzelnen Produktseiten",
-      "audience": "private Vermieter von Wohnraum in Deutschland mit einem oder mehreren Mietobjekten",
+      "content": "Nebenkostenabrechnung (8 Arbeitsblätter), Kautionsabrechnung (5), Wohnungsübergabeprotokoll (7), Anlage V 2026 (7) – Details auf den einzelnen Produktseiten",
+      "audience": "private Vermieter von Wohnraum in Deutschland mit einem oder mehreren Mietobjekten – die Grenzen jeder Vorlage stehen auf den einzelnen Produktseiten",
       "features": [
         [
           "Nebenkostenabrechnung",
@@ -453,7 +453,7 @@
         ],
         [
           "Kautionsabrechnung",
-          "Kaution mit Zinsen abrechnen, Schäden zum Zeitwert ansetzen, Einbehalt für die ausstehende Betriebskostenabrechnung – mit Schreiben an den Mieter."
+          "Kaution mit Zinsen abrechnen, Schäden zum Zeitwert ansetzen und bei Bedarf einen Einbehalt für eine noch ausstehende Betriebskostenabrechnung festhalten – mit Schreiben an den Mieter."
         ],
         [
           "Wohnungsübergabeprotokoll",
@@ -465,11 +465,11 @@
         ],
         [
           "Einmal zahlen, einzeln nutzen",
-          "Jede Vorlage ist eine eigene Datei mit eigener Kurzanleitung. Für jedes Mietverhältnis, jede Übergabe oder jedes Objekt legen Sie einfach eine Kopie an."
+          "Jede Vorlage ist eine eigene Datei mit eigener Kurzanleitung. Für jede neue Abrechnung, jede Übergabe oder jedes weitere Objekt legen Sie einfach eine Kopie an."
         ],
         [
           "Günstiger als einzeln",
-          "Einzeln kosten die vier Vorlagen zusammen 47,60 €, im Paket 32,90 € – Sie sparen 14,70 €."
+          "Einzeln kosten die vier Vorlagen zusammen 47,60 €, im Paket 32,90 € – 14,70 € weniger als beim Einzelkauf."
         ]
       ],
       "faq": [
@@ -479,20 +479,26 @@
         ],
         [
           "Welche Programme brauche ich?",
-          "Alle vier Vorlagen laufen in Microsoft Excel (Windows/Mac) und LibreOffice Calc. Nebenkosten- und Kautionsabrechnung funktionieren auch in Google Sheets (ohne Blattschutz und einige Farbmarkierungen); Wohnungsübergabeprotokoll und Anlage V sind in Google Sheets nicht getestet."
+          "Alle vier Vorlagen sind für Microsoft Excel und LibreOffice Calc gebaut; Details stehen auf den einzelnen Produktseiten (Anlage V: Excel ab 2010, geprüft in LibreOffice). Nebenkosten- und Kautionsabrechnung funktionieren auch in Google Sheets (ohne Blattschutz und einige Farbmarkierungen). Das Wohnungsübergabeprotokoll ist in Google Sheets nicht getestet, die Anlage V wird in Google Sheets nicht unterstützt."
         ],
         [
           "Ich brauche nur eine oder zwei Vorlagen – lohnt sich das Paket?",
-          "Für eine oder zwei Vorlagen ist der Einzelkauf günstiger. Mit der Nebenkostenabrechnung und zwei weiteren Vorlagen (einzeln mindestens 34,70 €) ist das Paket schon günstiger. Kautions-, Übergabe- und Anlage-V-Vorlage kosten einzeln zusammen 32,70 € – im Paket zahlen Sie 0,20 € mehr und bekommen die Nebenkostenabrechnung dazu."
+          "Für eine oder zwei Vorlagen ist der Einzelkauf günstiger. Mit der Nebenkostenabrechnung und zwei weiteren Vorlagen (einzeln mindestens 34,70 €) rechnet sich das Paket schon. Kautions-, Übergabe- und Anlage-V-Vorlage kosten einzeln zusammen 32,70 € – im Paket zahlen Sie 0,20 € mehr und bekommen die Nebenkostenabrechnung dazu."
         ]
       ],
       "faq_exclude": [
         "Welche Programme brauche ich?"
       ],
-      "seo_title": "Vermieter-Paket 2026: 4 Excel-Vorlagen für Vermieter | Vermieterordner",
+      "seo_title": "Vermieter-Paket 2026: 4 Excel-Vorlagen für private Vermieter",
       "meta_description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026 als Excel-Vorlagen im Paket: 32,90 € (einzeln zusammen 47,60 €).",
       "related": [],
-      "soon_note": "Erscheint in Kürze: Die Vorlagen sind fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet."
+      "soon_note": "Erscheint in Kürze: Die Vorlagen sind fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet.",
+      "features_title": "Was die vier Vorlagen können",
+      "ticks": [
+        "4 Vorlagen, je eine eigene Datei",
+        "Dieselben Dateien wie einzeln",
+        "14,70 € weniger als einzeln"
+      ]
     }
   ],
   "ratgeber": {
@@ -587,7 +593,7 @@
       "href": "anlage-v.html"
     },
     "vermieter-paket.html": {
-      "label": "Paket ansehen",
+      "label": "Paket für 32,90 €",
       "href": "vermieter-paket.html#kaufen"
     }
   },

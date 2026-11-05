@@ -133,11 +133,38 @@ for p in P:
     p["_shots"] = [s for s in p.get("shots", []) if os.path.exists(os.path.join(OUT, "img", s))]
 for p in P:
     # Pakete: Summe der Einzelpreise der enthaltenen Produkte
-    inc = [BY[s] for s in p.get("includes", []) if s in BY]
+    slugs = list(dict.fromkeys(p.get("includes", [])))
+    for s_ in slugs:
+        if s_ not in BY or s_ == p["slug"]:
+            print(f"WARNUNG: includes von {p['slug']}: unbekannt/ungültig {s_}")
+    inc = [BY[s_] for s_ in slugs if s_ in BY and s_ != p["slug"]]
     if inc:
+        p["_inc"] = inc
         p["_sum"] = round(sum(float(q["price"]) for q in inc), 2)
         for q in inc:
             q.setdefault("_bundles", []).append(p)
+
+
+def _check_bundle_amounts(p):
+    """Paket-Texte dürfen nur Euro-Beträge enthalten, die zu den aktuellen Preisen passen
+    (Paketpreis, Summe, Ersparnis, Summen/Differenzen von Teilmengen der Einzelpreise)."""
+    import itertools, re as _re
+    prices = [round(float(q["price"]), 2) for q in p["_inc"]]
+    ok = {round(float(p["price"]), 2), p["_sum"], round(p["_sum"] - float(p["price"]), 2)}
+    for k in range(1, len(prices) + 1):
+        for c in itertools.combinations(prices, k):
+            ok |= {round(sum(c), 2), round(abs(sum(c) - float(p["price"])), 2)}
+    okt = {f"{v:.2f}".replace(".", ",") for v in ok}
+    txt = " ".join([p.get("short", ""), p.get("lead", ""), p.get("meta_description", ""), p.get("seo_title", "")]
+                   + [a + " " + b for a, b in p.get("features", []) + p.get("faq", [])] + p.get("ticks", []))
+    bad = [m for m in _re.findall(r"(\d+,\d{2})\s*€", txt) if m not in okt]
+    if bad:
+        raise SystemExit(f"FEHLER: Paket {p['slug']}: Beträge passen nicht zu den aktuellen Preisen: {bad}")
+
+
+for p in P:
+    if p.get("_inc"):
+        _check_bundle_amounts(p)
 
 
 PH = S.PH
@@ -153,7 +180,7 @@ def buy(p, cls="btn", label=None):
 def compare_txt(p):
     """Vergleichspreis als Text. Pakete ("includes"): Summe der Einzelpreise, ohne Streichpreis
     (kein früherer Preis, daher nicht durchgestrichen – PAngV § 11)."""
-    if p.get("_sum"):
+    if p.get("_sum") and all(q.get("checkout_url") for q in p["_inc"]):
         return f"einzeln zusammen {money(p['_sum'])}"
     return ""
 
@@ -196,7 +223,7 @@ if TOOLS:
 
 
 def prow(p):
-    pts = "".join(f"<li>{esc(t)}</li>" for t, _ in p.get("features", [])[:3])
+    pts = "".join(f"<li>{esc(t)}</li>" for t in (p.get("ticks") or [t for t, _ in p.get("features", [])[:3]]))
     return f"""<article class="prow2"><a class="pthumb" href="{p['slug']}.html"><img src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}" loading="lazy"></a>
 <div class="ptxt"><h3><a href="{p['slug']}.html">{esc(p['name'])}</a></h3><p>{esc(p['short'])}</p>{f'<ul class="ticks">{pts}</ul>' if pts else ''}</div>
 <div class="pbuy"><span class="price">{money(p['price'])}{f'<small class="cmp">{compare_txt(p)}</small>' if compare_txt(p) else ''}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
@@ -238,7 +265,7 @@ def bundle_hint(p):
     out = ""
     for b in p.get("_bundles", []):
         if b.get("checkout_url") and p.get("checkout_url"):
-            n = len(b.get("includes", []))
+            n = len(b["_inc"])
             out += (f'<p class="bundlehint">Auch im <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
                     f'alle {n} Vorlagen für {money(b["price"])} ({compare_txt(b)}).</p>')
     return out
@@ -281,7 +308,7 @@ for p in P:
 <div class="split"><div><table class="spec">{tbl}</table></div>
 {f'<div class="shots">{shots}</div>' if shots else ''}</div>
 </div></section>
-{f'<section><div class="wrap"><h2 class="serif">Was das Produkt kann</h2><div class="grid2">{feats}</div></div></section>' if feats else ''}
+{f'<section><div class="wrap"><h2 class="serif">{esc(p.get("features_title") or "Was das Produkt kann")}</h2><div class="grid2">{feats}</div></div></section>' if feats else ''}
 {extra}
 {faq_section(pfaq, p.get('faq_exclude'))}
 <section id="kaufen" class="band"><div class="wrap buy">
