@@ -134,6 +134,8 @@ for p in P:
 for p in P:
     # Pakete: Summe der Einzelpreise der enthaltenen Produkte
     slugs = list(dict.fromkeys(p.get("includes", [])))
+    if len(slugs) < len(p.get("includes", [])):
+        print(f"WARNUNG: includes von {p['slug']}: doppelte Einträge ignoriert")
     for s_ in slugs:
         if s_ not in BY or s_ == p["slug"]:
             print(f"WARNUNG: includes von {p['slug']}: unbekannt/ungültig {s_}")
@@ -267,7 +269,7 @@ def bundle_hint(p):
         if b.get("checkout_url") and p.get("checkout_url"):
             n = len(b["_inc"])
             out += (f'<p class="bundlehint">Auch im <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
-                    f'alle {n} Vorlagen für {money(b["price"])} ({compare_txt(b)}).</p>')
+                    f'alle {n} Vorlagen für {money(b["price"])}' + (f' ({compare_txt(b)})' if compare_txt(b) else '') + '.</p>')
     return out
 
 
