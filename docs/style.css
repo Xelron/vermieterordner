@@ -173,3 +173,9 @@ footer nav a{color:var(--muted)}
 }
 @media (prefers-reduced-motion:reduce){.pcard{transition:none}.pcard:hover{transform:none}}
 [hidden]{display:none!important}
+
+/* Pakete: Vergleich mit Einzelpreisen (kein Streichpreis) und Hinweis auf Einzelprodukten */
+.price .cmp{display:block;font-size:13px;font-weight:400;color:var(--soft);text-align:right}
+.bundlehint{margin:18px auto 0;max-width:560px;padding:12px 16px;border:1px dashed var(--line);border-radius:6px;font-size:15px;color:var(--muted);background:var(--bg)}
+.bundlehint a{font-weight:600}
+@media (max-width:640px){.price .cmp{text-align:left}}

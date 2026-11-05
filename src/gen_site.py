@@ -131,6 +131,13 @@ for p in P:
     if img and p["_img"] != img:
         print(f"WARNUNG: Bild docs/img/{img} für Produkt {p['slug']} fehlt – Platzhalter verwendet")
     p["_shots"] = [s for s in p.get("shots", []) if os.path.exists(os.path.join(OUT, "img", s))]
+for p in P:
+    # Pakete: Summe der Einzelpreise der enthaltenen Produkte
+    inc = [BY[s] for s in p.get("includes", []) if s in BY]
+    if inc:
+        p["_sum"] = round(sum(float(q["price"]) for q in inc), 2)
+        for q in inc:
+            q.setdefault("_bundles", []).append(p)
 
 
 PH = S.PH
@@ -143,8 +150,17 @@ def buy(p, cls="btn", label=None):
     return f'<span class="{cls} soon" aria-disabled="true">{esc(co.get("soon_label", "Bald verfügbar"))}</span>'
 
 
+def compare_txt(p):
+    """Vergleichspreis als Text. Pakete ("includes"): Summe der Einzelpreise, ohne Streichpreis
+    (kein früherer Preis, daher nicht durchgestrichen – PAngV § 11)."""
+    if p.get("_sum"):
+        return f"einzeln zusammen {money(p['_sum'])}"
+    return ""
+
+
 def card(p):
-    cmp_ = f' <s style="font-size:15px;opacity:.65">{money(p["compare_price"])}</s>' if p.get("compare_price") else ""
+    cmp_ = (f' <small style="font-size:14px;opacity:.75;font-weight:400">{compare_txt(p)}</small>' if compare_txt(p)
+            else f' <s style="font-size:15px;opacity:.65">{money(p["compare_price"])}</s>' if p.get("compare_price") else "")
     return f"""<a class="pcard" href="{p['slug']}.html"><img src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}" loading="lazy">
 <div class="pbody"><h3>{esc(p['name'])}</h3><p>{esc(p['short'])}</p><div class="prow"><span class="price">{money(p['price'])}{cmp_}</span><span class="more">Ansehen</span></div></div></a>"""
 
@@ -183,7 +199,7 @@ def prow(p):
     pts = "".join(f"<li>{esc(t)}</li>" for t, _ in p.get("features", [])[:3])
     return f"""<article class="prow2"><a class="pthumb" href="{p['slug']}.html"><img src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}" loading="lazy"></a>
 <div class="ptxt"><h3><a href="{p['slug']}.html">{esc(p['name'])}</a></h3><p>{esc(p['short'])}</p>{f'<ul class="ticks">{pts}</ul>' if pts else ''}</div>
-<div class="pbuy"><span class="price">{money(p['price'])}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
+<div class="pbuy"><span class="price">{money(p['price'])}{f'<small class="cmp">{compare_txt(p)}</small>' if compare_txt(p) else ''}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
 
 
 why = "".join(f'<li><b>{esc(t)}</b> {esc(d)}</li>' for t, d in H.get("why", []))
@@ -205,7 +221,7 @@ idx = f"""<section class="phero{'' if hero_photo else ' nophoto'}">{hero_photo}<
 <section id="produkte" class="prods"><div class="wrap">
 <h2 class="serif">{esc(H.get('products_title', 'Produkte'))}</h2>
 <p class="sub2">{esc(H.get('products_sub', ''))}</p>
-<div class="plist">{''.join(prow(p) for p in P)}</div>
+<div class="plist">{''.join(prow(p) for p in P if p.get("checkout_url") or not p.get("list_after_checkout"))}</div>
 </div></section>
 {about}
 {tools_band}
@@ -217,11 +233,22 @@ site_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": B["name
 page(H["title"], H["meta_description"], idx, "index.html", ld(org_ld) + ld(site_ld) + ld(S.faq_ld([tuple(x) for x in CFG.get("faq", [])])))
 
 # ---------------------------------------------------------------- Produktseiten
+def bundle_hint(p):
+    """Auf Einzelprodukten: Hinweis auf kaufbare Pakete, die das Produkt enthalten."""
+    out = ""
+    for b in p.get("_bundles", []):
+        if b.get("checkout_url") and p.get("checkout_url"):
+            n = len(b.get("includes", []))
+            out += (f'<p class="bundlehint">Auch im <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
+                    f'alle {n} Vorlagen für {money(b["price"])} ({compare_txt(b)}).</p>')
+    return out
+
+
 for p in P:
     includes = [BY[s] for s in p.get("includes", []) if s in BY]
     rows = [("Produkt", p["name"]), ("Art", PD.get("type", "")), ("Format", p.get("format") or PD.get("format", "")),
             ("Inhalt", p.get("content", "")), ("Lieferung", ("" if p.get("checkout_url") else "Nach Verkaufsstart: ") + (p.get("delivery") or PD.get("delivery", ""))),
-            ("Preis", f"<strong>{money(p['price'])} einmalig</strong>" + (f" (statt {money(p['compare_price'])})" if p.get("compare_price") else "")),
+            ("Preis", f"<strong>{money(p['price'])} einmalig</strong>" + (f" ({compare_txt(p)})" if compare_txt(p) else f" (statt {money(p['compare_price'])})" if p.get("compare_price") else "")),
             ("Für wen", p.get("audience") or PD.get("audience", ""))]
     tbl = "".join(f"<tr><th>{k}</th><td>{v if k == 'Preis' else esc(v)}</td></tr>" for k, v in rows if v)
     shots = "".join(f'<img src="img/{s}" width="1000" height="1000" alt="Beispielansicht {esc(p["name"])}" loading="lazy">' for s in p["_shots"])
@@ -244,7 +271,7 @@ for p in P:
 <h1 class="serif">{esc(p.get('h1') or p['name'])}</h1>
 <p class="lead">{esc(p.get('lead', ''))}</p>
 {buy(p)}
-<p class="note">{esc(co.get('note', '') if p.get('checkout_url') else co.get('soon_note', ''))}</p>
+<p class="note">{esc(co.get('note', '') if p.get('checkout_url') else (p.get('soon_note') or co.get('soon_note', '')))}</p>
 </div>
 <div><img class="heroimg" src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}"></div>
 </div>
@@ -259,10 +286,11 @@ for p in P:
 {faq_section(pfaq, p.get('faq_exclude'))}
 <section id="kaufen" class="band"><div class="wrap buy">
 <h2 class="serif">{esc(p['name'])} {'kaufen' if p.get('checkout_url') else '– bald verfügbar'}</h2>
-<p class="sub2">{'Digitaler Download · sofort nach der Zahlung verfügbar' if p.get('checkout_url') else esc(co.get('soon_note', ''))}</p>
+<p class="sub2">{'Digitaler Download · sofort nach der Zahlung verfügbar' if p.get('checkout_url') else esc((p.get('soon_note') or co.get('soon_note', '')))}</p>
 <div class="price-big serif">{money(p['price'])}</div>
 {buy(p, "btn btn-lg", co.get("buy_label", "Jetzt kaufen"))}
 {f'<p class="note">{esc(co.get("payment_note", ""))}</p>' if p.get('checkout_url') else ''}
+{bundle_hint(p)}
 </div></section>"""
     lead = p.get("lead", "")
     md = lead if len(lead) <= 158 else lead[:155].rsplit(" ", 1)[0] + " …"
