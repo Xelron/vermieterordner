@@ -52,7 +52,7 @@ Dafür verzichten Sie auf andere Erhöhungen:
 
 | Erhöhungsart | Bei Indexmiete |
 |---|---|
-| Erhöhung auf die ortsübliche Vergleichsmiete (§ 558 BGB) | ausgeschlossen |
+| [Erhöhung auf die ortsübliche Vergleichsmiete](mieterhoehung-vergleichsmiete.html) (§ 558 BGB) | ausgeschlossen |
 | Modernisierungserhöhung (§§ 559, 559e BGB) | nur eingeschränkt: bei baulichen Maßnahmen, die Sie nicht zu vertreten haben, und beim Heizungstausch nach dem Gebäudeenergiegesetz (§ 555b Nr. 1a BGB) |
 | Anpassung der Betriebskostenvorauszahlungen (§ 560 BGB) | weiter möglich – der Index betrifft nur die Nettokaltmiete |
 | Mietpreisbremse (§§ 556d ff. BGB) | gilt nur für die Ausgangsmiete |

@@ -1300,5 +1300,121 @@
    "style": "img",
    "img": "img/vermieter-paket-1.jpg"
   }
+ },
+ {
+  "id": "pin-84",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mieterhöhung auf die Vergleichsmiete: so geht’s 2026",
+  "description": "Ohne Staffel- oder Indexmiete erhöhen Sie die Miete nach § 558 BGB: Zustimmung des Mieters in Textform verlangen und begründen, etwa mit dem Mietspiegel. Voraussetzungen, Kappungsgrenze, Fristen und ein durchgerechnetes Beispiel im Ratgeber.",
+  "link": "mieterhoehung-vergleichsmiete.html#prinzip",
+  "image": "pins/pin-84.jpg",
+  "date": "2026-12-08T04:00:00",
+  "pin": {
+   "h1": "Miete erhöhen nach § 558 BGB",
+   "h2": "Voraussetzungen, Fristen, Beispiel",
+   "sub": "Kappungsgrenze · Mietspiegel · Checkliste"
+  }
+ },
+ {
+  "id": "pin-85",
+  "board": "Vermieten leicht gemacht",
+  "title": "Kappungsgrenze: höchstens 20 % in drei Jahren",
+  "description": "Bei der Mieterhöhung auf die Vergleichsmiete darf die Miete in drei Jahren um höchstens 20 % steigen, in Gebieten mit Landesverordnung um 15 %. Ausgangsmiete ist die Miete drei Jahre vor dem Erhöhungstermin (bei jüngerem Mietverhältnis die Anfangsmiete); Modernisierungs- und Betriebskostenerhöhungen zählen nicht mit (§ 558 Abs. 3 BGB).",
+  "link": "mieterhoehung-vergleichsmiete.html#kappungsgrenze",
+  "image": "pins/pin-85.jpg",
+  "date": "2026-12-09T04:00:00",
+  "pin": {
+   "h1": "Max. 20 % in 3 Jahren",
+   "h2": "Kappungsgrenze – 15 % in Gebieten mit Verordnung",
+   "sub": "Stichtag: 3 Jahre vor dem Termin (jüngeres Mietverhältnis: Anfangsmiete)"
+  }
+ },
+ {
+  "id": "pin-86",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mieterhöhung begründen: Diese 4 Mittel nennt das Gesetz",
+  "description": "Jede Mieterhöhung auf die Vergleichsmiete braucht eine Begründung (§ 558a BGB): Mietspiegel, Auskunft aus einer Mietdatenbank, Gutachten eines öffentlich bestellten und vereidigten Sachverständigen oder drei vergleichbare Wohnungen. Einen nicht allgemein zugänglichen Mietspiegel legen Sie bei.",
+  "link": "mieterhoehung-vergleichsmiete.html#begruendung",
+  "image": "pins/pin-86.jpg",
+  "date": "2026-12-10T04:00:00",
+  "pin": {
+   "h1": "Mieterhöhung begründen",
+   "h2": "Diese 4 Mittel nennt das Gesetz",
+   "style": "list",
+   "items": [
+    "Mietspiegel",
+    "Auskunft aus Mietdatenbank",
+    "Gutachten (Sachverständiger)",
+    "3 vergleichbare Wohnungen"
+   ]
+  }
+ },
+ {
+  "id": "pin-87",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mieterhöhung: Ab wann gilt die neue Miete?",
+  "description": "Wenn der Mieter zustimmt, gilt die neue Miete ab Beginn des dritten Kalendermonats nach Zugang – sofern die 15 Monate erfüllt sind: Zugang im November → neue Miete ab 01.02. Zustimmen kann der Mieter bis zum Ende des zweiten Kalendermonats, danach bleiben Ihnen drei Monate für die Klage (§ 558b BGB).",
+  "link": "mieterhoehung-vergleichsmiete.html#fristen",
+  "image": "pins/pin-87.jpg",
+  "date": "2026-12-11T04:00:00",
+  "pin": {
+   "h1": "Zugang im Nov. → ab 01.02.",
+   "h2": "Neue Miete ab dem 3. Kalendermonat nach Zugang",
+   "sub": "Zustimmung bis Ende des 2. Monats nach Zugang"
+  }
+ },
+ {
+  "id": "pin-88",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mieterhöhung Rechenbeispiel: 650 € → 720 €",
+  "description": "72,50 m², Vergleichsmiete laut Mietspiegel 10,30 €/m² = 746,75 € – aber die Kappungsgrenze erlaubt nur 600 € × 1,20 = 720 €. Neue Miete also 720,00 € ab 01.02.2027 (+10,77 %). Das ganze Beispiel mit Fristen und Wochentagen im Ratgeber.",
+  "link": "mieterhoehung-vergleichsmiete.html#beispiel",
+  "image": "pins/pin-88.jpg",
+  "date": "2026-12-12T04:00:00",
+  "pin": {
+   "h1": "650 € → 720 €",
+   "h2": "Rechenbeispiel Vergleichsmiete",
+   "style": "list",
+   "items": [
+    "Vergleichsmiete: 746,75 €",
+    "Kappung: 600 € × 1,2 = 720 €",
+    "Neue Miete: 720,00 €",
+    "Ab 01.02.2027 (+10,77 %)"
+   ]
+  }
+ },
+ {
+  "id": "pin-89",
+  "board": "Vermieten leicht gemacht",
+  "title": "Mieterhöhung: Erst nach 15 Monaten",
+  "description": "Die Miete muss zum Erhöhungstermin seit 15 Monaten unverändert sein, und das Verlangen darf frühestens ein Jahr nach der letzten Erhöhung zugehen (§ 558 Abs. 1 BGB). Erhöhungen wegen Modernisierung oder Betriebskosten zählen dabei nicht.",
+  "link": "mieterhoehung-vergleichsmiete.html#voraussetzungen",
+  "image": "pins/pin-89.jpg",
+  "date": "2026-12-13T04:00:00",
+  "pin": {
+   "h1": "15 Monate unverändert",
+   "h2": "Erst dann gilt die neue Miete",
+   "sub": "Modernisierung und Betriebskosten zählen nicht"
+  }
+ },
+ {
+  "id": "pin-90",
+  "board": "Vermieten leicht gemacht",
+  "title": "Checkliste Mieterhöhung nach § 558 BGB",
+  "description": "Vor dem Versand prüfen: Miete seit 15 Monaten unverändert? Kappungsgrenze eingehalten? Begründung mit Mietspiegel oder drei Wohnungen? Textform, alle Vermieter an alle Mieter, Zugang beweisbar? Die vollständige Checkliste im Ratgeber.",
+  "link": "mieterhoehung-vergleichsmiete.html#checkliste",
+  "image": "pins/pin-90.jpg",
+  "date": "2026-12-14T04:00:00",
+  "pin": {
+   "h1": "Mieterhöhung",
+   "h2": "Checkliste vor dem Versand",
+   "style": "list",
+   "items": [
+    "Seit 15 Monaten unverändert",
+    "Kappungsgrenze eingehalten",
+    "Begründung (z. B. Mietspiegel)",
+    "Alle Vermieter an alle Mieter"
+   ]
+  }
  }
 ]
