@@ -15,7 +15,7 @@ faq:
   - q: Muss ich die Indexmiete jedes Jahr erhöhen?
     a: Nein. Die Anpassung ist ein Recht, keine Pflicht. Lassen Sie ein Jahr aus, vergleichen Sie bei der nächsten Erhöhung einfach den Indexstand, auf dem die jetzige Miete beruht, mit dem aktuellen Stand – nach dem BGH müssen Sie nicht schrittweise anpassen (VIII ZR 42/20). Rückwirkend erhöhen können Sie aber nicht.
   - q: Kann ich bei einer Indexmiete zusätzlich auf die Vergleichsmiete erhöhen?
-    a: Nein. Solange die Indexmiete gilt, ist eine Erhöhung nach § 558 BGB ausgeschlossen. Modernisierungserhöhungen sind nur eingeschränkt möglich: bei baulichen Maßnahmen, die Sie nicht zu vertreten haben, und beim Einbau einer neuen Heizung nach dem Gebäudeenergiegesetz (§ 557b Abs. 2, § 555b Nr. 1a BGB). Änderungen der Betriebskostenvorauszahlungen bleiben davon unberührt.
+    a: Nein. Solange die Indexmiete gilt, ist eine Erhöhung nach § 558 BGB ausgeschlossen. Modernisierungserhöhungen sind nur eingeschränkt möglich: bei baulichen Maßnahmen, die Sie nicht zu vertreten haben, und beim Einbau einer neuen Heizungsanlage (§ 557b Abs. 2, § 555b Nr. 1a BGB). Änderungen der Betriebskostenvorauszahlungen bleiben davon unberührt.
   - q: Welchen Indexwert nehme ich, wenn der neueste Monat noch nicht veröffentlicht ist?
     a: Den zuletzt veröffentlichten Monatswert. Das Statistische Bundesamt veröffentlicht den endgültigen Wert eines Monats meist zwischen dem 10. und 15. des Folgemonats; vorher gibt es nur eine Schnellschätzung der Inflationsrate. Den Monat nennen Sie in der Erklärung mit.
   - q: Gilt die Mietpreisbremse auch für Indexerhöhungen?
@@ -53,7 +53,7 @@ Dafür verzichten Sie auf andere Erhöhungen:
 | Erhöhungsart | Bei Indexmiete |
 |---|---|
 | [Erhöhung auf die ortsübliche Vergleichsmiete](mieterhoehung-vergleichsmiete.html) (§ 558 BGB) | ausgeschlossen |
-| Modernisierungserhöhung (§§ 559, 559e BGB) | nur eingeschränkt: bei baulichen Maßnahmen, die Sie nicht zu vertreten haben, und beim Heizungstausch nach dem Gebäudeenergiegesetz (§ 555b Nr. 1a BGB) |
+| Modernisierungserhöhung (§§ 559, 559e BGB) | nur eingeschränkt: bei baulichen Maßnahmen, die Sie nicht zu vertreten haben, und beim Einbau einer neuen Heizungsanlage (§ 555b Nr. 1a BGB) |
 | Anpassung der Betriebskostenvorauszahlungen (§ 560 BGB) | weiter möglich – der Index betrifft nur die Nettokaltmiete |
 | Mietpreisbremse (§§ 556d ff. BGB) | gilt nur für die Ausgangsmiete |
 
