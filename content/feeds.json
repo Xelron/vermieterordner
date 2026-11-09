@@ -1164,5 +1164,109 @@
     "Anpassungen von Miete oder Anzeige"
    ]
   }
+ },
+ {
+  "id": "pin-75",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete erhöhen: So rechnen Sie richtig",
+  "description": "Neue Miete = bisherige Nettokaltmiete × neuer Indexstand ÷ alter Indexstand. Beispiel: 650 € × 126,6 ÷ 122,6 = 671,20 € (auf den Cent abgerundet). Maßgeblich sind Monatswerte des Verbraucherpreisindex mit Basis 2020 = 100. Formel, Beispiel und Fristen im Ratgeber.",
+  "link": "indexmiete-erhoehen.html#berechnung",
+  "image": "pins/pin-75.jpg",
+  "date": "2026-11-21T04:00:00",
+  "pin": {
+   "h1": "Indexmiete erhöhen",
+   "h2": "Miete × Index neu ÷ Index alt",
+   "sub": "Beispiel: 650 € → 671,20 €"
+  }
+ },
+ {
+  "id": "pin-76",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete-Rechner: neue Miete in einer Minute",
+  "description": "Kostenloser Rechner für Vermieter: bisherige Nettokaltmiete eingeben, alten und neuen VPI-Monat auswählen – der Rechner zeigt neue Miete, Erhöhungsbetrag und den frühesten Termin nach § 557b BGB. Die Monatswerte des Verbraucherpreisindex sind hinterlegt.",
+  "link": "indexmiete-rechner.html",
+  "image": "pins/pin-76.jpg",
+  "date": "2026-11-22T04:00:00",
+  "pin": {
+   "h1": "Indexmiete-Rechner",
+   "h2": "Neue Miete nach dem Verbraucherpreisindex",
+   "sub": "Kostenlos · VPI-Monatswerte hinterlegt"
+  }
+ },
+ {
+  "id": "pin-77",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete: Punkte sind nicht Prozent",
+  "description": "Steigt der Verbraucherpreisindex von 120,0 auf 130,0, sind das 10 Punkte – aber nur 8,33 %. Die Miete ändert sich um den Prozentsatz, nicht um die Punkte. So berechnen Sie die Indexmiete richtig.",
+  "link": "indexmiete-erhoehen.html#berechnung",
+  "image": "pins/pin-77.jpg",
+  "date": "2026-11-23T04:00:00",
+  "pin": {
+   "h1": "10 Punkte ≠ 10 %",
+   "h2": "Index 120,0 → 130,0 = +8,33 %",
+   "sub": "Indexmiete richtig berechnen"
+  }
+ },
+ {
+  "id": "pin-78",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmieterhöhung: Das gehört in die Erklärung",
+  "description": "In Textform (Brief oder E-Mail genügt): alter und neuer Indexstand mit Monat und die neue Miete oder der Erhöhungsbetrag in Euro – den Termin sollten Sie zusätzlich nennen. Eine Prozentangabe ist nicht nötig (BGH VIII ZR 291/16), eine Zustimmung des Mieters auch nicht.",
+  "link": "indexmiete-erhoehen.html#erklaerung",
+  "image": "pins/pin-78.jpg",
+  "date": "2026-11-24T04:00:00",
+  "pin": {
+   "h1": "Indexmiete",
+   "h2": "Das gehört in die Erklärung",
+   "style": "list",
+   "items": [
+    "Alter Indexstand mit Monat",
+    "Neuer Indexstand mit Monat",
+    "Neue Miete oder Erhöhung in €",
+    "Termin (empfohlen)"
+   ]
+  }
+ },
+ {
+  "id": "pin-79",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete: Ab wann gilt die neue Miete?",
+  "description": "Die neue Miete gilt ab Beginn des übernächsten Monats nach Zugang der Erklärung: Zugang am 20.11. → neue Miete ab 01.01. Außerdem frühestens ein Jahr nach der letzten Mietänderung (§ 557b BGB). Termine und Beispiele im Ratgeber.",
+  "link": "indexmiete-erhoehen.html#termin",
+  "image": "pins/pin-79.jpg",
+  "date": "2026-11-25T04:00:00",
+  "pin": {
+   "h1": "Zugang 20.11. → ab 01.01.",
+   "h2": "Indexmiete: Beginn des übernächsten Monats",
+   "sub": "Frühestens ein Jahr nach der letzten Änderung"
+  }
+ },
+ {
+  "id": "pin-80",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete: Monatswert, nicht Jahresdurchschnitt",
+  "description": "Für die Indexmiete zählt der Monatswert des Verbraucherpreisindex, nicht der Jahresdurchschnitt (BGH VIII ZR 42/20) – und beide Werte auf derselben Basis 2020 = 100. VPI-Monatswerte 2025 und 2026 als Tabelle im Ratgeber.",
+  "link": "indexmiete-erhoehen.html#vpi",
+  "image": "pins/pin-80.jpg",
+  "date": "2026-11-26T04:00:00",
+  "pin": {
+   "h1": "VPI 2025 und 2026",
+   "h2": "Monatswerte für die Indexmiete",
+   "sub": "Alle Monatswerte (2020 = 100) im Ratgeber"
+  }
+ },
+ {
+  "id": "pin-81",
+  "board": "Vermieten leicht gemacht",
+  "title": "Indexmiete-Deckel geplant: Was Vermieter wissen sollten",
+  "description": "Gesetzentwurf (Stand 09.11.2026, noch nicht beschlossen): In Gebieten mit Landesverordnung soll der Teil einer Indexsteigerung, der über 3 % im Jahr liegt, nur zur Hälfte zählen – aus 5 % würden 4 %. Bis zum Beschluss gilt § 557b BGB ohne Deckel. Stand und Details im Ratgeber.",
+  "link": "indexmiete-erhoehen.html#deckel",
+  "image": "pins/pin-81.jpg",
+  "date": "2026-11-27T04:00:00",
+  "pin": {
+   "h1": "Indexmiete-Deckel?",
+   "h2": "Entwurf: Teil über 3 % zählt halb",
+   "sub": "Noch nicht beschlossen – Stand im Ratgeber"
+  }
  }
 ]
