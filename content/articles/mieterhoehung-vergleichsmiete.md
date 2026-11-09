@@ -1,6 +1,6 @@
 ---
 slug: mieterhoehung-vergleichsmiete
-title: Mieterhöhung auf die Vergleichsmiete – so geht's 2026
+title: Mieterhöhung auf die Vergleichsmiete – so geht’s 2026
 description: Mieterhöhung nach § 558 BGB: 15 Monate, Kappungsgrenze 20 %/15 %, Mietspiegel oder 3 Vergleichswohnungen, Fristen, Beispiel und Checkliste.
 date: 2026-11-09
 updated: 2026-11-09
@@ -9,7 +9,7 @@ eyebrow: Ratgeber · Stand November 2026
 cta_product: mieterhoehung
 answer: Sie verlangen vom Mieter **in Textform die Zustimmung** zu einer höheren Miete und begründen sie, meist mit dem **Mietspiegel** (§§ 558, 558a BGB). Die Miete muss zum Erhöhungstermin **seit 15 Monaten unverändert** sein, darf die **ortsübliche Vergleichsmiete** nicht übersteigen und in drei Jahren um höchstens **20 %** steigen (in Gebieten mit Landesverordnung 15 %). Stimmt der Mieter zu, gilt die neue Miete **ab Beginn des dritten Kalendermonats** nach Zugang.
 card_text: Wann Sie erhöhen dürfen, wie weit Kappungsgrenze und Mietspiegel reichen, was ins Schreiben gehört und welche Fristen laufen – mit Beispiel 650 € → 720 €.
-llms: Mieterhöhung auf die ortsübliche Vergleichsmiete (§ 558 BGB) – Zustimmungsverlangen in Textform (§ 558a, § 126b BGB) von allen Vermietern an alle Mieter, Miete zum Erhöhungstermin seit 15 Monaten unverändert, Zugang frühestens ein Jahr nach der letzten Erhöhung (Erhöhungen nach §§ 559–560 zählen nicht), Kappungsgrenze 20 % in drei Jahren bzw. 15 % in Gebieten mit Landesverordnung (Ausgangsmiete drei Jahre vor dem Erhöhungstermin), Begründung mit Mietspiegel (§§ 558c, 558d; Spanne genügt; nicht allgemein zugänglichen Mietspiegel beifügen, BGH VIII ZR 11/07), Mietdatenbank (§ 558e), Sachverständigengutachten oder drei Vergleichswohnungen; Angaben eines qualifizierten Mietspiegels immer mitteilen (§ 558a Abs. 3); tatsächliche Wohnfläche maßgeblich (BGH VIII ZR 266/14); Fördermittel angeben, soweit anzurechnen (§ 558 Abs. 5, BGH VIII ZR 310/11); Zustimmungsfrist bis Ablauf des zweiten Kalendermonats nach Zugang, neue Miete ab Beginn des dritten, Klage innerhalb weiterer drei Monate (§ 558b), Sonderkündigungsrecht (§ 561); ausgeschlossen bei Staffel- und Indexmiete; Beispiel: 72,50 m², 650 € seit 01.08.2024, Miete am Stichtag 01.02.2024 600 €, Mietspiegel 10,30 €/m² = 746,75 €, Kappung 720,00 €, Zugang Fr 20.11.2026, Zustimmungsfrist bis So 31.01.2027 (§ 193 BGB: wohl Mo 01.02.2027), neue Miete 720,00 € ab 01.02.2027 (+10,77 %), Klage vorsichtshalber bis Fr 30.04.2027.
+llms: Mieterhöhung auf die ortsübliche Vergleichsmiete (§ 558 BGB) – Zustimmungsverlangen in Textform (§ 558a, § 126b BGB) von allen Vermietern an alle Mieter, Miete zum Erhöhungstermin seit 15 Monaten unverändert, Zugang frühestens ein Jahr nach der letzten Erhöhung (Erhöhungen nach §§ 559–560 zählen nicht), Kappungsgrenze 20 % in drei Jahren bzw. 15 % in Gebieten mit Landesverordnung (Ausgangsmiete drei Jahre vor dem Erhöhungstermin), Begründung mit Mietspiegel (§§ 558c, 558d; Spanne genügt; nicht allgemein zugänglichen Mietspiegel beifügen, BGH VIII ZR 11/07), Mietdatenbank (§ 558e), Sachverständigengutachten oder drei Vergleichswohnungen; Angaben eines qualifizierten Mietspiegels immer mitteilen (§ 558a Abs. 3); tatsächliche Wohnfläche maßgeblich (BGH VIII ZR 266/14); Kürzungsbeträge für Drittmittel angeben, soweit anzurechnen (§ 558 Abs. 5, BGH VIII ZR 310/11); mehr als drei Vergleichswohnungen, eine darunter: Verlangen wirksam (BGH VIII ZR 79/11); späterer Termin zulässig, Sonderkündigung bis unmittelbar davor (BGH VIII ZR 280/12); Zustimmungsfrist bis Ablauf des zweiten Kalendermonats nach Zugang, neue Miete ab Beginn des dritten, Klage innerhalb weiterer drei Monate (§ 558b), Sonderkündigungsrecht (§ 561); ausgeschlossen bei Staffel- und Indexmiete; Beispiel: Mietbeginn 01.04.2021 mit 600 €, 72,50 m², 650 € seit 01.08.2024, Miete am Stichtag 01.02.2024 600 €, Mietspiegel 10,30 €/m² = 746,75 €, Kappung 720,00 €, Zugang Fr 20.11.2026, Zustimmungsfrist bis So 31.01.2027 (§ 193 BGB: wohl Mo 01.02.2027), neue Miete 720,00 € ab 01.02.2027 (+10,77 %), Klage vorsichtshalber bis Fr 30.04.2027.
 faq:
   - q: Muss der Mieter der Mieterhöhung zustimmen?
     a: Ja, wenn Ihr Verlangen formell in Ordnung ist und die neue Miete die ortsübliche Vergleichsmiete und die Kappungsgrenze einhält. Schweigen ist keine Zustimmung. Stimmt der Mieter bis zum Ablauf des zweiten Kalendermonats nach Zugang nicht zu, können Sie innerhalb von drei weiteren Monaten auf Zustimmung klagen (§ 558b Abs. 2 BGB). Er kann auch nur einem Teil zustimmen; dann gilt die Erhöhung in dieser Höhe.
@@ -44,12 +44,18 @@ sources:
     url: https://www.gesetze-im-internet.de/bgb/__559.html
   - title: § 561 BGB – Sonderkündigungsrecht des Mieters nach Mieterhöhung (gesetze-im-internet.de)
     url: https://www.gesetze-im-internet.de/bgb/__561.html
+  - title: § 566 BGB – Kauf bricht nicht Miete (gesetze-im-internet.de)
+    url: https://www.gesetze-im-internet.de/bgb/__566.html
   - title: § 126b BGB – Textform (gesetze-im-internet.de)
     url: https://www.gesetze-im-internet.de/bgb/__126b.html
   - title: § 193 BGB – Sonn- und Feiertag; Sonnabend (gesetze-im-internet.de)
     url: https://www.gesetze-im-internet.de/bgb/__193.html
   - title: BGH, Urteil vom 12.12.2007, VIII ZR 11/07 – allgemein zugänglicher Mietspiegel muss nicht beigefügt werden (iww.de)
     url: https://www.iww.de/mk/quellenmaterial/id/27397
+  - title: BGH, Urteil vom 28.03.2012, VIII ZR 79/11 – weitere Vergleichswohnung unter der verlangten Miete schadet nicht (iww.de)
+    url: https://www.iww.de/fmp/quellenmaterial/73132
+  - title: BGH, Urteil vom 25.09.2013, VIII ZR 280/12 – späterer Termin, Sonderkündigung bis unmittelbar davor (iww.de)
+    url: https://www.iww.de/mk/quellenmaterial/id/100897
   - title: BGH, Urteil vom 18.11.2015, VIII ZR 266/14 – tatsächliche Wohnfläche maßgeblich, Kappungsgrenze gilt (iww.de)
     url: https://www.iww.de/mk/quellenmaterial/id/182346
   - title: BGH, Urteil vom 13.06.2012, VIII ZR 310/11 – Angabe von Drittmitteln im Erhöhungsverlangen (rewis.io, PDF)
@@ -57,9 +63,9 @@ sources:
   - title: Kappungsgrenze nach § 558 Abs. 3 BGB – Rückrechnung ab dem Erhöhungstermin (mietrechtsiegen.de)
     url: https://www.mietrechtsiegen.de/kappungsgrenze-im-mietrecht-nach-558-abs-3-bgb/
 ---
-## Das Prinzip: Zustimmung verlangen, nicht einseitig erhöhen {#prinzip}
+## Das Prinzip: Zustimmung verlangen statt selbst festsetzen {#prinzip}
 
-Ohne Staffel- oder Indexmiete können Sie die Miete im laufenden Mietverhältnis nur auf drei Wegen einseitig erhöhen: auf die **ortsübliche Vergleichsmiete** (§ 558 BGB), nach einer **Modernisierung** (§ 559 BGB) oder über die **Betriebskosten** (§ 560 BGB) – es sei denn, eine Erhöhung ist vertraglich oder nach den Umständen ausgeschlossen (§ 557 Abs. 3 BGB). Dieser Ratgeber behandelt den häufigsten Weg, die Erhöhung auf die Vergleichsmiete.
+Ohne Staffel- oder Indexmiete und ohne neue Vereinbarung mit dem Mieter können Sie die Miete im laufenden Mietverhältnis nur auf drei gesetzlichen Wegen erhöhen: auf die **ortsübliche Vergleichsmiete** (§ 558 BGB), nach einer **Modernisierung** (§ 559 BGB) oder über die **Betriebskosten** (§ 560 BGB) – es sei denn, eine Erhöhung ist vertraglich oder nach den Umständen ausgeschlossen (§ 557 Abs. 3 BGB). Dieser Ratgeber behandelt den häufigsten Weg, die Erhöhung auf die Vergleichsmiete.
 
 Dabei erhöhen Sie nicht selbst, sondern **verlangen vom Mieter die Zustimmung** zu einer höheren Nettokaltmiete. Stimmt er zu, gilt die neue Miete; stimmt er nicht zu, entscheidet auf Ihre Klage das Amtsgericht. Die ortsübliche Vergleichsmiete ist die übliche Miete, die in Ihrer Gemeinde in den **letzten sechs Jahren** für vergleichbaren Wohnraum vereinbart oder geändert wurde – vergleichbar nach Art, Größe, Ausstattung, Beschaffenheit und Lage einschließlich der energetischen Ausstattung (§ 558 Abs. 2 BGB).
 
@@ -70,7 +76,7 @@ Zwei Fristen müssen Sie einhalten (§ 558 Abs. 1 BGB):
 - **15 Monate unverändert:** Zu dem Zeitpunkt, zu dem die neue Miete gelten soll, muss die bisherige Miete seit **15 Monaten unverändert** sein.
 - **Jahressperrfrist:** Das Erhöhungsverlangen darf dem Mieter frühestens **ein Jahr nach der letzten Mieterhöhung** zugehen. Gerechnet wird ab dem Tag, ab dem die letzte Erhöhung gilt; bei einem neuen Mietverhältnis ab Mietbeginn. Ein zu früh zugegangenes Verlangen ist unwirksam – Sie müssen es dann neu stellen.
 
-Beide Fristen passen zusammen: Geht das Verlangen frühestens nach zwölf Monaten zu, gilt die neue Miete ab Beginn des dritten Kalendermonats danach – also frühestens nach 15 Monaten.
+Meist ergibt sich aus der Jahressperrfrist automatisch auch die 15-Monats-Frist: Geht das Verlangen nach zwölf Monaten zu, gilt die neue Miete ab Beginn des dritten Kalendermonats danach. Begann die letzte Miete aber nicht an einem Monatsersten, kann der früheste Termin einen Monat später liegen – prüfen Sie beide Fristen getrennt. Beispiel: Mietbeginn 15.03.2025, Zugang 16.03.2026. Nach der Zustimmungsfrist käme der 01.06.2026 in Betracht, die 15 Monate sind aber erst mit dem 14.06.2026 abgelaufen – der nächste Monatserste ist der 01.07.2026.
 
 **Nicht mit:** Erhöhungen wegen **Modernisierung** (§§ 559 bis 559b BGB) und Änderungen der **Betriebskosten** (§ 560 BGB) setzen keine der beiden Fristen neu in Gang (§ 558 Abs. 1 Satz 3 BGB). Eine höhere Nebenkostenvorauszahlung nach einer Abrechnung – siehe [Nebenkostenvorauszahlung anpassen](nebenkosten-vorauszahlung-anpassen.html) – hindert Sie also nicht.
 
@@ -86,13 +92,13 @@ So rechnen Sie die Kappungsgrenze:
 - **Stichtag:** Rechnen Sie vom Termin, ab dem die neue Miete gelten soll, **drei Jahre zurück**. Soll die Erhöhung ab 01.02.2027 gelten, ist der Stichtag der 01.02.2024.
 - **Ausgangsmiete:** die Nettokaltmiete, die an diesem Stichtag galt. Hat das Mietverhältnis erst danach begonnen, nehmen Sie die Anfangsmiete.
 - **Höchstmiete:** Ausgangsmiete × 1,20 (bzw. × 1,15). Genau 20 % sind erlaubt; runden Sie auf den Cent ab.
-- **Modernisierung zählt nicht mit:** Erhöhungen nach §§ 559 bis 560 BGB bleiben außer Betracht. Eine Modernisierungserhöhung seit dem Stichtag verbraucht die Kappungsgrenze also nicht: Höchstmiete = Miete am Stichtag × 1,20 plus Modernisierungserhöhungen seit dem Stichtag. Auf der sicheren Seite sind Sie, wenn auch diese Gesamtmiete die Vergleichsmiete nicht übersteigt.
+- **Modernisierung zählt nicht mit:** Erhöhungen nach §§ 559 bis 560 BGB bleiben außer Betracht. Eine Modernisierungserhöhung seit dem Stichtag verbraucht die Kappungsgrenze also nicht: Höchstmiete = Miete am Stichtag × 1,20 plus Erhöhungen nach §§ 559 bis 560 BGB seit dem Stichtag. Auch dann darf die neue Miete die ortsübliche Vergleichsmiete nicht übersteigen – es gilt immer die niedrigere Grenze.
 
 Ob in Ihrer Gemeinde 15 % gelten, steht in der Kappungsgrenzen-Verordnung Ihres Bundeslandes. Die Listen ändern sich, wenn eine Verordnung ausläuft oder neu erlassen wird – prüfen Sie den aktuellen Stand auf den Seiten Ihrer Landesregierung, bevor Sie rechnen.
 
 ## Begründung: Mietspiegel, Datenbank, Gutachten oder drei Wohnungen {#begruendung}
 
-Das Verlangen müssen Sie **begründen** (§ 558a Abs. 1 BGB). Das Gesetz nennt vier Begründungsmittel (§ 558a Abs. 2 BGB):
+Das Verlangen müssen Sie **begründen** (§ 558a Abs. 1 BGB). Das Gesetz nennt beispielhaft vier Begründungsmittel (§ 558a Abs. 2 BGB):
 
 | Begründungsmittel | Was Sie angeben |
 |---|---|
@@ -101,22 +107,22 @@ Das Verlangen müssen Sie **begründen** (§ 558a Abs. 1 BGB). Das Gesetz nenn
 | **Gutachten** eines öffentlich bestellten und vereidigten Sachverständigen | das begründete Gutachten, in der Regel als Anlage |
 | **Drei vergleichbare Wohnungen** | Anschrift (mit Lage im Haus), Wohnfläche und Miete je Wohnung, so genau, dass der Mieter sie finden kann; die Benennung von drei Wohnungen genügt |
 
-**Mietspiegel – einfach oder qualifiziert:** Ein (einfacher) Mietspiegel ist eine Übersicht über die ortsübliche Vergleichsmiete, die die Gemeinde oder Vermieter- und Mieterverbände gemeinsam erstellt oder anerkannt haben (§ 558c BGB). Ein **qualifizierter Mietspiegel** ist zusätzlich nach anerkannten wissenschaftlichen Grundsätzen erstellt; er wird alle zwei Jahre angepasst und nach vier Jahren neu erstellt. Dann wird vermutet, dass seine Werte die ortsübliche Vergleichsmiete wiedergeben (§ 558d BGB). Gibt es keinen qualifizierten Mietspiegel, dürfen Sie auch einen älteren Mietspiegel oder den einer vergleichbaren Gemeinde verwenden (§ 558a Abs. 4 Satz 2 BGB).
+**Mietspiegel – einfach oder qualifiziert:** Ein (einfacher) Mietspiegel ist eine Übersicht über die ortsübliche Vergleichsmiete, die von der nach Landesrecht zuständigen Behörde oder von Interessenvertretern der Vermieter und der Mieter gemeinsam erstellt oder anerkannt worden ist (§ 558c BGB). Ein **qualifizierter Mietspiegel** ist zusätzlich nach anerkannten wissenschaftlichen Grundsätzen erstellt und von der Behörde oder beiden Interessenvertretern anerkannt (§ 558d Abs. 1 BGB); er wird alle zwei Jahre angepasst und nach vier Jahren neu erstellt. Dann wird vermutet, dass seine Werte die ortsübliche Vergleichsmiete wiedergeben (§ 558d Abs. 3 BGB). Gibt es in Ihrer Gemeinde keinen aktuellen Mietspiegel – also keinen einfachen, der in den letzten zwei Jahren angepasst wurde, und keinen qualifizierten, der fristgerecht angepasst oder neu erstellt wurde –, dürfen Sie auch einen veralteten Mietspiegel oder den einer vergleichbaren Gemeinde verwenden (§ 558a Abs. 4 Satz 2 BGB).
 
 Drei Regeln, an denen Erhöhungsverlangen oft scheitern:
 
 - **Qualifizierter Mietspiegel immer angeben:** Enthält ein qualifizierter Mietspiegel Angaben für Ihre Wohnung, müssen Sie diese im Verlangen mitteilen – auch wenn Sie sich auf Vergleichswohnungen oder ein Gutachten stützen (§ 558a Abs. 3 BGB).
 - **Mietspiegel beifügen, wenn er nicht allgemein zugänglich ist:** Ist der Mietspiegel veröffentlicht und frei abrufbar, etwa auf der Website der Stadt, müssen Sie ihn nicht beilegen – das Mietspiegelfeld Ihrer Wohnung müssen Sie aber nennen (BGH, Urteil vom 12.12.2007, VIII ZR 11/07). Ist er nicht allgemein zugänglich, legen Sie ihn bei.
-- **Vergleichswohnungen müssen die verlangte Miete tragen:** Jede genannte Wohnung sollte mindestens die Miete je Quadratmeter erreichen, die Sie verlangen. Nennen Sie mehr als drei, sollten es mindestens drei sein.
+- **Vergleichswohnungen müssen die verlangte Miete tragen:** Mindestens drei der genannten Wohnungen müssen die verlangte Miete je Quadratmeter erreichen. Nennen Sie mehr als drei und liegt eine darunter, bleibt das Verlangen wirksam (BGH, Urteil vom 28.03.2012, VIII ZR 79/11). Sicherer ist es, nur Wohnungen zu nennen, die mindestens die verlangte Miete haben.
 
 ## Form: Textform, alle Vermieter an alle Mieter {#form}
 
 Das Erhöhungsverlangen braucht **Textform** (§ 558a Abs. 1 BGB): eine lesbare Erklärung auf einem dauerhaften Datenträger, die Sie als Erklärenden nennt (§ 126b BGB). Ein Brief oder eine E-Mail genügt, eine Unterschrift ist nicht vorgeschrieben.
 
-- **Absender:** alle Vermieter, die im Mietvertrag stehen – etwa beide Ehegatten, wenn beide vermieten.
+- **Absender:** alle Vermieter – in der Regel die im Mietvertrag genannten, etwa beide Ehegatten, wenn beide vermieten; nach einem Verkauf der neue Eigentümer ab Grundbucheintragung (§ 566 BGB). Einer kann auch mit Vollmacht der anderen handeln.
 - **Empfänger:** alle Mieter, die den Vertrag unterschrieben haben, zum Beispiel beide Partner.
-- **Inhalt:** bisherige und neue Nettokaltmiete in Euro, der Termin, ab dem die neue Miete gelten soll, die Begründung, die Bitte um Zustimmung und eine vorbereitete Zustimmungserklärung zum Unterschreiben.
-- **Fördermittel:** Haben Sie für eine Modernisierung öffentliche Mittel erhalten, die bei der Erhöhung anzurechnen sind, müssen die Kürzungsbeträge im Verlangen stehen (§ 558 Abs. 5 BGB). Das gilt nur, soweit die Mittel noch anzurechnen sind; diese Pflicht endet zwölf Jahre nach der mittleren Bezugsfertigkeit (BGH, Urteil vom 13.06.2012, VIII ZR 310/11).
+- **Inhalt:** bisherige und neue Nettokaltmiete in Euro, der Termin, ab dem die neue Miete gelten soll, die Begründung und die Bitte um Zustimmung. Eine vorbereitete Zustimmungserklärung zum Unterschreiben ist empfehlenswert, aber nicht vorgeschrieben.
+- **Drittmittel:** Wurde eine Modernisierung mit Drittmitteln im Sinne des § 559a BGB finanziert – etwa öffentlichen Zuschüssen oder zinsverbilligten Darlehen, Mieterdarlehen oder Mietvorauszahlungen –, müssen die Kürzungsbeträge im Verlangen stehen (§ 558 Abs. 5 BGB). Das gilt nur, soweit die Mittel noch anzurechnen sind; bei öffentlichen Fördermitteln endet die Anrechnung zwölf Jahre nach der mittleren Bezugsfertigkeit (BGH, Urteil vom 13.06.2012, VIII ZR 310/11).
 - **Zugang beweisen:** Werfen Sie den Brief mit einem Zeugen ein oder lassen Sie ihn durch einen Boten zustellen. Vom Tag des Zugangs hängen alle Fristen ab.
 
 ## Fristen: Zustimmung, neue Miete, Klage {#fristen}
@@ -129,13 +135,13 @@ Alle Fristen laufen ab dem **Zugang** des Verlangens (§ 558b BGB):
 | Neue Miete gilt | ab **Beginn des dritten Kalendermonats** nach Zugang | Mo, 01.02.2027 |
 | Klage auf Zustimmung | innerhalb von **drei weiteren Monaten** nach Ablauf der Zustimmungsfrist | bis Fr, 30.04.2027 |
 
-Der Tag des Zugangs innerhalb des Monats spielt keine Rolle: Ob am 2. oder am 30. November – die neue Miete gilt ab 01.02.2027. Einen **späteren** Termin dürfen Sie im Verlangen nennen, einen früheren nicht.
+Der Tag des Zugangs innerhalb des Monats spielt keine Rolle: Ob am 2. oder am 30. November – die neue Miete gilt ab 01.02.2027. Einen **späteren** Termin dürfen Sie im Verlangen nennen, einen früheren nicht. Nennen Sie versehentlich einen zu frühen Termin, bleibt das Verlangen wirksam; die neue Miete gilt dann ab dem gesetzlichen Termin.
 
-**Wochenende und Feiertage:** Fällt das Ende einer Frist, innerhalb der eine Erklärung abzugeben ist, auf einen Samstag, Sonntag oder gesetzlichen Feiertag, tritt nach § 193 BGB der nächste Werktag an seine Stelle. Für die Zustimmungsfrist heißt das: Endet sie an einem Sonntag, kann der Mieter wohl noch am Montag zustimmen. Ob sich dadurch auch die Klagefrist verschiebt, ist nicht abschließend geklärt. Rechnen Sie deshalb vorsichtig: Klagen Sie **nicht vor** dem verschobenen Ende der Zustimmungsfrist und **nicht nach** dem Ende der Klagefrist ohne Verschiebung. Der Termin der neuen Miete ist kein Fristende und verschiebt sich nie.
+**Wochenende und Feiertage:** Fällt das Ende einer Frist, innerhalb der eine Erklärung abzugeben ist, auf einen Samstag, Sonntag oder gesetzlichen Feiertag, tritt nach § 193 BGB der nächste Werktag an seine Stelle. Für die Zustimmungsfrist heißt das: Endet sie an einem Sonntag, kann der Mieter wohl noch am Montag zustimmen (so die verbreitete Kommentarmeinung). Ob sich dadurch auch die Klagefrist verschiebt, ist nicht abschließend geklärt. Rechnen Sie deshalb vorsichtig: Klagen Sie **nicht vor** dem verschobenen Ende der Zustimmungsfrist und **nicht nach** dem Ende der Klagefrist ohne Verschiebung. Der Termin der neuen Miete ist kein Fristende und verschiebt sich nie. Für die Klagefrist genügt die Einreichung der Klage, wenn sie demnächst zugestellt wird (§ 167 ZPO) – zahlen Sie den Gerichtskostenvorschuss deshalb sofort.
 
 ## Beispiel: 650 € → 720 € ab 01.02.2027 {#beispiel}
 
-Erika Muster vermietet eine Wohnung an Jonas und Lea Beispiel. Die Miete betrug seit Mietbeginn 01.03.2021 600 € netto kalt; zum 01.08.2024 wurde sie nach § 558 BGB auf **650 €** erhöht. Laut Vertrag hat die Wohnung 70 m², nachgemessen sind es **72,50 m²** – maßgeblich ist die tatsächliche Fläche. Im Mietspiegel liegt das passende Feld bei 9,20 bis 11,40 €/m²; Frau Muster ordnet die Wohnung in der Mitte ein, bei **10,30 €/m²**. In ihrer Gemeinde gilt die Kappungsgrenze von 20 %. Das Verlangen wirft sie am **Freitag, 20.11.2026** mit einer Nachbarin als Zeugin in den Briefkasten der Mieter.
+Erika Muster vermietet eine Wohnung an Jonas und Lea Beispiel. Die Miete betrug seit Mietbeginn 01.04.2021 600 € netto kalt; zum 01.08.2024 wurde sie nach § 558 BGB auf **650 €** erhöht. Laut Vertrag hat die Wohnung 70 m², nachgemessen sind es **72,50 m²** – maßgeblich ist die tatsächliche Fläche. Im Mietspiegel liegt das passende Feld bei 9,20 bis 11,40 €/m²; Frau Muster ordnet die Wohnung in der Mitte ein, bei **10,30 €/m²**. In ihrer Gemeinde gilt die Kappungsgrenze von 20 %. Das Verlangen wirft sie am **Freitag, 20.11.2026** mit einer Nachbarin als Zeugin in den Briefkasten der Mieter.
 
 | Prüfung | Rechnung | Ergebnis |
 |---|---|---|
@@ -162,7 +168,7 @@ Stimmen Jonas und Lea Beispiel zu, zahlen sie ab Februar 2027 720,00 € Nettok
 
 ## Sonderkündigungsrecht des Mieters {#sonderkuendigung}
 
-Nach einem Erhöhungsverlangen kann der Mieter das Mietverhältnis **bis zum Ablauf des zweiten Monats nach Zugang** außerordentlich kündigen, und zwar **zum Ablauf des übernächsten Monats** (§ 561 BGB). Kündigt er, tritt die Mieterhöhung nicht ein. Im Beispiel könnte das Paar bis 31.01.2027 kündigen (nach § 193 BGB wohl noch am Montag, 01.02.2027); eine Kündigung, die am 25.01.2027 zugeht, beendet das Mietverhältnis zum 31.03.2027, bis dahin gilt die alte Miete von 650 €. Vertraglich ausschließen können Sie das Sonderkündigungsrecht nicht.
+Nach einem Erhöhungsverlangen kann der Mieter das Mietverhältnis **bis zum Ablauf des zweiten Monats nach Zugang** außerordentlich kündigen, und zwar **zum Ablauf des übernächsten Monats** (§ 561 BGB). Kündigt er, tritt die Mieterhöhung nicht ein. Nennen Sie im Verlangen einen späteren Termin als den frühestmöglichen, kann der Mieter bis unmittelbar vor diesem Termin kündigen (BGH, Urteil vom 25.09.2013, VIII ZR 280/12). Im Beispiel könnte das Paar bis 31.01.2027 kündigen (nach § 193 BGB wohl noch am Montag, 01.02.2027); eine Kündigung, die am 25.01.2027 zugeht, beendet das Mietverhältnis zum 31.03.2027, bis dahin gilt die alte Miete von 650 €. Vertraglich ausschließen können Sie das Sonderkündigungsrecht nicht.
 
 ## Wann die Erhöhung ausgeschlossen ist {#ausschluesse}
 
@@ -179,7 +185,7 @@ Nach einem Erhöhungsverlangen kann der Mieter das Mietverhältnis **bis zum Abl
 - Vergleichsmiete mit der **tatsächlichen Wohnfläche** gerechnet?
 - **Kappungsgrenze** 20 % oder 15 % mit der Miete am **Stichtag drei Jahre vor dem Termin** geprüft?
 - Begründung: Mietspiegelfeld genannt (und beigefügt, falls nicht allgemein zugänglich) oder drei auffindbare Vergleichswohnungen? Angaben eines **qualifizierten Mietspiegels** mitgeteilt?
-- Fördermittel angegeben, falls noch anzurechnen?
+- Kürzungsbeträge für Drittmittel angegeben, falls noch anzurechnen?
 - Textform, **alle Vermieter an alle Mieter**, Zustimmungserklärung beigelegt?
 - Zugang beweisbar – und Fristen mit Wochentag notiert?
 
