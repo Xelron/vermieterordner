@@ -1284,5 +1284,21 @@
    "style": "img",
    "img": "img/mieterhoehung-1.jpg"
   }
+ },
+ {
+  "id": "pin-83",
+  "board": "Excel-Vorlagen für Vermieter",
+  "title": "Vermieter-Paket 2026: 4 Excel-Vorlagen für private Vermieter",
+  "description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026 in einem Download – jede Vorlage als eigene Excel-Datei mit Kurzanleitung. Für Excel und LibreOffice. 32,90 €.",
+  "link": "vermieter-paket.html#kaufen",
+  "image": "pins/pin-83.jpg",
+  "date": "2026-11-11T04:00:00",
+  "pin": {
+   "h1": "Vermieter-Paket 2026",
+   "h2": "4 Excel-Vorlagen in einem Download",
+   "sub": "Für private Vermieter · 32,90 €",
+   "style": "img",
+   "img": "img/vermieter-paket-1.jpg"
+  }
  }
 ]
