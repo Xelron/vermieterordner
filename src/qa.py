@@ -68,6 +68,42 @@ def meta_lengths(max_title=60, max_desc=155):
     return out
 
 
+def bundle_pages():
+    """Pakete (config "includes"): Paketseite ohne Summen-/Vergleichsbeträge, wenn no_compare (DS24-Ablehnung
+    09.11.: „einzeln zusammen …“ galt als Streichpreis) – erlaubt sind nur Paketpreis und Einzelpreise der Karten.
+    Auf jeder enthaltenen Produktseite mit Checkout muss der Paket-Hinweis Anzahl und Preis richtig nennen."""
+    import json
+    cfg = json.load(open(os.path.join(ROOT, "..", "config.json"), encoding="utf-8"))
+    by = {p["slug"]: p for p in cfg.get("products", [])}
+    eur = lambda v: f"{float(v):.2f}".replace(".", ",")
+    out = []
+    for b in cfg.get("products", []):
+        inc = [by[s] for s in dict.fromkeys(b.get("includes", [])) if s in by and s != b["slug"]]
+        if not inc:
+            continue
+        f = os.path.join(ROOT, b["slug"] + ".html")
+        if not os.path.exists(f):
+            out.append(f"{b['slug']}.html fehlt")
+            continue
+        h = re.sub(r"<script.*?</script>", " ", open(f, encoding="utf-8").read(), flags=re.S).replace("&nbsp;", " ")
+        if b.get("no_compare"):
+            ok = {eur(b["price"])} | {eur(q["price"]) for q in inc}
+            amts = set(re.findall(r"(\d+,\d{2}) ?€", h)) - ok
+            if amts:
+                out.append(f"{b['slug']}.html: Beträge außer Paket-/Einzelpreisen trotz no_compare: {sorted(amts)}")
+            if re.search(r"einzeln zusammen|Ersparnis|sparen Sie", h, re.I):
+                out.append(f"{b['slug']}.html: Vergleichs-/Ersparnisformulierung trotz no_compare")
+        want = f"{len(inc)} Vorlagen für {eur(b['price'])} €"
+        for q in inc:
+            if not q.get("checkout_url"):
+                continue
+            hq = open(os.path.join(ROOT, q["slug"] + ".html"), encoding="utf-8").read().replace("&nbsp;", " ")
+            hint = re.search(r'class="bundlehint">.*?href="' + re.escape(b["slug"]) + r'\.html".*?</p>', hq, re.S)
+            if not hint or want not in hint.group(0):
+                out.append(f"{q['slug']}.html: Paket-Hinweis fehlt oder nennt nicht „{want}“")
+    return out
+
+
 def main(argv):
     from playwright.sync_api import sync_playwright
     shot = argv[argv.index("--shot") + 1] if "--shot" in argv else None
@@ -75,6 +111,9 @@ def main(argv):
     for d in dead_links():
         bad += 1
         print("LINK", d)
+    for d in bundle_pages():
+        bad += 1
+        print("PAKET", d)
     # Zu lange Metadaten: bei den Altseiten in META_ALT nur Warnung, sonst ein Problem.
     for m in meta_lengths():
         if m.split(":")[0] in META_ALT:

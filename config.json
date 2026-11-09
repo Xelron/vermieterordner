@@ -514,15 +514,16 @@
     {
       "slug": "vermieter-paket",
       "name": "Vermieter-Paket 2026",
-      "short": "4 Excel-Vorlagen in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026.",
-      "price": 32.9,
+      "short": "5 Excel-Vorlagen in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll, Anlage V 2026 und Mieterhöhung 2026.",
+      "price": 39.9,
       "compare_price": null,
       "checkout_url": "https://www.checkout-ds24.com/product/762465",
       "includes": [
         "nebenkostenabrechnung",
         "kautionsabrechnung",
         "wohnungsuebergabeprotokoll",
-        "anlage-v"
+        "anlage-v",
+        "mieterhoehung"
       ],
       "list_after_checkout": false,
       "image": "vermieter-paket-1.jpg",
@@ -530,13 +531,14 @@
         "nebenkostenabrechnung-2.jpg",
         "kautionsabrechnung-2.jpg",
         "uebergabeprotokoll-2.jpg",
-        "anlagev-2.jpg"
+        "anlagev-2.jpg",
+        "mieterhoehung-2.jpg"
       ],
-      "eyebrow": "4 Excel-Vorlagen · Stand 2026",
-      "h1": "Vermieter-Paket 2026 – 4 Excel-Vorlagen für private Vermieter",
-      "lead": "Vier Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung und die Steuererklärung bis zum Auszug.",
-      "format": "ZIP-Datei mit allen vier Vorlagen – jede mit Excel-Datei (.xlsx) und PDF-Kurzanleitung, Wohnungsübergabeprotokoll und Anlage V zusätzlich mit ausgefülltem Beispiel. Sprache Deutsch.",
-      "content": "Nebenkostenabrechnung (8 Arbeitsblätter), Kautionsabrechnung (5), Wohnungsübergabeprotokoll (7), Anlage V 2026 (7) – Details auf den einzelnen Produktseiten",
+      "eyebrow": "5 Excel-Vorlagen · Stand 2026",
+      "h1": "Vermieter-Paket 2026 – 5 Excel-Vorlagen für private Vermieter",
+      "lead": "Fünf Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll, Anlage V 2026 und Mieterhöhung 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung, die Mieterhöhung und die Steuererklärung bis zum Auszug.",
+      "format": "ZIP-Datei mit allen fünf Vorlagen – jede mit Excel-Datei (.xlsx) und PDF-Kurzanleitung, Wohnungsübergabeprotokoll, Anlage V und Mieterhöhung zusätzlich mit ausgefülltem Beispiel. Sprache Deutsch.",
+      "content": "Nebenkostenabrechnung (8 Arbeitsblätter), Kautionsabrechnung (5), Wohnungsübergabeprotokoll (7), Anlage V 2026 (7), Mieterhöhung 2026 (6) – Details auf den einzelnen Produktseiten",
       "audience": "private Vermieter von Wohnraum in Deutschland mit einem oder mehreren Mietobjekten – die Grenzen jeder Vorlage stehen auf den einzelnen Produktseiten",
       "features": [
         [
@@ -556,35 +558,39 @@
           "Mieteinnahmen, Werbungskosten, Erhaltungsaufwand und Gebäude-AfA je Objekt – mit Summen für die Steuererklärung 2026 und 12 Prüfungen."
         ],
         [
+          "Mieterhöhung 2026",
+          "Erhöhung auf die ortsübliche Vergleichsmiete oder bei Indexmiete nach dem Verbraucherpreisindex rechnen – mit Fristen, Kappungsgrenze, 15 Prüfungen und fertigem Schreiben an den Mieter."
+        ],
+        [
           "Einmal zahlen, einzeln nutzen",
-          "Jede Vorlage ist eine eigene Datei mit eigener Kurzanleitung. Für jede neue Abrechnung, jede Übergabe oder jedes weitere Objekt legen Sie einfach eine Kopie an."
+          "Jede Vorlage ist eine eigene Datei mit eigener Kurzanleitung. Für jede neue Abrechnung, jede Übergabe, jede Mieterhöhung oder jedes weitere Objekt legen Sie einfach eine Kopie an."
         ]
       ],
       "faq": [
         [
           "Sind das dieselben Vorlagen wie beim Einzelkauf?",
-          "Ja. Das Paket enthält genau die vier Vorlagen, die es auch einzeln gibt, mit denselben Kurzanleitungen und Beispielen."
+          "Ja. Das Paket enthält genau die fünf Vorlagen, die es auch einzeln gibt, mit denselben Kurzanleitungen und Beispielen."
         ],
         [
           "Welche Programme brauche ich?",
-          "Alle vier Vorlagen sind für Microsoft Excel und LibreOffice Calc gebaut; Details stehen auf den einzelnen Produktseiten (Anlage V: Excel ab 2010, geprüft in LibreOffice). Nebenkosten- und Kautionsabrechnung funktionieren auch in Google Sheets (ohne Blattschutz und einige Farbmarkierungen). Das Wohnungsübergabeprotokoll ist in Google Sheets nicht getestet, die Anlage V wird in Google Sheets nicht unterstützt."
+          "Alle fünf Vorlagen sind für Microsoft Excel und LibreOffice Calc gebaut; Details stehen auf den einzelnen Produktseiten (Anlage V und Mieterhöhung: Excel ab 2010, geprüft in LibreOffice). Nebenkosten- und Kautionsabrechnung funktionieren auch in Google Sheets (ohne Blattschutz und einige Farbmarkierungen). Das Wohnungsübergabeprotokoll ist in Google Sheets nicht getestet, Anlage V und Mieterhöhung werden in Google Sheets nicht unterstützt."
         ],
         [
-          "Ich brauche nur eine oder zwei Vorlagen – lohnt sich das Paket?",
-          "Für eine oder zwei Vorlagen ist der Einzelkauf günstiger. Brauchen Sie die Nebenkostenabrechnung und mindestens zwei weitere Vorlagen, lohnt sich das Paket. Die Einzelpreise stehen auf den Produktseiten."
+          "Ich brauche nicht alle Vorlagen – lohnt sich das Paket?",
+          "Ab vier Vorlagen lohnt sich das Paket – egal, welche vier Sie brauchen. Für bis zu drei Vorlagen ist der Einzelkauf günstiger. Die Einzelpreise stehen auf den Produktseiten."
         ]
       ],
       "faq_exclude": [
         "Welche Programme brauche ich?"
       ],
-      "seo_title": "Vermieter-Paket 2026: 4 Excel-Vorlagen für private Vermieter",
-      "meta_description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026 als Excel-Vorlagen im Paket für 32,90 €.",
+      "seo_title": "Vermieter-Paket 2026: 5 Excel-Vorlagen für private Vermieter",
+      "meta_description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll, Anlage V und Mieterhöhung 2026 als Excel-Vorlagen im Paket für 39,90 €.",
       "related": [],
       "no_compare": true,
       "soon_note": "Erscheint in Kürze: Die Vorlagen sind fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet.",
-      "features_title": "Was die vier Vorlagen können",
+      "features_title": "Was die fünf Vorlagen können",
       "ticks": [
-        "4 Vorlagen, je eine eigene Datei",
+        "5 Vorlagen, je eine eigene Datei",
         "Dieselben Dateien wie einzeln",
         "Eine Zahlung, ein Download"
       ],
@@ -592,7 +598,8 @@
         "Beispielansicht Nebenkostenabrechnung",
         "Beispielansicht Kautionsabrechnung",
         "Beispielansicht Wohnungsübergabeprotokoll",
-        "Beispielansicht Anlage V 2026"
+        "Beispielansicht Anlage V 2026",
+        "Beispielansicht Mieterhöhung 2026"
       ]
     }
   ],
