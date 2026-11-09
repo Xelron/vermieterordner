@@ -100,6 +100,7 @@ section:not(.band) .feat{background:transparent}
 .spec td{padding:12px 0;border-bottom:1px solid var(--line)}
 .shots{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.shots img{border-radius:10px;border:1px solid var(--line)}
 .shots>*:nth-child(3){grid-column:span 2}
+.shots>*:nth-child(3):nth-last-child(2){grid-column:auto}.shots:has(>:nth-child(4)){align-content:start}
 .faq{max-width:760px}.faq h3{margin:20px 0 6px;font-size:17px;color:var(--ink)}.faq p{margin:0;color:var(--muted)}
 .buy{text-align:center}.price-big{font-size:56px;color:var(--primary);margin:8px 0 20px}
 

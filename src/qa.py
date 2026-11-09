@@ -47,6 +47,27 @@ def dead_links():
     return out
 
 
+# Seiten, die schon vor der Meta-Prüfung zu lange Title/Description hatten (nur Warnung; beim nächsten Überarbeiten kürzen)
+META_ALT = {"abrechnungsfrist-nebenkosten.html", "abrechnungsfrist-rechner.html", "anlage-v.html", "heizkosten-rechner.html",
+            "index.html", "rechner.html", "umlagefaehige-nebenkosten.html"}
+
+
+def meta_lengths(max_title=60, max_desc=155):
+    """Title > 60 bzw. Description > 155 Zeichen (Google kürzt sonst). Seiten mit noindex werden übersprungen."""
+    import html as _h
+    out = []
+    for f in sorted(glob.glob(os.path.join(ROOT, "*.html"))):
+        h = open(f, encoding="utf-8").read()
+        t = re.search(r"<title>(.*?)</title>", h, re.S)
+        if not t or 'name="robots" content="noindex' in h:
+            continue
+        d = re.search(r'<meta name="description" content="([^"]*)"', h)
+        tl, dl = len(_h.unescape(t.group(1))), len(_h.unescape(d.group(1))) if d else 0
+        if tl > max_title or dl > max_desc:
+            out.append(f"{os.path.basename(f)}: Title {tl}/{max_title}, Description {dl}/{max_desc}")
+    return out
+
+
 def main(argv):
     from playwright.sync_api import sync_playwright
     shot = argv[argv.index("--shot") + 1] if "--shot" in argv else None
@@ -54,6 +75,13 @@ def main(argv):
     for d in dead_links():
         bad += 1
         print("LINK", d)
+    # Zu lange Metadaten: bei den Altseiten in META_ALT nur Warnung, sonst ein Problem.
+    for m in meta_lengths():
+        if m.split(":")[0] in META_ALT:
+            print("META-WARNUNG", m)
+        else:
+            bad += 1
+            print("META", m)
     port = free_port()
     srv = subprocess.Popen([sys.executable, "-m", "http.server", str(port), "--bind", "127.0.0.1"], cwd=ROOT,
                            stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)

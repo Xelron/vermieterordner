@@ -194,13 +194,22 @@ def card(p):
 <div class="pbody"><h3>{esc(p['name'])}</h3><p>{esc(p['short'])}</p><div class="prow"><span class="price">{money(p['price'])}{cmp_}</span><span class="more">Ansehen</span></div></div></a>"""
 
 
-def global_faq(exclude=()):
-    """Globale FAQ aus config.json; ein Produkt kann einzelne Fragen per "faq_exclude": ["Frage?"] ausblenden."""
-    return [tuple(x) for x in CFG.get("faq", []) if x[0] not in set(exclude or ())]
+def global_faq(exclude=(), soon=False):
+    """Globale FAQ aus config.json; ein Produkt kann einzelne Fragen per "faq_exclude": ["Frage?"] ausblenden.
+    soon=True (Produkt noch ohne Checkout): Antwort zur Lieferung beginnt mit „Nach Verkaufsstart:“."""
+    out = []
+    for x in CFG.get("faq", []):
+        if x[0] in set(exclude or ()):
+            continue
+        q, a = x[0], x[1]
+        if soon and q == "Wie bekomme ich die Datei?":
+            a = "Nach Verkaufsstart: " + a[0].lower() + a[1:]
+        out.append((q, a))
+    return out
 
 
-def faq_section(extra=(), exclude=()):
-    qas = list(extra) + global_faq(exclude)
+def faq_section(extra=(), exclude=(), soon=False):
+    qas = list(extra) + global_faq(exclude, soon)
     if not qas:
         return ""
     return f"""<section class="band"><div class="wrap faq">
@@ -228,7 +237,7 @@ def prow(p):
     pts = "".join(f"<li>{esc(t)}</li>" for t in (p.get("ticks") or [t for t, _ in p.get("features", [])[:3]]))
     return f"""<article class="prow2"><a class="pthumb" href="{p['slug']}.html"><img src="img/{p['_img']}" width="1000" height="1000" alt="Produktbild {esc(p['name'])}" loading="lazy"></a>
 <div class="ptxt"><h3><a href="{p['slug']}.html">{esc(p['name'])}</a></h3><p>{esc(p['short'])}</p>{f'<ul class="ticks">{pts}</ul>' if pts else ''}</div>
-<div class="pbuy"><span class="price">{money(p['price'])}{f'<small class="cmp">{compare_txt(p)}</small>' if compare_txt(p) else ''}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
+<div class="pbuy"><span class="price">{money(p['price'])}{f'<small class="cmp">{compare_txt(p)}</small>' if compare_txt(p) else ''}{'' if p.get('checkout_url') else f'<small class="cmp">{esc(CFG["checkout"].get("soon_label", "Bald verfügbar"))}</small>'}</span><a class="btn btn-sm" href="{p['slug']}.html">Ansehen</a></div></article>"""
 
 
 why = "".join(f'<li><b>{esc(t)}</b> {esc(d)}</li>' for t, d in H.get("why", []))
@@ -251,6 +260,7 @@ idx = f"""<section class="phero{'' if hero_photo else ' nophoto'}">{hero_photo}<
 <h2 class="serif">{esc(H.get('products_title', 'Produkte'))}</h2>
 <p class="sub2">{esc(H.get('products_sub', ''))}</p>
 <div class="plist">{''.join(prow(p) for p in P if p.get("checkout_url") or not p.get("list_after_checkout"))}</div>
+{f'<p class="note">{esc(H["products_note"])}</p>' if H.get("products_note") else ''}
 </div></section>
 {about}
 {tools_band}
@@ -266,10 +276,13 @@ def bundle_hint(p):
     """Auf Einzelprodukten: Hinweis auf kaufbare Pakete, die das Produkt enthalten."""
     out = ""
     for b in p.get("_bundles", []):
-        if b.get("checkout_url") and p.get("checkout_url"):
-            n = len(b["_inc"])
-            out += (f'<p class="bundlehint">Auch im <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
-                    f'alle {n} Vorlagen für {money(b["price"])}' + (f' ({compare_txt(b)})' if compare_txt(b) else '') + '.</p>')
+        if not p.get("checkout_url"):
+            continue
+        n = len(b["_inc"])
+        # Paket noch ohne Checkout: Hinweis sagt klar „bald“ und verlinkt die Paketseite (dort „Bald verfügbar“)
+        pre = "Auch im" if b.get("checkout_url") else "Bald auch im"
+        out += (f'<p class="bundlehint">{pre} <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
+                f'alle {n} Vorlagen für {money(b["price"])}' + (f' ({compare_txt(b)})' if compare_txt(b) else '') + '.</p>')
     return out
 
 
@@ -280,7 +293,8 @@ for p in P:
             ("Preis", f"<strong>{money(p['price'])} einmalig</strong>" + (f" ({compare_txt(p)})" if compare_txt(p) else f" (statt {money(p['compare_price'])})" if p.get("compare_price") else "")),
             ("Für wen", p.get("audience") or PD.get("audience", ""))]
     tbl = "".join(f"<tr><th>{k}</th><td>{v if k == 'Preis' else esc(v)}</td></tr>" for k, v in rows if v)
-    shots = "".join(f'<img src="img/{s}" width="1000" height="1000" alt="Beispielansicht {esc(p["name"])}" loading="lazy">' for s in p["_shots"])
+    alts = dict(zip(p.get("shots", []), p.get("shots_alt", [])))
+    shots = "".join(f'<img src="img/{s}" width="1000" height="1000" alt="{esc(alts.get(s) or "Beispielansicht " + p["name"])}" loading="lazy">' for s in p["_shots"])
     feats = "".join(f'<div class="feat"><h3>{esc(t)}</h3><p>{esc(d)}</p></div>' for t, d in p.get("features", []))
     extra = ""
     if includes:
@@ -312,13 +326,13 @@ for p in P:
 </div></section>
 {f'<section><div class="wrap"><h2 class="serif">{esc(p.get("features_title") or "Was das Produkt kann")}</h2><div class="grid2">{feats}</div></div></section>' if feats else ''}
 {extra}
-{faq_section(pfaq, p.get('faq_exclude'))}
+{faq_section(pfaq, p.get('faq_exclude'), not p.get('checkout_url'))}
 <section id="kaufen" class="band"><div class="wrap buy">
 <h2 class="serif">{esc(p['name'])} {'kaufen' if p.get('checkout_url') else '– bald verfügbar'}</h2>
 <p class="sub2">{'Digitaler Download · sofort nach der Zahlung verfügbar' if p.get('checkout_url') else esc((p.get('soon_note') or co.get('soon_note', '')))}</p>
 <div class="price-big serif">{money(p['price'])}</div>
 {buy(p, "btn btn-lg", co.get("buy_label", "Jetzt kaufen"))}
-{f'<p class="note">{esc(co.get("payment_note", ""))}</p>' if p.get('checkout_url') else ''}
+<p class="note">{esc(co.get("payment_note", "")) if p.get('checkout_url') else esc(co.get("payment_note_soon", ""))}</p>
 {bundle_hint(p)}
 </div></section>"""
     lead = p.get("lead", "")
@@ -329,7 +343,7 @@ for p in P:
                           "availability": "https://schema.org/InStock" if p.get("checkout_url") else "https://schema.org/OutOfStock",
                           "url": abs_url(p["slug"] + ".html")}}
     # Product-Markup erst, wenn das Produkt kaufbar ist (sonst zeigt Google evtl. „nicht vorrätig“)
-    head = (ld(prod_ld) if p.get("checkout_url") else "") + ld(S.faq_ld(pfaq + global_faq(p.get("faq_exclude")))) + ld(S.crumbs_ld([(B["name"], "index.html"), (p["name"], p["slug"] + ".html")]))
+    head = (ld(prod_ld) if p.get("checkout_url") else "") + ld(S.faq_ld(pfaq + global_faq(p.get("faq_exclude"), not p.get("checkout_url")))) + ld(S.crumbs_ld([(B["name"], "index.html"), (p["name"], p["slug"] + ".html")]))
     suffix = PD.get("title_suffix")
     page(p.get("seo_title") or f"{p['name']}{' – ' + suffix if suffix else ''} | {B['name']}", p.get("meta_description") or md, body, f"{p['slug']}.html", head)
 

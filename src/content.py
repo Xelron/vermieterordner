@@ -119,7 +119,7 @@ def _ld_image(slug):
 def _aphoto(slug):
     for key, name in CFG.get("article_photos", {}).items():
         if key in slug:
-            h = S.photo(name, "aphoto", sizes="(max-width:800px) 100vw, 760px")
+            h = S.photo(name, "aphoto", sizes="(max-width:800px) 100vw, 760px", eager=True)
             return f'<figure class="afig">{h}</figure>' if h else ""
     return ""
 
@@ -187,7 +187,7 @@ def build(articles, tools, products):
 </div></div>"""
     il = {"@context": "https://schema.org", "@type": "ItemList",
           "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": abs_url(a["slug"] + ".html"), "name": a["title"]} for i, a in enumerate(articles)]}
-    page(f"{R.get('h1', 'Ratgeber')} | {B['name']}", R.get("lead", ""), rg, "ratgeber.html", ld(il))
+    page(f"{R.get('h1', 'Ratgeber')} | {B['name']}", R.get("meta_description") or R.get("lead", ""), rg, "ratgeber.html", ld(il))
     if tools:
         rc = f"""<div class="wrap" style="padding-top:40px;padding-bottom:64px"><div class="article" style="max-width:none">
 <h1 class="serif">{esc(RC.get('h1', 'Kostenlose Rechner'))}</h1>

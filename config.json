@@ -61,7 +61,8 @@
     "soon_label": "Bald verfügbar",
     "note": "Digitales Produkt · Download-Link direkt nach dem Kauf · Einmalzahlung, kein Abo",
     "payment_note": "Sichere Zahlung und Rechnung über Digistore24. Preis inkl. gesetzlicher MwSt., sofern anfallend.",
-    "soon_note": "Erscheint in Kürze: Die Vorlage ist fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet."
+    "soon_note": "Erscheint in Kürze: Die Vorlage ist fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet.",
+    "payment_note_soon": "Preis inkl. gesetzlicher MwSt., sofern anfallend."
   },
   "nav": [
     {
@@ -123,7 +124,8 @@
         "Die meisten privaten Vermieter haben eine, zwei oder fünf Wohnungen – und keine Hausverwaltung. Einmal im Jahr steht die Nebenkostenabrechnung an, beim Mieterwechsel Übergabe und Kaution. Genau dafür sind die Vorlagen gebaut: ausfüllen, prüfen lassen, Schreiben ausdrucken.",
         "Vermieterordner ist ein kleines Angebot von Felix Merklinger-Lötzsch aus Aßlar in Hessen. Rechenwege und Hinweise stützen sich auf Gesetzestexte und BGH-Urteile; die Quellen stehen in jedem Ratgeber."
       ]
-    }
+    },
+    "products_note": "Einmalzahlung, kein Abo. Preise inkl. gesetzlicher MwSt., sofern anfallend."
   },
   "faq_title": "Häufige Fragen",
   "faq": [
@@ -211,7 +213,9 @@
       "related": [
         "nebenkostenabrechnung-erstellen",
         "abrechnungsfrist-rechner",
-        "heizkosten-rechner"
+        "heizkosten-rechner",
+        "grundsteuer-umlegen",
+        "nebenkosten-vorauszahlung-anpassen"
       ],
       "photo": "heizung",
       "photo_caption": "Betriebskosten, Heizung und Warmwasser – einmal im Jahr, für jede Wohnung einzeln."
@@ -280,7 +284,8 @@
       "related": [
         "kaution-zurueckzahlen",
         "kautionsrechner",
-        "uebergabe-fristenrechner"
+        "uebergabe-fristenrechner",
+        "schoenheitsreparaturen-auszug"
       ],
       "photo": "schluessel",
       "photo_caption": "Nach dem Auszug: Kaution samt Zinsen zurückrechnen und offene Posten sauber belegen."
@@ -348,7 +353,8 @@
       "meta_description": "Übergabeprotokoll als Excel-Vorlage für Einzug und Auszug: Räume, Zähler, Schlüssel, Mängelliste, Wohnungsgeberbestätigung. Für Vermieter, 9,90 €.",
       "related": [
         "uebergabeprotokoll-wohnung",
-        "uebergabe-fristenrechner"
+        "uebergabe-fristenrechner",
+        "schoenheitsreparaturen-auszug"
       ],
       "photo": "uebergabe",
       "photo_caption": "Beim Einzug und Auszug: Zustand, Zählerstände und Schlüssel festhalten – Raum für Raum."
@@ -419,7 +425,8 @@
       "meta_description": "Anlage V 2026 als Excel-Vorlage: Mieteinnahmen, Werbungskosten, AfA und 15-%-Grenze je Objekt rechnen, Summen für die Steuererklärung. 12,90 €.",
       "related": [
         "anlage-v-vermietung",
-        "gebaeude-afa-rechner"
+        "gebaeude-afa-rechner",
+        "leerstand-werbungskosten"
       ],
       "photo": "haus",
       "photo_caption": "Einmal im Jahr: Mieten, Belege und Abschreibung für die Steuererklärung zusammentragen."
@@ -437,9 +444,14 @@
         "wohnungsuebergabeprotokoll",
         "anlage-v"
       ],
-      "list_after_checkout": true,
+      "list_after_checkout": false,
       "image": "vermieter-paket-1.jpg",
-      "shots": [],
+      "shots": [
+        "nebenkostenabrechnung-2.jpg",
+        "kautionsabrechnung-2.jpg",
+        "uebergabeprotokoll-2.jpg",
+        "anlagev-2.jpg"
+      ],
       "eyebrow": "4 Excel-Vorlagen · Stand 2026",
       "h1": "Vermieter-Paket 2026 – alle 4 Excel-Vorlagen für private Vermieter",
       "lead": "Die vier Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung und die Steuererklärung bis zum Auszug.",
@@ -498,14 +510,21 @@
         "4 Vorlagen, je eine eigene Datei",
         "Dieselben Dateien wie einzeln",
         "14,70 € weniger als einzeln"
+      ],
+      "shots_alt": [
+        "Beispielansicht Nebenkostenabrechnung",
+        "Beispielansicht Kautionsabrechnung",
+        "Beispielansicht Wohnungsübergabeprotokoll",
+        "Beispielansicht Anlage V 2026"
       ]
     }
   ],
   "ratgeber": {
     "title": "Ratgeber",
     "h1": "Ratgeber für private Vermieter",
-    "lead": "Fristen, Kostenarten, Heizkosten, Kaution, Wohnungsübergabe und Anlage V verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
-    "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung."
+    "lead": "Fristen, Kostenarten, Grundsteuer, Vorauszahlungen, Kaution, Schönheitsreparaturen, Wohnungsübergabe und Anlage V verständlich erklärt – mit Beispielen und Quellen aus Gesetz und Rechtsprechung.",
+    "disclaimer": "Dieser Ratgeber gibt allgemeine Informationen und ersetzt keine individuelle Beratung.",
+    "meta_description": "Ratgeber für private Vermieter: Nebenkosten, Grundsteuer, Kaution, Schönheitsreparaturen, Übergabe und Anlage V – mit Beispielen und Quellen."
   },
   "rechner": {
     "title": "Kostenlose Rechner",
@@ -551,7 +570,11 @@
       "Kautionsabrechnung": "Kautions|abrechnung",
       "Kautionsguthaben": "Kautions|guthaben",
       "Betriebskostenabrechnung": "Betriebskosten|abrechnung",
-      "Schadensersatz": "Schadens|ersatz"
+      "Schadensersatz": "Schadens|ersatz",
+      "Schönheitsreparaturen": "Schönheits|reparaturen",
+      "Einkünfteerzielungsabsicht": "Einkünfte|erzielungs|absicht",
+      "Vermietungsbemühungen": "Vermietungs|bemühungen",
+      "Wohnungsübergabeprotokoll": "Wohnungs|übergabe|protokoll"
     }
   },
   "indexnow_key": "1e99dcbf13c45d98dea360d288fd4c8f",
@@ -595,6 +618,14 @@
     "vermieter-paket.html": {
       "label": "Zum Paket",
       "href": "vermieter-paket.html#kaufen"
+    },
+    "schoenheitsreparaturen-auszug.html": {
+      "label": "Übergabe-Vorlage",
+      "href": "wohnungsuebergabeprotokoll.html"
+    },
+    "leerstand-werbungskosten.html": {
+      "label": "Anlage-V-Vorlage",
+      "href": "anlage-v.html"
     }
   },
   "photos": {
@@ -630,6 +661,10 @@
     }
   },
   "article_photos": {
+    "vorauszahlung": "heizung",
+    "grundsteuer": "haus",
+    "schoenheitsrep": "uebergabe",
+    "leerstand": "hero",
     "kaution": "schluessel",
     "uebergabe": "uebergabe",
     "heiz": "heizung",

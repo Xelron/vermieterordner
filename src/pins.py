@@ -11,7 +11,8 @@ Jeder Eintrag in content/feeds.json mit einem Block "pin" wird zu docs/pins/<id>
           "style": "text" | "img" | "price" | "list",
           "img": "img/produkt.jpg",          # bei style img (Bild aus docs/)
           "value": "19 €", "label": "EINMALIG", # bei style price
-          "items": ["Punkt 1", "Punkt 2"]}       # bei style list
+          "items": ["Punkt 1", "Punkt 2"],       # bei style list
+          "mark": "✗"}                          # optional: Zeichen statt ✓ (z. B. für unwirksame Klauseln)
 """
 import base64, html, json, mimetypes, os, sys
 
@@ -58,7 +59,7 @@ def render(i, item):
                f'<div class=serif style="font-size:170px;color:{t["fg"]};line-height:1.1">{e(pin.get("value", ""))}</div></div>')
     elif style == "list":
         mid = f'<div class=box style="background:{t["box"]}">' + "".join(
-            f'<div class=item style="color:{t["fg"]}"><b style="background:{t["acc"]};color:{t["bg"]}">✓</b>{e(x)}</div>' for x in pin.get("items", [])) + "</div>"
+            f'<div class=item style="color:{t["fg"]}"><b style="background:{t["acc"]};color:{t["bg"]}">{e(pin.get("mark") or "✓")}</b>{e(x)}</div>' for x in pin.get("items", [])) + "</div>"
     else:
         mid = f'<div style="border-top:10px solid {t["acc"]};padding-top:40px;font-size:40px;font-weight:700;color:{t["fg"]};display:inline-block;align-self:flex-start">{pin.get("cta") or ("Jetzt berechnen →" if "rechner" in item.get("link", "") else "Jetzt lesen →")}</div>'
     h1 = pin.get("h1") or item["title"]

@@ -1033,5 +1033,136 @@
    "style": "img",
    "img": "img/anlagev-1.jpg"
   }
+ },
+ {
+  "id": "pin-67",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Grundsteuer auf Mieter umlegen: so geht's",
+  "description": "Die Grundsteuer ist umlagefähig (§ 2 Nr. 1 BetrKV), wenn der Mietvertrag die Umlage der Betriebskosten vorsieht. Ohne andere Vereinbarung verteilen Sie sie nach Wohnfläche. Mit Beispielen für Mehrfamilienhaus, Eigentumswohnung und Leerstand.",
+  "link": "grundsteuer-umlegen.html#verteilung",
+  "image": "pins/pin-67.jpg",
+  "date": "2026-11-30T04:00:00",
+  "pin": {
+   "h1": "Grundsteuer umlegen",
+   "h2": "Verteilt nach Wohnfläche",
+   "sub": "§ 2 Nr. 1 BetrKV – Ratgeber mit Beispielen"
+  }
+ },
+ {
+  "id": "pin-68",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Nebenkosten-Vorauszahlung erhöhen: kein pauschaler Zuschlag",
+  "description": "Nach der Abrechnung dürfen Vermieter die Vorauszahlung in Textform auf eine angemessene Höhe anpassen (§ 560 Abs. 4 BGB) – in der Regel ein Zwölftel der abgerechneten Kosten plus konkret absehbare Steigerungen. Ein pauschaler Sicherheitszuschlag von 10 % ist nicht erlaubt (BGH VIII ZR 294/10).",
+  "link": "nebenkosten-vorauszahlung-anpassen.html#hoehe",
+  "image": "pins/pin-68.jpg",
+  "date": "2026-12-01T04:00:00",
+  "pin": {
+   "h1": "Vorauszahlung erhöhen?",
+   "h2": "Kein pauschaler Zuschlag von 10 %",
+   "sub": "Was nach der Abrechnung angemessen ist"
+  }
+ },
+ {
+  "id": "pin-69",
+  "board": "Vermieten leicht gemacht",
+  "title": "Schönheitsreparaturen beim Auszug: diese Klauseln sind unwirksam",
+  "description": "Starre Fristen, Quotenabgeltung, Endrenovierung unabhängig vom Zustand – und jede Abwälzung, wenn die Wohnung unrenoviert und ohne angemessenen Ausgleich übergeben wurde (BGH VIII ZR 185/14). Was Vermieter dann noch verlangen können, erklärt der Ratgeber.",
+  "link": "schoenheitsreparaturen-auszug.html#klauseln",
+  "image": "pins/pin-69.jpg",
+  "date": "2026-12-02T04:00:00",
+  "pin": {
+   "h1": "Muss der Mieter streichen?",
+   "h2": "Diese Klauseln sind unwirksam",
+   "style": "list",
+   "items": [
+    "Starre Fristen",
+    "Quotenabgeltung",
+    "Endrenovierung unabhängig vom Zustand",
+    "Unrenoviert übergeben ohne Ausgleich"
+   ],
+   "mark": "✗"
+  }
+ },
+ {
+  "id": "pin-70",
+  "board": "Vermieten leicht gemacht",
+  "title": "Leerstehende Wohnung: Werbungskosten weiter absetzen",
+  "description": "Schuldzinsen, AfA und Nebenkosten einer leeren Wohnung bleiben Werbungskosten, solange Sie ernsthaft und nachhaltig einen Mieter suchen. Bleibt die Suche erfolglos, müssen Sie Ihre Bemühungen anpassen, etwa mit Makler oder niedrigerer Miete (BFH IX R 14/12).",
+  "link": "leerstand-werbungskosten.html#faelle",
+  "image": "pins/pin-70.jpg",
+  "date": "2026-12-03T04:00:00",
+  "pin": {
+   "h1": "Wohnung steht leer?",
+   "h2": "Werbungskosten bleiben absetzbar – mit Nachweis",
+   "sub": "Was das Finanzamt sehen will"
+  }
+ },
+ {
+  "id": "pin-71",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Grundsteuer gestiegen? Was Vermieter jetzt tun",
+  "description": "Seit 2025 gilt die neue Grundsteuer. Ist sie gestiegen, tragen die Mieter die Erhöhung über die Nebenkostenabrechnung. Die Vorauszahlungen passen Sie erst nach der Abrechnung an (§ 560 Abs. 4 BGB) – vorher nur mit Zustimmung des Mieters.",
+  "link": "grundsteuer-umlegen.html#reform",
+  "image": "pins/pin-71.jpg",
+  "date": "2026-12-04T04:00:00",
+  "pin": {
+   "h1": "Grundsteuer gestiegen?",
+   "h2": "Erhöhung über die Abrechnung umlegen",
+   "sub": "Vorauszahlung erst danach anpassen"
+  }
+ },
+ {
+  "id": "pin-72",
+  "board": "Nebenkostenabrechnung Tipps",
+  "title": "Vorauszahlung anpassen: Checkliste nach der Abrechnung",
+  "description": "Nach der Nebenkostenabrechnung die Vorauszahlung anpassen (§ 560 Abs. 4 BGB): Abrechnung formell und inhaltlich korrekt, Kosten ÷ 12 ohne Pauschalzuschlag, Erklärung in Textform, neuer Betrag nur für die Zukunft. Checkliste und Musterformulierung im Ratgeber.",
+  "link": "nebenkosten-vorauszahlung-anpassen.html#checkliste",
+  "image": "pins/pin-72.jpg",
+  "date": "2026-12-05T04:00:00",
+  "pin": {
+   "h1": "Vorauszahlung anpassen",
+   "h2": "Checkliste nach der Abrechnung",
+   "style": "list",
+   "items": [
+    "Abrechnung formell und inhaltlich korrekt",
+    "Kosten ÷ 12, kein Pauschalzuschlag",
+    "Erklärung in Textform",
+    "Neuer Betrag nur für die Zukunft"
+   ]
+  }
+ },
+ {
+  "id": "pin-73",
+  "board": "Vermieten leicht gemacht",
+  "title": "6-Monats-Frist: Ersatzansprüche nach dem Auszug",
+  "description": "Ersatzansprüche des Vermieters wegen Veränderungen oder Verschlechterungen der Wohnung verjähren 6 Monate nach Rückgabe (§ 548 BGB) – auch wegen nicht ausgeführter Schönheitsreparaturen. Vorher braucht es meist eine Frist zur Renovierung (§ 281 BGB).",
+  "link": "schoenheitsreparaturen-auszug.html#ablauf",
+  "image": "pins/pin-73.jpg",
+  "date": "2026-12-06T04:00:00",
+  "pin": {
+   "h1": "Nach dem Auszug",
+   "h2": "6 Monate für Ersatzansprüche",
+   "sub": "§ 548 BGB – Frist ab Rückgabe der Wohnung"
+  }
+ },
+ {
+  "id": "pin-74",
+  "board": "Vermieten leicht gemacht",
+  "title": "Leerstand: diese Nachweise sollten Vermieter sammeln",
+  "description": "Für die Vermietungsbemühungen tragen Sie die Feststellungslast. Sammeln Sie Inserate mit Datum und Miete, Maklerauftrag, Anfragen und Besichtigungen, Änderungen an Miete oder Anzeige und den Renovierungsplan. Checkliste im Ratgeber.",
+  "link": "leerstand-werbungskosten.html#nachweise",
+  "image": "pins/pin-74.jpg",
+  "date": "2026-12-07T04:00:00",
+  "pin": {
+   "h1": "Leerstand",
+   "h2": "Diese Nachweise sammeln",
+   "style": "list",
+   "items": [
+    "Inserate mit Datum und Miete",
+    "Maklerauftrag",
+    "Anfragen und Besichtigungen",
+    "Anpassungen von Miete oder Anzeige"
+   ]
+  }
  }
 ]

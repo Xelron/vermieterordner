@@ -76,7 +76,7 @@ Weisen Sie im Abrechnungsschreiben auf diese Frist hin – das ist nicht vorgesc
 
 ## Zahlungsfrist für Nachzahlungen {#zahlungsfrist}
 
-Eine gesetzliche Zahlungsfrist für die Nachzahlung gibt es nicht. Üblich und angemessen ist eine Frist von etwa **30 Tagen nach Zugang**, damit der Mieter die Abrechnung prüfen kann. Nach der Abrechnung kann jede Seite die Vorauszahlungen durch Erklärung in Textform auf eine angemessene Höhe anpassen (§ 560 Abs. 4 BGB).
+Eine gesetzliche Zahlungsfrist für die Nachzahlung gibt es nicht. Üblich und angemessen ist eine Frist von etwa **30 Tagen nach Zugang**, damit der Mieter die Abrechnung prüfen kann. Nach der Abrechnung kann jede Seite die Vorauszahlungen durch Erklärung in Textform auf eine angemessene Höhe anpassen (§ 560 Abs. 4 BGB). Wie Sie die neue Höhe berechnen, erklärt der Ratgeber [Nebenkosten-Vorauszahlung anpassen](nebenkosten-vorauszahlung-anpassen.html).
 
 ## So halten Sie die Frist sicher ein {#checkliste}
 
