@@ -432,9 +432,87 @@
       "photo_caption": "Einmal im Jahr: Mieten, Belege und Abschreibung für die Steuererklärung zusammentragen."
     },
     {
+      "slug": "mieterhoehung",
+      "name": "Mieterhöhung 2026",
+      "short": "Mieterhöhung auf die ortsübliche Vergleichsmiete oder nach Index rechnen – mit Fristen, Kappungsgrenze und fertigem Schreiben.",
+      "price": 9.9,
+      "compare_price": null,
+      "checkout_url": "",
+      "list_after_checkout": false,
+      "image": "mieterhoehung-1.jpg",
+      "shots": [
+        "mieterhoehung-1.jpg",
+        "mieterhoehung-2.jpg",
+        "mieterhoehung-3.jpg"
+      ],
+      "eyebrow": "Excel-Vorlage · Stand 2026",
+      "h1": "Mieterhöhung 2026 – Excel-Vorlage mit Schreiben an den Mieter",
+      "lead": "Aktuelle Miete, Fläche und Begründung eintragen – die Vorlage rechnet, wann Sie die Erhöhung verlangen können, ab wann die neue Miete gilt und wie weit Vergleichsmiete und Kappungsgrenze reichen. Daraus entsteht das Erhöhungsschreiben mit Zustimmungserklärung. Für Indexmieten rechnet sie die Anpassung nach dem Verbraucherpreisindex und erstellt die Erklärung.",
+      "format": "ZIP-Datei mit Excel-Vorlage (.xlsx, leer), ausgefülltem Beispiel und PDF-Kurzanleitung, Sprache Deutsch. Für Microsoft Excel und LibreOffice.",
+      "content": "Arbeitsblätter Start (Eingaben, Ergebnis, 15 Prüfungen), Vergleichsmiete, Erhöhungsschreiben, Indexmiete, Indexschreiben und Info mit Rechtsgrundlagen",
+      "audience": "private Vermieter von Wohnraum in Deutschland – für Erhöhungen auf die ortsübliche Vergleichsmiete (§ 558 BGB) und bei vereinbarter Indexmiete (§ 557b BGB); nicht für Staffelmiete, Inklusivmiete, preisgebundenen Wohnraum, Gewerbe oder Modernisierungsmieterhöhungen",
+      "features": [
+        [
+          "Fristen mit Wochentag",
+          "Frühester Zugang nach der Jahressperrfrist, 15 Monate unveränderte Miete, Zustimmung bis Ende des zweiten Monats nach Zugang, neue Miete ab Beginn des dritten Monats und Klagefrist – jeweils mit Datum und Wochentag."
+        ],
+        [
+          "Kappungsgrenze 20 % oder 15 %",
+          "Die Vorlage rechnet den Stichtag drei Jahre vor dem Erhöhungstermin aus. Sie tragen die Miete an diesem Tag ein, die Vorlage rechnet die Höchstmiete. Erhöhungen wegen Modernisierung oder Betriebskosten zählen nicht mit. Ob in Ihrer Gemeinde 15 % gelten, sehen Sie in der Verordnung Ihres Landes nach."
+        ],
+        [
+          "Vier Begründungsmittel",
+          "Mietspiegel mit Spanne, Auskunft aus einer Mietdatenbank, Gutachten oder drei bis fünf Vergleichswohnungen. Sätze wie „liegt innerhalb der Spanne“ erscheinen im Schreiben nur, wenn sie für die verlangte Miete auch stimmen."
+        ],
+        [
+          "Schreiben mit Zustimmungserklärung",
+          "Das Erhöhungsschreiben übernimmt Namen, Beträge, Termine und Begründung – in der Ich- oder Wir-Form. Solange eine Prüfung „Achtung“ meldet, steht „ENTWURF“ auf dem Schreiben."
+        ],
+        [
+          "Indexmiete nach dem VPI",
+          "Alte und neue Indexstände eintragen, die Vorlage rechnet die neue Miete prozentual, prüft die Jahresfrist und erstellt die Erklärung in Textform. Die Indexwerte veröffentlicht das Statistische Bundesamt."
+        ],
+        [
+          "15 Prüfungen und ein Beispiel",
+          "Warnungen etwa bei zu frühem Zugang, Miete über der Vergleichsmiete, überschrittener Kappungsgrenze, öffentlichen Fördermitteln oder Staffelmiete. Ein ausgefülltes Beispiel zeigt eine Erhöhung mit Mietspiegel Schritt für Schritt."
+        ]
+      ],
+      "faq": [
+        [
+          "Ersetzt die Vorlage eine Rechtsberatung?",
+          "Nein. Sie hilft bei Form, Fristen und Grenzen und formuliert das Schreiben. Ob die verlangte Miete der ortsüblichen Vergleichsmiete entspricht, entscheidet im Streitfall das Gericht. Bei Sonderfällen wie Fördermitteln oder unklaren Verträgen lassen Sie sich beraten."
+        ],
+        [
+          "Sind Mietspiegelwerte enthalten?",
+          "Nein. Den Mietspiegel Ihrer Gemeinde und die passende Spanne tragen Sie selbst ein. Ist der Mietspiegel nicht allgemein zugänglich, fügen Sie ihn dem Schreiben bei."
+        ],
+        [
+          "Läuft die Vorlage in Google Sheets?",
+          "Die Vorlage ist für Microsoft Excel (ab 2010) und LibreOffice gebaut und nutzt nur Funktionen, die beide beherrschen; geprüft wurde sie in LibreOffice. Google Sheets unterstützen wir bei dieser Vorlage nicht."
+        ]
+      ],
+      "faq_exclude": [
+        "Welche Programme brauche ich?"
+      ],
+      "seo_title": "Mieterhöhung Vorlage (Excel) 2026 – mit Fristen & Schreiben",
+      "meta_description": "Mieterhöhung 2026 als Excel-Vorlage: Vergleichsmiete, Kappungsgrenze und Fristen rechnen, Schreiben mit Zustimmungserklärung, auch Indexmiete. 9,90 €.",
+      "related": [
+        "indexmiete-erhoehen",
+        "nebenkosten-vorauszahlung-anpassen",
+        "umlagefaehige-nebenkosten"
+      ],
+      "photo": "papiere",
+      "photo_caption": "Einmal ausrechnen, dann schreiben: Fristen und Grenzen der Mieterhöhung.",
+      "shots_alt": [
+        "Ergebnis mit Höchstmiete und Fristen",
+        "Erhöhungsschreiben nach § 558 BGB",
+        "Indexmiete und Prüfungen"
+      ]
+    },
+    {
       "slug": "vermieter-paket",
       "name": "Vermieter-Paket 2026",
-      "short": "Alle 4 Excel-Vorlagen in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026.",
+      "short": "4 Excel-Vorlagen in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026.",
       "price": 32.9,
       "compare_price": null,
       "checkout_url": "",
@@ -453,8 +531,8 @@
         "anlagev-2.jpg"
       ],
       "eyebrow": "4 Excel-Vorlagen · Stand 2026",
-      "h1": "Vermieter-Paket 2026 – alle 4 Excel-Vorlagen für private Vermieter",
-      "lead": "Die vier Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung und die Steuererklärung bis zum Auszug.",
+      "h1": "Vermieter-Paket 2026 – 4 Excel-Vorlagen für private Vermieter",
+      "lead": "Vier Vorlagen von Vermieterordner in einem Download: Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026. Dieselben Dateien wie beim Einzelkauf – vom Einzug über die jährliche Abrechnung und die Steuererklärung bis zum Auszug.",
       "format": "ZIP-Datei mit allen vier Vorlagen – jede mit Excel-Datei (.xlsx) und PDF-Kurzanleitung, Wohnungsübergabeprotokoll und Anlage V zusätzlich mit ausgefülltem Beispiel. Sprache Deutsch.",
       "content": "Nebenkostenabrechnung (8 Arbeitsblätter), Kautionsabrechnung (5), Wohnungsübergabeprotokoll (7), Anlage V 2026 (7) – Details auf den einzelnen Produktseiten",
       "audience": "private Vermieter von Wohnraum in Deutschland mit einem oder mehreren Mietobjekten – die Grenzen jeder Vorlage stehen auf den einzelnen Produktseiten",
@@ -626,6 +704,10 @@
     "leerstand-werbungskosten.html": {
       "label": "Anlage-V-Vorlage",
       "href": "anlage-v.html"
+    },
+    "mieterhoehung.html": {
+      "label": "Mieterhöhungs-Vorlage",
+      "href": "mieterhoehung.html#kaufen"
     }
   },
   "photos": {

@@ -282,7 +282,7 @@ def bundle_hint(p):
         # Paket noch ohne Checkout: Hinweis sagt klar „bald“ und verlinkt die Paketseite (dort „Bald verfügbar“)
         pre = "Auch im" if b.get("checkout_url") else "Bald auch im"
         out += (f'<p class="bundlehint">{pre} <a href="{b["slug"]}.html">{esc(b["name"])}</a> enthalten: '
-                f'alle {n} Vorlagen für {money(b["price"])}' + (f' ({compare_txt(b)})' if compare_txt(b) else '') + '.</p>')
+                f'{n} Vorlagen für {money(b["price"])}' + (f' ({compare_txt(b)})' if compare_txt(b) else '') + '.</p>')
     return out
 
 
