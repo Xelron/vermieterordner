@@ -498,6 +498,7 @@
       "meta_description": "Mieterhöhung 2026 als Excel-Vorlage: Vergleichsmiete, Kappungsgrenze und Fristen rechnen, Schreiben mit Zustimmungserklärung, auch Indexmiete. 9,90 €.",
       "related": [
         "indexmiete-erhoehen",
+        "indexmiete-rechner",
         "nebenkosten-vorauszahlung-anpassen",
         "umlagefaehige-nebenkosten"
       ],
@@ -708,6 +709,14 @@
     "mieterhoehung.html": {
       "label": "Mieterhöhungs-Vorlage",
       "href": "mieterhoehung.html#kaufen"
+    },
+    "indexmiete-erhoehen.html": {
+      "label": "Mieterhöhungs-Vorlage",
+      "href": "mieterhoehung.html"
+    },
+    "indexmiete-rechner.html": {
+      "label": "Mieterhöhungs-Vorlage",
+      "href": "mieterhoehung.html"
     }
   },
   "photos": {
