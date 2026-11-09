@@ -557,10 +557,6 @@
         [
           "Einmal zahlen, einzeln nutzen",
           "Jede Vorlage ist eine eigene Datei mit eigener Kurzanleitung. Für jede neue Abrechnung, jede Übergabe oder jedes weitere Objekt legen Sie einfach eine Kopie an."
-        ],
-        [
-          "Günstiger als einzeln",
-          "Einzeln kosten die vier Vorlagen zusammen 47,60 €, im Paket 32,90 € – 14,70 € weniger als beim Einzelkauf."
         ]
       ],
       "faq": [
@@ -574,21 +570,22 @@
         ],
         [
           "Ich brauche nur eine oder zwei Vorlagen – lohnt sich das Paket?",
-          "Für eine oder zwei Vorlagen ist der Einzelkauf günstiger. Mit der Nebenkostenabrechnung und zwei weiteren Vorlagen (einzeln mindestens 34,70 €) rechnet sich das Paket schon. Kautions-, Übergabe- und Anlage-V-Vorlage kosten einzeln zusammen 32,70 € – im Paket zahlen Sie 0,20 € mehr und bekommen die Nebenkostenabrechnung dazu."
+          "Für eine oder zwei Vorlagen ist der Einzelkauf günstiger. Brauchen Sie die Nebenkostenabrechnung und mindestens zwei weitere Vorlagen, lohnt sich das Paket. Die Einzelpreise stehen auf den Produktseiten."
         ]
       ],
       "faq_exclude": [
         "Welche Programme brauche ich?"
       ],
       "seo_title": "Vermieter-Paket 2026: 4 Excel-Vorlagen für private Vermieter",
-      "meta_description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026 als Excel-Vorlagen im Paket: 32,90 € (einzeln zusammen 47,60 €).",
+      "meta_description": "Nebenkostenabrechnung, Kautionsabrechnung, Wohnungsübergabeprotokoll und Anlage V 2026 als Excel-Vorlagen im Paket für 32,90 €.",
       "related": [],
+      "no_compare": true,
       "soon_note": "Erscheint in Kürze: Die Vorlagen sind fertig und geprüft, der Kauf über Digistore24 wird gerade eingerichtet.",
       "features_title": "Was die vier Vorlagen können",
       "ticks": [
         "4 Vorlagen, je eine eigene Datei",
         "Dieselben Dateien wie einzeln",
-        "14,70 € weniger als einzeln"
+        "Eine Zahlung, ein Download"
       ],
       "shots_alt": [
         "Beispielansicht Nebenkostenabrechnung",

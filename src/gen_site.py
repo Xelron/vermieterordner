@@ -182,6 +182,8 @@ def buy(p, cls="btn", label=None):
 def compare_txt(p):
     """Vergleichspreis als Text. Pakete ("includes"): Summe der Einzelpreise, ohne Streichpreis
     (kein früherer Preis, daher nicht durchgestrichen – PAngV § 11)."""
+    if p.get("no_compare"):  # DS24 wertet Summe der Einzelpreise als Streichpreis (Ablehnung 09.11.)
+        return ""
     if p.get("_sum") and all(q.get("checkout_url") for q in p["_inc"]):
         return f"einzeln zusammen {money(p['_sum'])}"
     return ""
