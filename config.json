@@ -503,7 +503,7 @@
         "nebenkosten-vorauszahlung-anpassen",
         "umlagefaehige-nebenkosten"
       ],
-      "photo": "papiere",
+      "photo": "altbau",
       "photo_caption": "Einmal ausrechnen, dann schreiben: Fristen und Grenzen der Mieterhöhung.",
       "shots_alt": [
         "Ergebnis mit Höchstmiete und Fristen",
@@ -732,6 +732,11 @@
       "credit": "jordi",
       "url": "https://unsplash.com/de/fotos/3fPy4IT4mVA"
     },
+    "altbau": {
+      "alt": "Altbau-Fassade mit Stuck und hohen Sprossenfenstern",
+      "credit": "DIJA",
+      "url": "https://unsplash.com/de/fotos/9M3K8Acw6VE"
+    },
     "papiere": {
       "alt": "Unterlagen, Stift und Taschenrechner auf dem Tisch",
       "credit": "Kelly Sikkema",
@@ -764,6 +769,6 @@
     "nebenkosten": "haus",
     "anlage-v": "haus",
     "indexmiete": "haus",
-    "vergleichsmiete": "papiere"
+    "vergleichsmiete": "altbau"
   }
 }
