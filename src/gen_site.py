@@ -156,12 +156,20 @@ def _check_bundle_amounts(p):
     for k in range(1, len(prices) + 1):
         for c in itertools.combinations(prices, k):
             ok |= {round(sum(c), 2), round(abs(sum(c) - float(p["price"])), 2)}
+    if p.get("no_compare"):  # DS24: keine Summen-/Vergleichs-/Ersparnisbeträge, nur der Paketpreis selbst
+        ok = {round(float(p["price"]), 2)}
     okt = {f"{v:.2f}".replace(".", ",") for v in ok}
-    txt = " ".join([p.get("short", ""), p.get("lead", ""), p.get("meta_description", ""), p.get("seo_title", "")]
-                   + [a + " " + b for a, b in p.get("features", []) + p.get("faq", [])] + p.get("ticks", []))
-    bad = [m for m in _re.findall(r"(\d+,\d{2})\s*€", txt) if m not in okt]
+    txt = " ".join([p.get(k) or "" for k in ("short", "lead", "meta_description", "seo_title", "h1", "eyebrow",
+                                              "format", "content", "features_title", "audience")]
+                   + [a + " " + b for a, b in p.get("features", []) + p.get("faq", [])] + p.get("ticks", [])
+                   + p.get("shots_alt", []))
+    bad = [m for m in _re.findall(r"(\d+(?:,\d{2})?)\s*(?:€|EUR|Euro)", txt) if (m if "," in m else m + ",00") not in okt]
     if bad:
         raise SystemExit(f"FEHLER: Paket {p['slug']}: Beträge passen nicht zu den aktuellen Preisen: {bad}")
+    if p.get("no_compare"):
+        hit = _re.findall(r"einzeln zusammen|Ersparnis|sparen Sie|gespart|statt \d|Gesamtwert|reduziert", txt, _re.I)
+        if hit:
+            raise SystemExit(f"FEHLER: Paket {p['slug']}: Vergleichs-/Ersparnisformulierung trotz no_compare: {hit}")
 
 
 for p in P:
