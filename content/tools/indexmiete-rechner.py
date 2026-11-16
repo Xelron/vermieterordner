@@ -5,17 +5,19 @@ Rechenweg wie in der Excel-Vorlage Mieterhöhung 2026 (Blatt Indexmiete):
 neue Miete = ABRUNDEN(Miete × Index neu ÷ Index alt; 2);
 Termin = MAX(Beginn des übernächsten Monats nach Zugang; erster Monatserster nach Ablauf eines Jahres
 seit der letzten Mietänderung, §§ 187 Abs. 2, 188 Abs. 2, 3 BGB).
-VPI-Werte: Destatis, Konjunkturindikatoren vpi001a (Stand 13.10.2026) – beim Nachtragen eines
+VPI-Werte: Destatis, Konjunkturindikatoren vpi001a (bis Sep 2026, Stand 13.10.2026; die Tabelle wird
+seit KW 43/2026 nicht mehr gepflegt), Oktober 2026 = 126,4 aus Pressemitteilung Nr. 392 vom 11.11.2026 –
+neue Monate aus Pressemitteilungen/GENESIS; beim Nachtragen eines
 neuen Monats VPI-Liste unten ergänzen und Stand in META/EXPLAIN anpassen."""
 
-# VPI Deutschland, 2020 = 100, Monatswerte Jan 2021 – Sep 2026 (Destatis, Stand 13.10.2026)
+# VPI Deutschland, 2020 = 100, Monatswerte Jan 2021 – Okt 2026 (Destatis, Stand 11.11.2026)
 VPI = {
     2021: [101.0, 101.6, 102.1, 102.4, 102.6, 102.9, 103.4, 103.5, 103.8, 104.3, 104.5, 104.7],
     2022: [105.2, 106.0, 108.1, 108.8, 109.8, 109.8, 110.3, 110.7, 112.7, 113.5, 113.7, 113.2],
     2023: [114.3, 115.2, 116.1, 116.6, 116.5, 116.8, 117.1, 117.5, 117.8, 117.8, 117.3, 117.4],
     2024: [117.6, 118.1, 118.6, 119.2, 119.3, 119.4, 119.8, 119.7, 119.7, 120.2, 119.9, 120.5],
     2025: [120.3, 120.8, 121.2, 121.7, 121.8, 121.8, 122.2, 122.3, 122.6, 123.0, 122.7, 122.7],
-    2026: [122.8, 123.1, 124.5, 125.2, 125.0, 124.6, 125.6, 125.8, 126.6],
+    2026: [122.8, 123.1, 124.5, 125.2, 125.0, 124.6, 125.6, 125.8, 126.6, 126.4],
 }
 MON = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"]
 
@@ -36,10 +38,11 @@ META = {
     "slug": "indexmiete-rechner",
     "name": "Indexmiete-Rechner",
     "title": "Indexmiete-Rechner: neue Miete nach dem Verbraucherpreisindex",
-    "description": "Indexmiete berechnen: neue Nettokaltmiete aus dem Verbraucherpreisindex und frühester Termin nach § 557b BGB – VPI-Werte bis September 2026. Kostenlos.",
+    "description": "Indexmiete berechnen: neue Nettokaltmiete aus dem Verbraucherpreisindex und frühester Termin nach § 557b BGB – VPI-Werte bis Oktober 2026. Kostenlos.",
     "card_text": "Neue Miete aus zwei VPI-Monatswerten berechnen – mit Erhöhungsbetrag, Prozent und frühestem Termin nach § 557b BGB.",
-    "llms": "Rechner für die Indexmiete (§ 557b BGB): neue Nettokaltmiete = bisherige Miete × VPI neu ÷ VPI alt (Monatswerte, Basis 2020 = 100, auf Cent abgerundet), VPI-Werte Januar 2021 bis September 2026 (Destatis, Stand 13.10.2026) zur Auswahl; neue Miete ab Beginn des übernächsten Monats nach Zugang der Erklärung, frühestens nach einem Jahr unveränderter Miete; vertragliche Mindeständerung optional.",
+    "llms": "Rechner für die Indexmiete (§ 557b BGB): neue Nettokaltmiete = bisherige Miete × VPI neu ÷ VPI alt (Monatswerte, Basis 2020 = 100, auf Cent abgerundet), VPI-Werte Januar 2021 bis Oktober 2026 (Destatis, Stand 11.11.2026) zur Auswahl; neue Miete ab Beginn des übernächsten Monats nach Zugang der Erklärung, frühestens nach einem Jahr unveränderter Miete; vertragliche Mindeständerung optional.",
     "date": "2026-11-09",
+    "updated": "2026-11-16",
     "seo_title": "Indexmiete-Rechner: neue Miete nach VPI berechnen",
     "eyebrow": "Kostenloser Rechner · § 557b BGB",
     "answer": "Bei einer Indexmiete ändert sich die Nettokaltmiete **im selben Verhältnis wie der Verbraucherpreisindex**: neue Miete = bisherige Miete × neuer Indexstand ÷ alter Indexstand. Die neue Miete gilt **ab Beginn des übernächsten Monats** nach Zugang Ihrer Erklärung – frühestens **ein Jahr nach der letzten Mietänderung** (§ 557b BGB).",
@@ -54,9 +57,10 @@ META = {
     "sources": [
         ("§ 557b BGB – Indexmiete (gesetze-im-internet.de)", "https://www.gesetze-im-internet.de/bgb/__557b.html"),
         ("§ 188 BGB – Fristende (gesetze-im-internet.de)", "https://www.gesetze-im-internet.de/bgb/__188.html"),
-        ("Statistisches Bundesamt – Verbraucherpreisindex für Deutschland, Monatswerte 2020 = 100 (Stand 13.10.2026)", "https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Basisdaten/vpi001a.html"),
+        ("Statistisches Bundesamt – Verbraucherpreisindex für Deutschland, Monatswerte 2020 = 100 bis September 2026 (Stand 13.10.2026)", "https://www.destatis.de/DE/Themen/Wirtschaft/Konjunkturindikatoren/Basisdaten/vpi001a.html"),
         ("Statistisches Bundesamt – Verbraucherpreisindex (Themenseite mit aktuellen Werten)", "https://www.destatis.de/DE/Themen/Wirtschaft/Preise/Verbraucherpreisindex/_inhalt.html"),
         ("Statistisches Bundesamt – Pressemitteilung Nr. 364 vom 13.10.2026 (Inflationsrate September 2026 +3,3 %)", "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/10/PD26_364_611.html"),
+        ("Statistisches Bundesamt – Pressemitteilung Nr. 392 vom 11.11.2026 (Inflationsrate Oktober 2026 +2,8 %)", "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/11/PD26_392_611.html"),
         ("BGH, Urteil vom 26.05.2021, VIII ZR 42/20 – Indexmiete: Monatsindex, Basisjahr, Wartefrist (iww.de)", "https://www.iww.de/mk/quellenmaterial/id/223308"),
         ("BGH, Urteil vom 22.11.2017, VIII ZR 291/16 – Erklärung ohne Prozentangabe wirksam (iww.de)", "https://www.iww.de/fmp/quellenmaterial/id/198625"),
     ],
@@ -79,7 +83,7 @@ BODY = f"""<form class="calc" id="calc" onsubmit="return false">
 <div><label for="zug">Erklärung geht dem Mieter zu am</label><input type="date" id="zug" value="2026-11-10" min="1990-01-01" max="2100-12-31"></div>
 <div><label for="mind">Mindeständerung laut Vertrag (%, optional)</label><input type="text" id="mind" inputmode="decimal" value="" autocomplete="off"></div>
 </div>
-<p class="hint">VPI für Deutschland, Basis 2020&nbsp;=&nbsp;100, Monatswerte des Statistischen Bundesamts bis September 2026 (Stand 13.10.2026). Für ältere oder neuere Monate den Wert selbst eintragen (aktuelle Werte beim Statistischen Bundesamt). Nennt Ihr Vertrag die Mindeständerung in Punkten, rechnen Sie sie in Prozent um. Nettokaltmiete = Miete ohne Betriebskosten.</p>
+<p class="hint">VPI für Deutschland, Basis 2020&nbsp;=&nbsp;100, Monatswerte des Statistischen Bundesamts bis Oktober 2026 (Stand 11.11.2026). Für ältere oder neuere Monate den Wert selbst eintragen (aktuelle Werte beim Statistischen Bundesamt). Nennt Ihr Vertrag die Mindeständerung in Punkten, rechnen Sie sie in Prozent um. Nettokaltmiete = Miete ohne Betriebskosten.</p>
 <div class="res" id="res" aria-live="polite"></div>
 </form>"""
 
@@ -88,7 +92,7 @@ EXPLAIN = """<h2 class="serif" style="margin-top:0">So rechnet der Rechner</h2>
 <p><strong>Ab wann:</strong> Die geänderte Miete ist ab Beginn des übernächsten Monats nach Zugang der Erklärung zu zahlen (§ 557b Abs. 3 BGB) – Zugang am 10.11. heißt neue Miete ab 01.01. Außerdem muss die Miete jeweils mindestens ein Jahr unverändert bleiben (§ 557b Abs. 2 BGB; Erhöhungen nach §§ 559 bis 560 BGB, etwa der Betriebskostenvorauszahlungen, zählen nicht mit). Der Rechner nimmt dafür den ersten Monatsersten, an dem seit „Diese Miete gilt seit“ ein volles Jahr vergangen ist.</p>
 <p><strong>Vor Ablauf des Jahres zugestellt?</strong> Nach herrschender Meinung darf die Erklärung schon vorher zugehen; die neue Miete gilt dann frühestens ab dem ersten Monatsersten nach Ablauf des Jahres. Eine Entscheidung des BGH dazu gibt es nicht – wer ganz sicher gehen will, stellt erst nach Ablauf des Jahres zu.</p>
 <p><strong>Mindeständerung:</strong> Manche Verträge erlauben eine Anpassung erst ab einer bestimmten Indexänderung, etwa 3&nbsp;%. Das ist eine Bagatellgrenze: Sie bestimmt, <em>ob</em> Sie anpassen dürfen, nicht, <em>wie viel</em> (BGH, VIII ZR 42/20). Ist sie nicht erreicht, zeigt der Rechner keine Erhöhung an.</p>
-<p><strong>Nicht berücksichtigt:</strong> Feiertage, Staffel- oder Vergleichsmieterhöhungen und die geplante Deckelung der Indexmiete in angespannten Wohnungsmärkten (Gesetzentwurf, Stand 09.11.2026 noch nicht beschlossen – mehr im Ratgeber).</p>
+<p><strong>Nicht berücksichtigt:</strong> Feiertage, Staffel- oder Vergleichsmieterhöhungen und die geplante Deckelung der Indexmiete in angespannten Wohnungsmärkten (Gesetzentwurf, Stand 16.11.2026 noch nicht beschlossen – mehr im Ratgeber).</p>
 <p>Mehr dazu im Ratgeber <a href="indexmiete-erhoehen.html">Indexmiete erhöhen: Berechnung, Erklärung und Fristen</a>.</p>
 <p class="note">Allgemeine Information, keine Rechtsberatung. Im Einzelfall helfen Haus &amp; Grund, Mieterverein oder Anwalt.</p>"""
 
