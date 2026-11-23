@@ -42,7 +42,7 @@ META = {
     "card_text": "Neue Miete aus zwei VPI-Monatswerten berechnen – mit Erhöhungsbetrag, Prozent und frühestem Termin nach § 557b BGB.",
     "llms": "Rechner für die Indexmiete (§ 557b BGB): neue Nettokaltmiete = bisherige Miete × VPI neu ÷ VPI alt (Monatswerte, Basis 2020 = 100, auf Cent abgerundet), VPI-Werte Januar 2021 bis Oktober 2026 (Destatis, Stand 11.11.2026) zur Auswahl; neue Miete ab Beginn des übernächsten Monats nach Zugang der Erklärung, frühestens nach einem Jahr unveränderter Miete; vertragliche Mindeständerung optional.",
     "date": "2026-11-09",
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "seo_title": "Indexmiete-Rechner: neue Miete nach VPI berechnen",
     "eyebrow": "Kostenloser Rechner · § 557b BGB",
     "answer": "Bei einer Indexmiete ändert sich die Nettokaltmiete **im selben Verhältnis wie der Verbraucherpreisindex**: neue Miete = bisherige Miete × neuer Indexstand ÷ alter Indexstand. Die neue Miete gilt **ab Beginn des übernächsten Monats** nach Zugang Ihrer Erklärung – frühestens **ein Jahr nach der letzten Mietänderung** (§ 557b BGB).",
@@ -92,7 +92,7 @@ EXPLAIN = """<h2 class="serif" style="margin-top:0">So rechnet der Rechner</h2>
 <p><strong>Ab wann:</strong> Die geänderte Miete ist ab Beginn des übernächsten Monats nach Zugang der Erklärung zu zahlen (§ 557b Abs. 3 BGB) – Zugang am 10.11. heißt neue Miete ab 01.01. Außerdem muss die Miete jeweils mindestens ein Jahr unverändert bleiben (§ 557b Abs. 2 BGB; Erhöhungen nach §§ 559 bis 560 BGB, etwa der Betriebskostenvorauszahlungen, zählen nicht mit). Der Rechner nimmt dafür den ersten Monatsersten, an dem seit „Diese Miete gilt seit“ ein volles Jahr vergangen ist.</p>
 <p><strong>Vor Ablauf des Jahres zugestellt?</strong> Nach herrschender Meinung darf die Erklärung schon vorher zugehen; die neue Miete gilt dann frühestens ab dem ersten Monatsersten nach Ablauf des Jahres. Eine Entscheidung des BGH dazu gibt es nicht – wer ganz sicher gehen will, stellt erst nach Ablauf des Jahres zu.</p>
 <p><strong>Mindeständerung:</strong> Manche Verträge erlauben eine Anpassung erst ab einer bestimmten Indexänderung, etwa 3&nbsp;%. Das ist eine Bagatellgrenze: Sie bestimmt, <em>ob</em> Sie anpassen dürfen, nicht, <em>wie viel</em> (BGH, VIII ZR 42/20). Ist sie nicht erreicht, zeigt der Rechner keine Erhöhung an.</p>
-<p><strong>Nicht berücksichtigt:</strong> Feiertage, Staffel- oder Vergleichsmieterhöhungen und die geplante Deckelung der Indexmiete in angespannten Wohnungsmärkten (Gesetzentwurf, Stand 16.11.2026 noch nicht beschlossen – mehr im Ratgeber).</p>
+<p><strong>Nicht berücksichtigt:</strong> Feiertage, Staffel- oder Vergleichsmieterhöhungen und die geplante Deckelung der Indexmiete in angespannten Wohnungsmärkten (Gesetzentwurf, Stand 23.11.2026 noch nicht beschlossen – mehr im Ratgeber).</p>
 <p>Mehr dazu im Ratgeber <a href="indexmiete-erhoehen.html">Indexmiete erhöhen: Berechnung, Erklärung und Fristen</a>.</p>
 <p class="note">Allgemeine Information, keine Rechtsberatung. Im Einzelfall helfen Haus &amp; Grund, Mieterverein oder Anwalt.</p>"""
 

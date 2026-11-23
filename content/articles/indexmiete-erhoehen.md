@@ -2,13 +2,13 @@
 title: Indexmiete erhöhen – Berechnung, Erklärung und Fristen
 description: Indexmiete erhöhen nach § 557b BGB: Rechenformel mit VPI-Monatswerten, Beispiel, Inhalt der Erklärung, Jahresfrist, Termin und geplante Deckelung.
 date: 2026-11-09
-updated: 2026-11-16
+updated: 2026-11-23
 seo_title: "Indexmiete erhöhen: Berechnung, Erklärung, Fristen"
 eyebrow: Ratgeber · Stand November 2026
 cta_product: mieterhoehung
 answer: Bei einer Indexmiete ändert sich die Nettokaltmiete **im selben Verhältnis wie der Verbraucherpreisindex**. Sie erhöhen sie mit einer **Erklärung in Textform**, die den alten und den neuen Indexstand sowie die neue Miete oder den Erhöhungsbetrag nennt; eine Zustimmung des Mieters brauchen Sie nicht. Die neue Miete gilt **ab Beginn des übernächsten Monats** nach Zugang – frühestens **ein Jahr nach der letzten Mietänderung** (§ 557b BGB).
 card_text: Neue Miete = Miete × neuer Index ÷ alter Index. Was in die Erklärung gehört, ab wann die neue Miete gilt und was die geplante Deckelung ändern würde.
-llms: Indexmiete erhöhen (§ 557b BGB) – nur Nettokaltmiete, VPI Deutschland Monatswert Basis 2020 = 100 (September 2025 122,6, September 2026 126,6, Oktober 2026 126,4), neue Miete = Miete × Index neu ÷ Index alt (prozentuale Änderung, nicht Punkte), Erklärung in Textform mit Indexänderung und neuer Miete oder Erhöhungsbetrag (Prozent nicht nötig, BGH VIII ZR 291/16), keine Zustimmung, kein Sonderkündigungsrecht, Miete jeweils mindestens ein Jahr unverändert (Erklärung nach herrschender Meinung schon vorher möglich, wirkt frühestens nach Ablauf des Jahres), Zahlung ab Beginn des übernächsten Monats nach Zugang, Bagatellklausel (BGH VIII ZR 42/20), keine Erhöhung nach § 558, Modernisierung nur bei nicht zu vertretenden Maßnahmen oder Heizungstausch nach § 555b Nr. 1a; Beispiel 650 € → 671,20 € ab 01.01.2027; geplante Deckelung (Gesetzentwurf Drs. 21/6807, Stand 16.11.2026 nicht beschlossen): in Verordnungsgebieten zählt der Teil einer Jahressteigerung über 3 % nur zur Hälfte.
+llms: Indexmiete erhöhen (§ 557b BGB) – nur Nettokaltmiete, VPI Deutschland Monatswert Basis 2020 = 100 (September 2025 122,6, September 2026 126,6, Oktober 2026 126,4), neue Miete = Miete × Index neu ÷ Index alt (prozentuale Änderung, nicht Punkte), Erklärung in Textform mit Indexänderung und neuer Miete oder Erhöhungsbetrag (Prozent nicht nötig, BGH VIII ZR 291/16), keine Zustimmung, kein Sonderkündigungsrecht, Miete jeweils mindestens ein Jahr unverändert (Erklärung nach herrschender Meinung schon vorher möglich, wirkt frühestens nach Ablauf des Jahres), Zahlung ab Beginn des übernächsten Monats nach Zugang, Bagatellklausel (BGH VIII ZR 42/20), keine Erhöhung nach § 558, Modernisierung nur bei nicht zu vertretenden Maßnahmen oder Heizungstausch nach § 555b Nr. 1a; Beispiel 650 € → 671,20 € ab 01.01.2027; geplante Deckelung (Gesetzentwurf Drs. 21/6807, Stand 23.11.2026 nicht beschlossen): in Verordnungsgebieten zählt der Teil einer Jahressteigerung über 3 % nur zur Hälfte.
 faq:
   - q: Muss der Mieter einer Indexmieterhöhung zustimmen?
     a: Nein. Bei einer wirksam vereinbarten Indexmiete ändert Ihre Erklärung in Textform die Miete (§ 557b Abs. 3 BGB). Anders als bei der Erhöhung auf die ortsübliche Vergleichsmiete gibt es weder eine Zustimmungsfrist noch ein Sonderkündigungsrecht des Mieters (§ 561 BGB gilt nur für Erhöhungen nach §§ 558 und 559 BGB).
@@ -136,7 +136,7 @@ Die Indexmiete wirkt in beide Richtungen. Sinkt der Index, kann der Mieter eine 
 
 Die Bundesregierung hat einen Gesetzentwurf vorgelegt, der Indexmieterhöhungen begrenzen soll (BT-Drucksache 21/6807 vom 01.07.2026). Danach soll gelten: Übersteigt die Entwicklung des Index im Zeitraum von einem Jahr **3 %**, bleibt die **Hälfte des darüber liegenden Teils** unberücksichtigt. Aus 5 % würden 4 %, aus 8 % würden 5,5 %. Gelten soll das nur in Gebieten, die die Landesregierung per Verordnung als angespannt bestimmt, und nur, wenn die Wohnung beim Zugang der Erklärung in einem solchen Gebiet liegt.
 
-**Stand 16.11.2026:** Der Bundestag hat den Entwurf im Juli 2026 an den Rechtsausschuss überwiesen, die Anhörung fand am 14.10.2026 statt. Eine Beschlussempfehlung des Ausschusses liegt noch nicht vor, beschlossen ist das Gesetz nicht – bis dahin gilt § 557b BGB in der heutigen Fassung ohne Deckel. Ob und in welcher Form die Regel kommt, ist offen; wir aktualisieren diesen Ratgeber, sobald es Neues gibt.
+**Stand 23.11.2026:** Der Bundestag hat den Entwurf am 09.07.2026 in erster Lesung beraten und an den Rechtsausschuss überwiesen, die Anhörung fand am 14.10.2026 statt. Eine Beschlussempfehlung des Ausschusses liegt noch nicht vor, ein Termin für die abschließende Beratung im Bundestag ist nicht bekannt, beschlossen ist das Gesetz nicht – bis dahin gilt § 557b BGB in der heutigen Fassung ohne Deckel. Ob und in welcher Form die Regel kommt, ist offen; wir aktualisieren diesen Ratgeber, sobald es Neues gibt.
 
 ## Checkliste {#checkliste}
 
