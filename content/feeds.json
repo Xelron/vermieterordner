@@ -1428,7 +1428,7 @@
   "pin": {
    "h1": "Abrechnung 2025",
    "h2": "Ihr Fahrplan bis 31.12.",
-   "sub": "Nebenkosten: spätestens am 31.12.2026 beim Mieter",
+   "sub": "Spätestens 31.12.2026 beim Mieter",
    "style": "list",
    "items": [
     "Bis 4.12.: Belege anfordern",

@@ -31,6 +31,8 @@ sources:
     url: https://www.haufe.de/immobilien/verwaltung/bgh-betriebskostenabrechnung-ohne-weg-jahresabrechnung_258_394958.html
   - title: Stiftung Warentest – Briefzustellung an Silvester bis 18 Uhr ist noch fristgemäß (LG Hamburg, 316 S 77/16)
     url: https://www.test.de/Briefzustellung-Silvester-bis-18-Uhr-ist-noch-fristgemaess-5253448-0/
+  - title: Mietrecht Siegen – Zugang bei Briefkasteneinwurf am Silvesternachmittag (AG Lüdenscheid, 93 C 21/11)
+    url: https://www.mietrechtsiegen.de/zugang-betriebskostenabrechnung-bei-briefkasteneinwurf-am-silvesternachmittag/
   - title: § 18 WEG – Verwaltung und Benutzung, Einsichtsrecht (gesetze-im-internet.de)
     url: https://www.gesetze-im-internet.de/woeigg/__18.html
   - title: § 44 BMG – Einfache Melderegisterauskunft (gesetze-im-internet.de)
@@ -43,9 +45,9 @@ Für das Abrechnungsjahr 2025 haben Sie Zeit bis zum **31.12.2026**. Entscheiden
 | Bis wann | Was zu tun ist |
 |---|---|
 | Freitag, 4. Dezember | Belege prüfen: Was fehlt noch? Fehlendes schriftlich bei Verwalter, Messdienst, Versorger oder Gemeinde anfordern. Anschriften ausgezogener Mieter klären. |
-| Freitag, 11. Dezember | Abrechnung erstellen und die vier Mindestangaben prüfen: Gesamtkosten, Umlageschlüssel, Ihr Anteil, Abzug der Vorauszahlungen. |
+| Freitag, 11. Dezember | Abrechnung erstellen und die vier Mindestangaben prüfen: Gesamtkosten, Umlageschlüssel, Anteil des Mieters, Abzug der Vorauszahlungen. |
 | Freitag, 18. Dezember | Abrechnung nachweisbar zustellen – mit Puffer vor den Feiertagen. |
-| bis 30. Dezember | Nachweise ablegen. Ist etwas schiefgegangen, jetzt per Bote erneut zustellen. |
+| bis Mittwoch, 30. Dezember | Nachweise ablegen. Ist etwas schiefgegangen, jetzt per Bote erneut zustellen. |
 | Donnerstag, 31. Dezember | Nur noch Notfall: persönlich oder per Bote, möglichst vormittags. |
 
 Bis wann die Abrechnung genau zugehen muss und wie viele Tage noch bleiben, zeigt der kostenlose [Abrechnungsfrist-Rechner](abrechnungsfrist-rechner.html). Die Grundlagen zu Frist, Zugang und Verspätung stehen im Ratgeber [Abrechnungsfrist der Nebenkostenabrechnung](abrechnungsfrist-nebenkosten.html).
@@ -91,6 +93,8 @@ Besser sind diese Wege:
 - **Einwurf durch einen Boten,** der den Inhalt des Umschlags kennt und Datum, Uhrzeit und Anschrift notiert.
 - **Einwurf-Einschreiben** – heften Sie eine Kopie der Abrechnung zum Einlieferungsbeleg, weil der Beleg nur den Einwurf zeigt, nicht den Inhalt.
 
+Eine **E-Mail** reicht nach überwiegender Ansicht aus, höchstrichterlich geklärt ist das aber nicht. Nutzen Sie sie nur, wenn der Mieter den Empfang bestätigt – und nicht als letzte Rettung an Silvester.
+
 **Silvester ist ein Risiko.** Ein Brief, der am 31.12. in den Briefkasten geworfen wird, geht nur dann noch am selben Tag zu, wenn an diesem Tag noch mit einer Leerung zu rechnen war. Eine feste Uhrzeit gibt es nicht, und die Gerichte urteilen unterschiedlich: Das Landgericht Hamburg hielt einen Einwurf bis 18 Uhr für rechtzeitig (316 S 77/16), das Landgericht Waldshut-Tiengen einen Einwurf um 17:05 Uhr für zu spät (1 S 19/09). Wenn es gar nicht anders geht, stellen Sie am 31.12. **vormittags** zu – mit Zeugen.
 
 ## Wenn es nicht mehr klappt {#zu-spaet}
@@ -108,7 +112,7 @@ Für das Abrechnungsjahr 2026 lohnt es sich, früher zu beginnen: Belege laufend
 - Fehlende Belege bis Anfang Dezember schriftlich anfordern und die Anfragen aufheben.
 - Bei vermieteten Eigentumswohnungen nicht auf den WEG-Beschluss warten.
 - Neue Anschriften ausgezogener Mieter klären, mehrere Mieter alle anschreiben.
-- Vor dem Versand prüfen: Gesamtkosten, Umlageschlüssel, Ihr Anteil, Abzug der Vorauszahlungen.
+- Vor dem Versand prüfen: Gesamtkosten, Umlageschlüssel, Anteil des Mieters, Abzug der Vorauszahlungen.
 - Bis 18. Dezember nachweisbar zustellen – nicht erst an Silvester.
 
-Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) prüft auf dem Startblatt, ob Ihr geplantes Zustelldatum die Frist wahrt, und erstellt für jeden Mieter ein Abrechnungsschreiben mit den vier Mindestangaben.
+Die [Excel-Vorlage Nebenkostenabrechnung](nebenkostenabrechnung.html) prüft auf dem Startblatt, ob Ihr geplantes Zustelldatum die Frist wahrt, und erstellt für jeden Mieter ein Abrechnungsschreiben mit den vier Mindestangaben. Sie ist für Häuser mit eigenen Belegen gebaut, nicht für die Weitergabe einer WEG-Jahresabrechnung bei einer vermieteten Eigentumswohnung.

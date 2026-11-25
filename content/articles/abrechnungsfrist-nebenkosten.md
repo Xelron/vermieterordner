@@ -2,7 +2,7 @@
 title: Abrechnungsfrist der Nebenkostenabrechnung – bis wann muss sie beim Mieter sein?
 description: Abrechnungsfrist und Einwendungsfrist nach § 556 BGB einfach erklärt: 12 Monate, Zugang statt Absenden, was bei Verspätung gilt – mit Beispielen und Rechner.
 date: 2026-10-30
-updated: 2026-10-30
+updated: 2026-11-25
 seo_title: "Abrechnungsfrist Nebenkosten: Bis wann muss sie da sein?"
 eyebrow: Ratgeber · Stand 2026
 answer: Die Nebenkostenabrechnung muss dem Mieter **spätestens 12 Monate nach Ende des Abrechnungszeitraums zugehen** – für das Kalenderjahr 2025 also bis zum 31.12.2026. Kommt sie später, können Sie in der Regel keine Nachzahlung mehr verlangen; ein Guthaben müssen Sie trotzdem auszahlen.
@@ -55,7 +55,7 @@ Nach Fristablauf ist eine **Nachforderung ausgeschlossen** (§ 556 Abs. 3 S. 3 B
 Zwei Dinge gelten trotzdem:
 
 1. **Ein Guthaben müssen Sie auszahlen.** Der Ausschluss betrifft nur Forderungen gegen den Mieter. Der Mieter kann weiterhin eine Abrechnung verlangen.
-2. **Ausnahme: Sie haben die Verspätung nicht zu vertreten** – Sie trifft also keine Schuld. Das kann etwa der Fall sein, wenn ein Bescheid oder eine Rechnung, auf die Sie angewiesen sind, verspätet kommt. Eigene Versäumnisse, Urlaub oder ein langsamer Hausverwalter zählen nicht.
+2. **Ausnahme: Sie haben die Verspätung nicht zu vertreten** – Sie trifft also keine Schuld. Das kann etwa der Fall sein, wenn ein Bescheid oder eine Rechnung, auf die Sie angewiesen sind, verspätet kommt. Eigene Versäumnisse, Urlaub oder eine von Ihnen beauftragte Hausverwaltung zählen nicht. Bei einer vermieteten Eigentumswohnung kommt es darauf an, was Sie selbst gegenüber dem WEG-Verwalter unternommen haben – siehe [Fahrplan bis 31.12.](nebenkostenabrechnung-bis-31-dezember.html#eigentumswohnung).
 
 Wichtig: Eine **formell unwirksame** Abrechnung wahrt die Frist nicht. Formell wirksam ist eine Abrechnung nur, wenn sie mindestens diese vier Angaben enthält:
 
