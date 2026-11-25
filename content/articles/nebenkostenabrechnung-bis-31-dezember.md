@@ -29,6 +29,8 @@ sources:
     url: https://dejure.org/2017,908
   - title: Haufe – BGH: Betriebskostenabrechnung ohne WEG-Jahresabrechnung
     url: https://www.haufe.de/immobilien/verwaltung/bgh-betriebskostenabrechnung-ohne-weg-jahresabrechnung_258_394958.html
+  - title: iww – BGH, VIII ZR 220/05: Nachforderung binnen drei Monaten nach Wegfall des Abrechnungshindernisses
+    url: https://www.iww.de/mk/archiv/betriebskosten-nachforderungen-in-drei-monaten-nach-wegfall-des-abrechnungshindernisses-geltend-machen-f17423
   - title: Stiftung Warentest – Briefzustellung an Silvester bis 18 Uhr ist noch fristgemäß (LG Hamburg, 316 S 77/16)
     url: https://www.test.de/Briefzustellung-Silvester-bis-18-Uhr-ist-noch-fristgemaess-5253448-0/
   - title: Mietrecht Siegen – Zugang bei Briefkasteneinwurf am Silvesternachmittag (AG Lüdenscheid, 93 C 21/11)
@@ -40,7 +42,7 @@ sources:
 ---
 ## Ihr Fahrplan bis zum 31. Dezember {#fahrplan}
 
-Für das Abrechnungsjahr 2025 haben Sie Zeit bis zum **31.12.2026**. Entscheidend ist nicht, wann Sie die Abrechnung abschicken, sondern wann sie **beim Mieter ankommt** (§ 556 Abs. 3 Satz 2 BGB). Rechnen Sie deshalb von hinten und planen Sie die Feiertage ein: Heiligabend und Silvester fallen 2026 auf einen Donnerstag.
+Für das Abrechnungsjahr 2025 haben Sie Zeit bis zum **31.12.2026**. Entscheidend ist nicht, wann Sie die Abrechnung abschicken, sondern wann sie **beim Mieter ankommt** (§ 556 Abs. 3 Satz 2 BGB). Weicht Ihr Abrechnungszeitraum vom Kalenderjahr ab, endet die Frist zwölf Monate nach dem Ende dieses Zeitraums. Rechnen Sie von hinten und planen Sie die Feiertage ein: Heiligabend und Silvester fallen 2026 auf einen Donnerstag.
 
 | Bis wann | Was zu tun ist |
 |---|---|
@@ -54,7 +56,7 @@ Bis wann die Abrechnung genau zugehen muss und wie viele Tage noch bleiben, zeig
 
 ## Belege fehlen noch – was tun? {#belege-fehlen}
 
-Warten Sie nicht auf den letzten Beleg. Rechnen Sie fristgerecht mit den Kosten ab, die Ihnen vorliegen. Fehlt Ihnen eine Position **ohne eigenes Verschulden**, können Sie sie später nachfordern, weil Sie die Verspätung insoweit nicht zu vertreten haben (§ 556 Abs. 3 Satz 3 BGB). Typisch sind ein verspäteter Grundsteuerbescheid oder eine Versorgerrechnung, die trotz Nachfrage nicht kommt. Nach der Rechtsprechung des BGH müssen Sie die Position dann in der Regel innerhalb von drei Monaten nachfordern, nachdem der Bescheid oder die Rechnung vorliegt.
+Warten Sie nicht auf den letzten Beleg. Rechnen Sie fristgerecht mit den Kosten ab, die Ihnen vorliegen. Fehlt Ihnen eine Position **ohne eigenes Verschulden**, können Sie sie später nachfordern, weil Sie die Verspätung insoweit nicht zu vertreten haben (§ 556 Abs. 3 Satz 3 BGB). Typisch sind ein verspäteter Grundsteuerbescheid oder eine Versorgerrechnung, die trotz Nachfrage nicht kommt. Nach der Rechtsprechung des BGH müssen Sie die Position dann in der Regel innerhalb von drei Monaten nachfordern, nachdem der Bescheid oder die Rechnung vorliegt (Urteil vom 05.07.2006, VIII ZR 220/05).
 
 So sichern Sie sich ab:
 
@@ -62,18 +64,18 @@ So sichern Sie sich ab:
 - **Im Abrechnungsschreiben offenlegen,** welche Position fehlt und dass Sie sie nachreichen. Das schafft Klarheit für den Mieter.
 - **Auf eigene Versäumnisse können Sie sich nicht berufen.** Haben Sie selbst zu spät angefragt oder einen Beleg verlegt, ist die Nachforderung nach Fristablauf verloren.
 
-Bei den **Heizkosten** sind Sie meist auf den Messdienst angewiesen. Ob Sie eine Verspätung des Dienstleisters, den Sie selbst beauftragt haben, entschuldigt, ist unsicher – verlassen Sie sich nicht darauf. Fragen Sie jetzt nach, wann die Abrechnung kommt, und dokumentieren Sie die Antwort.
+Bei den **Heizkosten** sind Sie meist auf den Messdienst angewiesen. Nach überwiegender Ansicht müssen Sie sich Verzögerungen des von Ihnen beauftragten Messdienstes zurechnen lassen – eine späte Heizkostenabrechnung entschuldigt Sie also in der Regel nicht. Fragen Sie jetzt nach, wann die Abrechnung kommt, und dokumentieren Sie die Antwort.
 
 ## Vermietete Eigentumswohnung: Die WEG-Abrechnung ist noch nicht da {#eigentumswohnung}
 
 Viele private Vermieter warten auf die Jahresabrechnung der Hausverwaltung, um daraus die Nebenkostenabrechnung für den Mieter zu machen. Das ist riskant. Der BGH hat entschieden: Der Vermieter einer Eigentumswohnung muss **auch dann innerhalb der Jahresfrist abrechnen, wenn die Eigentümer die Jahresabrechnung noch nicht beschlossen haben** (Urteil vom 25.01.2017, VIII ZR 249/15). Der Beschluss der Eigentümergemeinschaft bindet den Mieter nicht.
 
-Der WEG-Verwalter ist zwar nicht Ihr Erfüllungsgehilfe – sein Verschulden wird Ihnen also nicht automatisch zugerechnet. Eine Nachforderung nach dem 31.12. setzt aber voraus, dass **Sie selbst** die Verspätung nicht zu vertreten haben, und das müssen Sie beweisen. Im entschiedenen Fall reichte der Hinweis auf einen Verwalterwechsel nicht, weil der Vermieter nichts dazu vorgetragen hatte, was er selbst unternommen hatte.
+Der WEG-Verwalter ist grundsätzlich nicht Ihr Erfüllungsgehilfe – sein Verschulden wird Ihnen also nicht automatisch zugerechnet. Anders ist es, wenn Sie ihn selbst mit der Nebenkostenabrechnung für Ihren Mieter beauftragt haben, etwa als Verwalter Ihrer Wohnung (Sondereigentumsverwaltung); dann müssen Sie sich seine Verzögerungen in aller Regel zurechnen lassen. Eine Nachforderung nach dem 31.12. setzt aber voraus, dass **Sie selbst** die Verspätung nicht zu vertreten haben, und das müssen Sie beweisen. Im entschiedenen Fall reichte der Hinweis auf einen Verwalterwechsel nicht, weil der Vermieter nichts dazu vorgetragen hatte, was er selbst unternommen hatte.
 
 Das können Sie jetzt tun:
 
 1. **Den Verwalter schriftlich auffordern**, die Jahresabrechnung oder zumindest die Kostenaufstellung und Belege für 2025 zu schicken – mit Frist und Datum.
-2. **Einsicht in die Verwaltungsunterlagen verlangen.** Als Wohnungseigentümer haben Sie ein Einsichtsrecht (§ 18 Abs. 4 WEG).
+2. **Einsicht in die Verwaltungsunterlagen verlangen.** Als Wohnungseigentümer haben Sie gegenüber der Gemeinschaft ein Einsichtsrecht; in der Praxis wenden Sie sich an den Verwalter (§ 18 Abs. 4 WEG).
 3. **Selbst abrechnen,** soweit die Belege vorliegen. Den **Grundsteuerbescheid** erhalten Sie ohnehin direkt von der Gemeinde. Nicht umlagefähig sind zum Beispiel die Verwaltervergütung und die Zuführung zur Erhaltungsrücklage.
 4. **Alles dokumentieren** – Anfragen, Antworten, Mahnungen. Das ist Ihr Beweis, falls eine Position erst 2027 kommt.
 
@@ -81,7 +83,7 @@ Das können Sie jetzt tun:
 
 Auch ein Mieter, der 2025 oder 2026 ausgezogen ist, muss seine Abrechnung bis zum 31.12. **erhalten** – an seine neue Anschrift. Kennen Sie die nicht, fragen Sie ihn jetzt danach. Bleibt das ohne Erfolg, können Sie beim Einwohnermeldeamt eine **einfache Melderegisterauskunft** beantragen (§ 44 BMG). Sie kostet eine Gebühr und ist vielerorts online möglich – planen Sie dafür Zeit ein.
 
-Stehen **mehrere Mieter** im Vertrag, zum Beispiel ein Ehepaar, adressieren Sie die Abrechnung am besten an alle. Wer nur einen Mieter anschreibt, kann seine Nachforderung im Zweifel nur gegenüber diesem durchsetzen.
+Stehen **mehrere Mieter** im Vertrag, zum Beispiel ein Ehepaar, adressieren Sie die Abrechnung am besten an alle. Wer nur einen Mieter anschreibt, kann die Nachforderung nur gegenüber diesem durchsetzen (BGH, Urteil vom 28.04.2010, VIII ZR 263/09).
 
 ## Wie stellen Sie zwischen den Feiertagen sicher zu? {#zustellung}
 
@@ -91,7 +93,7 @@ Besser sind diese Wege:
 
 - **Persönliche Übergabe** gegen Unterschrift auf einer Kopie.
 - **Einwurf durch einen Boten,** der den Inhalt des Umschlags kennt und Datum, Uhrzeit und Anschrift notiert.
-- **Einwurf-Einschreiben** – heften Sie eine Kopie der Abrechnung zum Einlieferungsbeleg, weil der Beleg nur den Einwurf zeigt, nicht den Inhalt.
+- **Einwurf-Einschreiben** – der Beleg zeigt nur den Einwurf, nicht den Inhalt. Lassen Sie das Eintüten deshalb von einem Zeugen beobachten und heben Sie eine Kopie zusammen mit Einlieferungsbeleg und Auslieferungsnachweis auf.
 
 Eine **E-Mail** reicht nach überwiegender Ansicht aus, höchstrichterlich geklärt ist das aber nicht. Nutzen Sie sie nur, wenn der Mieter den Empfang bestätigt – und nicht als letzte Rettung an Silvester.
 

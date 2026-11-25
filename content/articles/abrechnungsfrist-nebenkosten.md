@@ -44,7 +44,7 @@ Planen Sie deshalb mindestens zwei Wochen Puffer ein und wählen Sie einen Weg, 
 
 - **Persönliche Übergabe** gegen Unterschrift auf einer Kopie
 - **Einwurf durch einen Boten**, der den Inhalt kennt und den Einwurf mit Datum und Uhrzeit notiert
-- **Einwurf-Einschreiben** (der Beleg zeigt den Einwurf, nicht den Inhalt – heften Sie eine Kopie des Schreibens zum Beleg)
+- **Einwurf-Einschreiben** (der Beleg zeigt nur den Einwurf, nicht den Inhalt – lassen Sie das Eintüten von einem Zeugen beobachten und heben Sie eine Kopie mit dem Beleg auf)
 
 Mit dem [Abrechnungsfrist-Rechner](abrechnungsfrist-rechner.html) sehen Sie sofort, bis wann die Abrechnung beim Mieter sein muss und wie viele Tage noch bleiben.
 
